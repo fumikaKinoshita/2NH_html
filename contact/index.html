@@ -1,0 +1,90 @@
+
+ <main class="site-content" role="main">
+        <!--
+        カテゴリータイトル
+        ==================================== -->
+		<section id="contactcatV" class="parallax">
+                    <div class="category-caption">
+                        <div class="caption-content">
+                                <h2 class="animated fadeInDown">CONTACT</h2>
+                                <span class="animated fadeInDown">お問い合わせ</span>
+                        </div>
+                    </div>
+		</section>
+
+        <!--
+        End カテゴリータイトルEnd
+        ==================================== -->
+			<!-- companyprofile section -->
+			<section id="contactmsg">
+                                <!-- お問い合わせ -->    
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                            
+                                            <h2>お問い合わせフォーム</h2>
+                                            <div class="entryform">
+                                            <form method="POST" action="{{ route('contact.confirm') }}">
+                                            {{ csrf_field() }}
+                                            <div>
+                                            <div class="title">氏名（必須）</div>
+                                                    <input
+                                                        name="shimei"
+                                                        value="{{ old('shimei') }}"
+                                                        type="text">
+                                                    @if ($errors->has('shimei'))
+                                                        <p class="error-message">{{ $errors->first('shimei') }}</p>
+                                                    @endif
+                                                    </div>
+                                                    <div>
+                                                <div class="title">メールアドレス（必須）</div>
+                                                    <input
+                                                        name="email"
+                                                        value="{{ old('email') }}"
+                                                        type="text">
+                                                    @if ($errors->has('email'))
+                                                        <p class="error-message">{{ $errors->first('email') }}</p>
+                                                    @endif
+                                                    </div>
+                                                    <div>
+                                                    <div class="title">電話番号（必須）</div>
+                                                    <input
+                                                        name="telnumber"
+                                                        value="{{ old('telnumber') }}"
+                                                        type="text">
+                                                    @if ($errors->has('telnumber'))
+                                                        <p class="error-message">{{ $errors->first('telnumber') }}</p>
+                                                    @endif
+                                                    </div>
+                                                    <div>
+                                                    <div class="title">お問い合わせ内容</div>
+                                                    <textarea name="o_message">{{ old('o_message') }}</textarea>
+                                                    @if ($errors->has('o_message'))
+                                                        <p class="error-message">{{ $errors->first('o_message') }}</p>
+                                                    @endif
+                                                    </div>
+                                                    <div>
+                                                    <button type="submit">
+                                                        入力内容確認
+                                                    </button>
+                                                    </div>
+                                            </form>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+			</section>
+			<!-- end companyprofile section -->
+
+        </main>
+        <div class="contactB">
+                <h2>CONTACT</h2>
+                <h4>お問い合わせ</h4>
+                <p>ホームページやECサイトの制作、各種デザインのご依頼・ご相談はこちらからお問い合わせください。</p>
+                
+                    <ul>
+                        <li class="telN"><a href="" class="btn">045-534-7932 &rsaquo;</a></li>
+                        <li class="contactF"><a href="" class="btn">CONTACT FORM &rsaquo;</a></li>
+                    </ul>
+                
+        </div>

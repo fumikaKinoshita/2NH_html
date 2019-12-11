@@ -1,0 +1,29 @@
+/*Content BG Parallax Layers*/
+.pagesection-parallax
+{
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.separator-parallax{
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  box-shadow:inset 0px 1px 12px #000000;
+  min-height: 250px !important;
+}
+
+
+
+
+
+
+
+

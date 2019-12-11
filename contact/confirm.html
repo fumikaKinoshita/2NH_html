@@ -1,0 +1,88 @@
+
+  <main class="site-content" role="main">
+        <!--
+        カテゴリータイトル
+        ==================================== -->
+
+		<section id="contactcatV" class="parallax">
+                    <div class="category-caption">
+                        <div class="caption-content">
+                                <h2 class="animated fadeInDown">CONTACT</h2>
+                                <span class="animated fadeInDown">お問い合わせ</span>
+                        </div>
+
+                    </div>
+		</section>
+        <!--
+        End カテゴリータイトルEnd
+        ==================================== -->
+			<!-- companyprofile section -->
+			<section id="contactmsg" >
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>お問い合わせ内容確認</h2>
+                    <div class="entryform">
+                    <form method="POST" action="{{ route('contact.send') }}">
+                        {{ csrf_field() }}
+                        
+                        <div>
+                        <label class="title">氏名</label>
+                        {{ $inputs['shimei'] }}
+                        <input
+                            name="shimei"
+                            value="{{ $inputs['shimei'] }}"
+                            type="hidden">
+                        </div>
+                        <div>
+                        <label class="title">メールアドレス</label>
+                        {{ $inputs['email'] }}
+                        <input
+                            name="email"
+                            value="{{ $inputs['email'] }}"
+                            type="hidden">
+                        </div>
+                        <div>
+                        <label class="title">電話番号</label>
+                        {{ $inputs['telnumber'] }}
+                        <input
+                            name="telnumber"
+                            value="{{ $inputs['telnumber'] }}"
+                            type="hidden">
+                        </div>
+                        <div>
+                        <label class="title">お問い合わせ内容</label>
+                        {!! nl2br(e($inputs['o_message'])) !!}
+                        <input
+                            name="o_message"
+                            value="{{ $inputs['o_message'] }}"
+                            type="hidden">
+                        </div>
+                        <div>
+                        <button type="submit" name="action" value="back">
+                            入力内容修正
+                        </button>
+                        <button type="submit" name="action" value="submit">
+                            送信する
+                        </button>
+                        </div>
+                    </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        			</section>
+			<!-- end companyprofile section -->
+
+        </main>
+        <div class="contactB">
+                <h2>CONTACT</h2>
+                <h4>お問い合わせ</h4>
+                <p>ホームページやECサイトの制作、各種デザインのご依頼・ご相談はこちらからお問い合わせください。</p>
+                
+                    <ul>
+                        <li class="telN"><a href="" class="btn">045-534-7932 &rsaquo;</a></li>
+                        <li class="contactF"><a href="" class="btn">CONTACT FORM &rsaquo;</a></li>
+                    </ul>
+                
+        </div>

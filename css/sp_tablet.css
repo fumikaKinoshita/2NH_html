@@ -982,14 +982,13 @@ position: absolute;
     width: 100%;
     height: 480px;
     margin: 0 auto;
-    padding: 150px 0 150px;
     letter-spacing: 1px;
 }
 .welcomeB h2 {
     margin: 0 auto;
-    width: 100%;
     text-align: center;
     padding-bottom: 5px;
+    width: 100%;
     border-bottom: 1px solid #000;
 }
 
@@ -998,11 +997,12 @@ position: absolute;
     width: 100%;
     text-align: center;
     letter-spacing: 1px;
+    font-size: 10px;
 }
 
 .welcomeB div a.btn{
     margin: 40px auto;
-    width: 300%;
+    width: 100%;
     height: 50px;
     text-align: center;
     padding-top:10px;
@@ -1013,7 +1013,7 @@ position: absolute;
 
 .welcomeB div a:hover.btn{
     margin: 40px auto;
-    width: 400px;
+    width: 100%;
     height: 50px;
     display: block;
     text-align: center;
@@ -1024,21 +1024,22 @@ position: absolute;
 }
 
 .serviceB {
-    padding: 50px 0px 100px;
-    color: #fff;
-    width: 480px;
-    height: 800px;
-    text-align: center;
+    padding: 50px 0px 50px;
+    width: 100%;
+    height: auto;
+    text-align: left;
     line-height: 24px;
     font-size: 16px;
     letter-spacing: .2em;
-    background-color: #fff;
     border-top: solid 8px #036;
+    border-bottom: solid 8px #036;
+    float: left;
+    margin: -500px auto 8px;
 }
 
 .serviceB p {
     color: #000;
-    width: 400px;
+    width: 230px;
     margin: 0px auto 20px;
     font-size: 12px;
     text-align: left;
@@ -1046,17 +1047,17 @@ position: absolute;
 }
 .serviceB p br {
     display: none;
+    border-bottom: solid 8px #036;
 }
 .col-sm-12{
     background-color: #fff;
-/*    border-bottom: solid 8px #036;*/
-/*    padding: 0px 60px 50px;*/
-/*    width: 480px;*/
-/*    margin: 0 auto;*/
+    padding: 0px 0px 0px;
+    width: 100%;
+    font-size: 10px;
 }
 .serviceB h2 {
     color: #000;
-    width: 400px;
+    width: 100%;
     margin: 0px auto 8px;
     font-size: 32px;
     text-align: center;
@@ -1064,7 +1065,6 @@ position: absolute;
 .serviceB h3 {
     color: #003366;
     font-size: 15px;
-    margin: 0px 0px 20px 25px;
     text-align: left;
     font-weight: bold;
     width: 190px;
@@ -1072,105 +1072,115 @@ position: absolute;
     padding-top: 20px;
     letter-spacing: 1px;
     text-decoration: underline;
+    float: left;
 }
 .serviceB h4 {
     color: #000;
-    width: 400px;
+    width: 100%;
     margin: 0px auto 40px;
     font-size: 16px;
     text-align: center;
 }
 .serviceB h5 {
     color: #036;
-    width: 320px;
+    width: 180px;
     margin: 20px auto 40px;
-    font-size: 16px;
+    font-size: 13spx;
     text-align: left;
     padding-left: 1em;
-    display: inline-block;
+    display: contents;
 }
 .serviceM01 {
-    width: 160px;
-    height: 160px;
-    margin: 0 auto 5px;
+    width: 25%;
+    height: 100%;
+    margin-right: 10px;
+    float: left;
 }
 
 .serviceM02 {
-    width: 160px;
-    height: 160px;
-    margin: 0 auto 5px;
+    width: 25%;
+    height: 100%;
+    float: left;
+    margin-right: 10px;
 }
 
 .serviceM03 {
-    width: 160px;
-    height: 160px;
-    margin: 0 auto 5px;
+    width: 25%;
+    height: 100%;
+    float: left;
+    margin-right: 10px;
 }
 
 .serviceM01 a {
-    width: 160px;
-    height: 160px;
+    width: 100%;
+    height: 100%;
     display: block;
     text-indent: -9999px;
     background-image: url(../img/TOP/WEBconsulting_off.jpg);
     background-repeat: no-repeat;
     transition: 0.5s;
+    background-size: contain;
 }
 
 .serviceM02 a {
-    width: 160px;
-    height: 160px;
+    width: 100%;
+    height: 100%;
     display: block;
     text-indent: -9999px;
     background-image: url(../img/TOP/WEBdesign_off.jpg);
     background-repeat: no-repeat;
     transition: 0.5s;
+    background-size: contain;
 }
 
 .serviceM03 a {
-    width: 160px;
-    height: 160px;
+    width: 100%;
+    height: 100%;
     display: block;
     text-indent: -9999px;
     background-image: url(../img/TOP/WEBsystem_off.jpg);
     background-repeat: no-repeat;
     transition: 0.5s;
+    background-size: contain;
 }
 
 .serviceM01 a:hover {
-    width: 160px;
-    height: 160px;
+    width: 100%;
+    height: 100%;
     display: block;
     text-indent: -9999px;
     background-image: url(../img/TOP/WEBconsulting_on.jpg);
     background-repeat: no-repeat;
     transition: 0.5s;
+    background-size: contain;
 }
 
 .serviceM02 a:hover {
-    width: 160px;
-    height: 160px;
+    width: 100%;
+    height: 100%;
     display: block;
     text-indent: -9999px;
     background-image: url(../img/TOP/WEBdesign_on.jpg);
     background-repeat: no-repeat;
     transition: 0.5s;
+    background-size: contain;
 }
 
 .serviceM03 a:hover {
-    width: 160px;
-    height: 160px;
+    width: 100%;
+    height: 100%;
     display: block;
     text-indent: -9999px;
     background-image: url(../img/TOP/WEBsystem_on.jpg);
     background-repeat: no-repeat;
     transition: 0.5s;
+    background-size: contain;
 }
 
 
 .serviceB div a.btn {
-    margin: 50px auto 0;
-    width: 400px;
+    margin: 30px auto 50px;
+    width: 100%;
     height: 50px;
     text-align: center;
     border:solid 2px #003366;
@@ -1179,53 +1189,60 @@ position: absolute;
     color: #000;
 }
 .serviceB div a:hover.btn {
-    margin: 50px auto 0;
-    width: 400px;
+    margin: 30px auto 30px;
+    width: 100%;
     height: 50px;
     text-align: center;
-    padding-top:10px;
     border:solid 2px #003366;
     display: block;
     border-radius: 10px;
     background-color: #003366;
     color: #fff;
 }
-.serviceB table {
-    padding: 100px;
-    margin: 100px -35px 0px;
-    width: 400px;
+.serviceB2 .serviceDetail {
+    padding: 10px;
+    width: 100%;
     height: 200px;
-    position: absolute;
+    text-align: left;
+    font-size: 10px;
+    color: #000;
 }
-.serviceB table th {
+.serviceB2 table th {
     padding: 20px 20px;
     display: inline;
     margin:0px auto;
 }
-.serviceB table td {
+.serviceB2 table td {
     padding: 20px 20px;
-    display: block;
     display: inline-block;
     margin:0px auto;
     white-space: nowrap;
     color: #000;
+    margin-top: 50px;
 }
 
-.serviceB table img{
+.serviceB2 .serviceDetail img{
     opacity: 0.4;
 }
-
+.serviceB2 {
+    height: 588px;
+    margin-top: 100px;
+}
+.serviceC {
+    margin: 50px 0px 0px
+}
 .aboutusB {
-    margin: 1300px 0px;
     width: 100%;
-    min-height: 300px;
+    min-height: 400px;
     float: left;
+    margin: 100px 0px 0px;
 }
 
 .aul {
 width: 60%;
 float: left;
 height: 100%;
+display: inline;
 }
 .aur {
 width:40%;
@@ -1235,7 +1252,7 @@ max-height: 355px;
 }
 .aboutusB h2 {
     color: #000;
-    width: 400px;
+    width: 100%;
     margin: 0px auto 8px;
     font-size: 32px;
     text-align: center;
@@ -1246,332 +1263,318 @@ max-height: 355px;
     margin: 0px auto 30px;
 }
 .aboutusC {
-    width: 750px;
-    height: 300px;
-    max-height: 300px;
+    width: 100%;
+    height: auto;
     margin: 0px auto;
     display: inline-block;
-}
-.aboutusC p {
-    background: white ;
-    background-color: rgba(255,255,255,0.4);
-    text-decoration: none;
-    text-align: center;
-    width: 150px;
 }
 
 /* Gray Scale */
 
 .aul {
-    width: 48%;
+   width: 100%;
     float: left;
-    height: 100%;
-    margin-left: 10px;
-    margin-top: 1000px;
+    height: 150px;
     }
     .aur {
-    width: 150px;
+    width: 100%;
     float: left;
-    height: 250px;
-    max-height: 250px;
-    margin-right: 5px;
-    margin-top: 1000px;
+    height: auto;
+    max-height: 100%;
     }
     .aboutusB h2 {
-        margin-top: 0px;
         text-align: center;
+        width: 100%;
     }
     .aboutusB h4 {
         font-size: 16px;
         text-align: center;
-        margin: 0px auto 50px;
+        margin: 0px auto 30px;
+        width: 100%;
     }
+
     .aboutusC p {
         background: white ;
-        background-color: rgba(255,255,255,0.4);
+        background-color: rgba(255,255,255,0.5);
         text-decoration: none;
         text-align: center;
-        width: 100px;
+        width: 100%;
         font-size: 16px;
-        margin-bottom: 0px;
     }
 
-    /* Gray Scale */
-    .Menu01 {
-        float: left;
-     /*   position: relative;/*相対配置*/
-        width:120px;
-        height:250px;
-        background-image: url(../img/TOP/works_off.jpg);
-        background-repeat: no-repeat;
-        background-size: contain;
-        display: block;
-    }
+/* Gray Scale */
+.Menu01 {
+    float: left;
+ /*   position: relative;/*相対配置*/
+    width:50%;
+    height: 150px;
+    background-image: url(../img/TOP/works_off.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+}
 
-    .Menu01 p {
-       position: absolute;
-      color: #333;/*文字は白に*/
-      font-weight: normal;
-      bottom: 0;
-      right: 0;
-    }
-    .Menu01 a {
-        -webkit-filter: grayscale(100%);
-        filter: grayscale(100%);
-        -webkit-transition: .3s ease-in-out;
-        transition: .3s ease-in-out;
-        background-image: url(../img/TOP/works_off.jpg);
-        background-repeat: no-repeat;
-        display: block;
-        width:120px;
-        height:150px;
-        background-size: cover;
-    }
-    .Menu01 a:hover {
-        -webkit-filter: grayscale(0);
-        filter: grayscale(0);
-        background-image: url(../img/TOP/works_on.jpg);
-        width: 120px;
-        height: 150px;
-        text-decoration:underline;
-    }
+.Menu01 p {
+   position: absolute;
+  color: #333;/*文字は白に*/
+  font-weight: normal;
+  width: 100%;
+}
+.Menu01 a {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    background-image: url(../img/TOP/works_off.jpg);
+    background-repeat: no-repeat;
+    display: block;
+    width: 100%;
+    height:150px;
+    background-size: cover;
+}
+.Menu01 a:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    background-image: url(../img/TOP/works_on.jpg);
+    width: 50%;
+    height: 150px;
+    text-decoration:underline;
+}
 
-    .Menu01 figure img {
-        -webkit-filter: grayscale(100%);
-        filter: grayscale(100%);
-        -webkit-transition: .3s ease-in-out;
-        transition: .3s ease-in-out;
-        width: 120px;
-        height: 150px;
-    }
-    .Menu01 figure:hover img {
-        -webkit-filter: grayscale(0);
-        filter: grayscale(0);
-        text-decoration:underline;
-    }
+.Menu01 figure img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    width: 50%;
+    height: 150px;
+}
+.Menu01 figure:hover img {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    text-decoration:underline;
+}
 
-    .Menu02 {
-        float: left;
-        /*position: relative;相対配置*/
-        width: 120px;
-        height: 150px;
-        display: block;
-    }
+.Menu02 {
+    float: left;
+    /*position: relative;相対配置*/
+    width: 50%;
+    height: 150px;
+    display: block;
+}
 
-    .Menu02 p {
-        position: absolute;
-      color: #333;/*文字は白に*/
-      font-weight: normal;
-      bottom: 0px;
-      right: 0;
-    }
-    .Menu02 a {
-        -webkit-filter: grayscale(100%);
-        filter: grayscale(100%);
-        -webkit-transition: .3s ease-in-out;
-        transition: .3s ease-in-out;
-        background-image: url(../img/TOP/recruit_off.jpg);
-        background-repeat: no-repeat;
-        display: block;
-        width: 120px;
-        height: 150px;
-        background-size: cover;
-    }
-    .Menu02 a:hover {
-        -webkit-filter: grayscale(0);
-        filter: grayscale(0);
-        background-image: url(../img/TOP/recruit_on.jpg);
-        width: 120px;
-        height: 150px;
-        text-decoration:underline;
-    }
+.Menu02 p {
+    position: absolute;
+  color: #333;/*文字は白に*/
+  font-weight: normal;
+  width: 100%;
+}
+.Menu02 a {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    background-image: url(../img/TOP/recruit_off.jpg);
+    background-repeat: no-repeat;
+    display: block;
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+}
+.Menu02 a:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    background-image: url(../img/TOP/recruit_on.jpg);
+    width: 50%;
+    height: 150px;
+    text-decoration:underline;
+}
 
-    .Menu02 figure img {
-        -webkit-filter: grayscale(100%);
-        filter: grayscale(100%);
-        -webkit-transition: .3s ease-in-out;
-        transition: .3s ease-in-out;
-        width: 120px;
-        height: 150px;
-    }
-    .Menu02 figure:hover img {
-        -webkit-filter: grayscale(0);
-        filter: grayscale(0);
-        text-decoration:underline;
-    }
+.Menu02 figure img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    width: 50%;
+    height: 150px;
+}
+.Menu02 figure:hover img {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    text-decoration:underline;
+}
 
 
-    .Menu03 {
-        float: left;
-        /*position: relative;相対配置*/
-        width: 120px;
-        height: 150px;
+.Menu03 {
+    float: right;
+    width: 50%;
+    height: 150px;
+    object-fit: cover;
+}
 
-    }
+.Menu03 p {
+    position: absolute;
+  color: #333;/*文字は白に*/
+  font-weight: normal;
+  width: 100%;
+}
+.Menu03 a {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    background-image: url(../img/TOP/access_off.jpg);
+    background-repeat: no-repeat;
+    display: block;
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+    float: right;
+}
+.Menu03 a:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    background-image: url(../img/TOP/access_on.jpg);
+    width: 50%;
+    height: 150px;
+    text-decoration:underline;
+}
 
-    .Menu03 p {
-        position: absolute;
-      color: #333;/*文字は白に*/
-      font-weight: normal;
-      bottom: 0;
-      right: 0;
-    }
-    .Menu03 a {
-        -webkit-filter: grayscale(100%);
-        filter: grayscale(100%);
-        -webkit-transition: .3s ease-in-out;
-        transition: .3s ease-in-out;
-        background-image: url(../img/TOP/access_off.jpg);
-        background-repeat: no-repeat;
-        display: block;
-        width: 120px;
-        height: 150px;
-        background-size: cover;
-    }
-    .Menu03 a:hover {
-        -webkit-filter: grayscale(0);
-        filter: grayscale(0);
-        background-image: url(../img/TOP/access_on.jpg);
-        width: 120px;
-        height: 150px;
-        text-decoration:underline;
-    }
+.Menu03 figure img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    width: 50%;
+    height: 150px;
+}
+.Menu03 figure:hover img {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    text-decoration:underline;
+}
 
-    .Menu03 figure img {
-        -webkit-filter: grayscale(100%);
-        filter: grayscale(100%);
-        -webkit-transition: .3s ease-in-out;
-        transition: .3s ease-in-out;
-        width: 120px;
-        height: 150px;
-    }
-    .Menu03 figure:hover img {
-        -webkit-filter: grayscale(0);
-        filter: grayscale(0);
-        text-decoration:underline;
-    }
+.Menu04 {
+    float: left;
+    /*position: relative;相対配置*/
+    width: 50%;
+    height: 150px;
+}
 
-    .Menu04 {
-        float: left;
-        /*position: relative;相対配置*/
-        width: 120px;
-        height: 150px;
-    }
+.Menu04 p {
+  position: absolute;
+  color: #333;/*文字は白に*/
+  font-weight: normal;
+  width: 100%;
+}
+.Menu04 a {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    background-image: url(../img/TOP/topceo_off.jpg);
+    background-repeat: no-repeat;
+    display: block;
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+}
+.Menu04 a:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    background-image: url(../img/TOP/topceo_on.jpg);
+    background-repeat: no-repeat;
+    display: block;
+    width: 50%;
+    height: 150px;
+    background-size: cover;
+    text-decoration:underline;
+}
 
-    .Menu04 p {
-      position: absolute;
-      color: #333;/*文字は白に*/
-      font-weight: normal;
-      bottom: 0;
-      right: 0;
-    }
-    .Menu04 a {
-        -webkit-filter: grayscale(100%);
-        filter: grayscale(100%);
-        -webkit-transition: .3s ease-in-out;
-        transition: .3s ease-in-out;
-        background-image: url(../img/TOP/topceo_off.jpg);
-        background-repeat: no-repeat;
-        display: block;
-        width: 120px;
-        height: 150px;
-        background-size: cover;
-    }
-    .Menu04 a:hover {
-        -webkit-filter: grayscale(0);
-        filter: grayscale(0);
-        background-image: url(../img/TOP/topceo_on.jpg);
-        background-repeat: no-repeat;
-        display: block;
-        width: 120px;
-        height: 150px;
-        background-size: cover;
-        text-decoration:underline;
-    }
-
-    .Menu04 figure img {
-        -webkit-filter: grayscale(100%);
-        filter: grayscale(100%);
-        -webkit-transition: .3s ease-in-out;
-        transition: .3s ease-in-out;
-        width: 120px;
-        max-height: 150px;
-    }
-    .Menu04 figure:hover img {
-        -webkit-filter: grayscale(0);
-        filter: grayscale(0);
-        max-height: 150px;
-        text-decoration:underline;
-    }
+.Menu04 figure img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    width: 50%;
+    max-height: 150px;
+}
+.Menu04 figure:hover img {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    max-height: 150px;
+    text-decoration:underline;
+}
 
 .topicsB {
-    margin: 0px auto;
-    padding: 0px 0px 0px;
+margin: 100px 0px 0px;
+padding: 0px 0px 0px;
 }
 .topicsB h2 {
-    text-align: center;
-    margin-top: 60px;
+text-align: center;
+width: 100%;
 }
 
 .topicsB h4 {
-    text-align: center;
-    font-size: 16px;
-    margin-bottom: 30px;
+text-align: center;
+font-size: 16px;
+margin-bottom: 30px;
+width: 100%;
 }
 
 .topicsB .contents {
-    background-color: #b2ddff;
-    padding: 40px 40px 30px 5px;
-    width: 460px;
-    margin: 0 auto;
+background-color: #b2ddff;
+padding: 40px 10px 30px 0px;
+width: 100%;
+margin: 0 auto;
 }
 .topicsB .contents ul {
-    float: left;
-    width: 100%;
-    margin-bottom: 0;
+float: left;
+width: 100%;
+margin-bottom: 0;
 }
 
 .topicsB .contents ul li {
-    margin-bottom: 10px;
-    float: left;
-    width: 100%;
-    white-space:　break-word;
-    padding-left: 9.5em;
-    text-indent: -9.5em;
+margin-bottom: 10px;
+float: left;
+width: 100%;
+white-space:　break-word;
+padding-left: 7.5em;
+text-indent: -9.5em;
 }
 .topicsB .contents ul span.newsicon {
-    background-color: #6dc1ff;
-    width: 54px;
-    height: 21px;
-    color: #FFF;
-    text-decoration: underline;
-    font-size: 10px;
-    margin: 0px 10px 0px 0px;
+background-color: #6dc1ff;
+width: 54px;
+height: 21px;
+color: #FFF;
+text-decoration: underline;
+font-size: 10px;
+margin: 0px 10px 0px 0px;
 }
 .topicsB .readMore {
-    text-align: right;
+text-align: right;
 }
 
 
 .contactB {
-    width: 90%;
-    height: 500px;
+    width: 100%;
+    height: auto;
     margin: 100px auto 100px;
     border: solid 1px #003366;
 }
 .contactB h2 {
-    width: 90%;
+    width: 100%;
     margin: 30px auto 0;
     text-align: center;
 }
 .contactB h4 {
-    width: 90%;
+    width: 100%;
     margin: 0px auto 30px;
     text-align: center;
     font-size: 16px;
 }
 .contactB p {
-    width: 90%;
+    width: 100%;
     margin: 0 auto 20px;
     font-size: 10px;
     text-align: center;
@@ -1580,20 +1583,16 @@ max-height: 355px;
 .contactB ul {
     margin: 0 auto;
     text-align: center;
-    display: block;
-    float: left;
-    padding: 0;
-    width: 100%;
+    display: table;
 }
 .contactB ul li.telN {
-    width: 47%;
-    margin-right: 10px;
+    width: 200px;
     text-align: center;
     float: left;
 }
 .contactB ul li.telN a {
     width: 100%;
-    margin: 0 ;
+    margin-bottom: -15px;
     text-align: center;
     float: left;
     border: 2px solid #003366;
@@ -1602,7 +1601,7 @@ max-height: 355px;
     height:50px;
 }
 .contactB ul li.telN a:hover {
-    width: 100%;
+    width: 200px;
     margin: 0;
     text-align: center;
     float: left;
@@ -1611,14 +1610,14 @@ max-height: 355px;
     height:50px;
 }
 .contactB ul li.contactF {
-    width: 47%;
-    margin: 0;
+    width: 200px;
+    margin: 0px;
     text-align: center;
     float: left;
-    height:50px;
+    height: 50px;
 }
 .contactB ul li.contactF a {
-    width: 100%;
+    width: 200px;
     margin: 0;
     text-align: center;
     float: left;
@@ -1628,10 +1627,8 @@ max-height: 355px;
     padding: 10px;
     border-radius: 10px;
 }
-
-
 .contactB ul li.contactF a:hover {
-    width: 100%;
+    width: 200px;
         margin: 0;
         text-align: center;
         float: left;
@@ -1662,7 +1659,7 @@ max-height: 355px;
     display: none;
     width: 100%;
 }
-.globalHeader_sp { 
+.globalHeader_sp {
     display: block;
     width: 100%;
 }
@@ -1755,7 +1752,7 @@ max-height: 355px;
 	}
 
 
-    
+
         .fixed .globalNav_item > a, .fixed .globalNav_item.subMenuOpen > a {
             height: 45px;
             border-radius: 0;
@@ -1840,7 +1837,7 @@ max-height: 355px;
     z-index: 150;
     top: 300px;
     }
-    
+
     .globalSubNav_item {
 
     }
@@ -2213,11 +2210,10 @@ section .category-caption .caption-content h2 {
     padding: 50px 10px 50px;
     color: #fff;
     width: 100%;
-    height: 320px;
+    height: 100%;
     text-align: center;
     line-height: 18px;
     font-size: 10px;
-    letter-spacing: .1em;
 }
 .agilemainB {
     margin:  0 auto;
@@ -2239,9 +2235,10 @@ section .category-caption .caption-content h2 {
 .agileB p{
     text-align: left;
     font-size: 11.5px;
-    margin-bottom: 20px;
-    width: 100%;
-    margin: 0px;
+    margin: 0px 0px 20px 15px;
+    width: 90%;
+    padding: 0px 0px 0px 20px;
+
 }
 .agileB img {
     width: 100%;
@@ -2255,9 +2252,9 @@ section .category-caption .caption-content h2 {
 }
 .waterfallB h5 {
     background-color: #036;
-    padding: 12px;
+    padding: 10px;
     color: #fff;
-    width: 250px;
+    width: 300px;
     height: 50px;
     margin: 100px 0 30px;
 
@@ -2265,14 +2262,13 @@ section .category-caption .caption-content h2 {
 .waterfallB p{
     text-align: left;
     font-size: 11.5px;
-    margin-bottom: 0px;
-    width: 100%;
-    margin: 0px 0px 30px;
+    width: 90%;
+    margin: 0px 0px 20px 15px;
+    padding: 0px 0px 0px 20px;
 }
 .waterfallB img {
     width: 100%;
     height: 100%;
-    margin: 0px 0px 30px;
     float: left;
 }
 /*---------- アジャイル end ----------*/
@@ -2629,15 +2625,16 @@ font-size: 9px;
 }
 .parent a{
     color: #000;
+    margin: 0px 20%;
 }
 .inline-block_test {
     display: inline-block;      /* インラインブロック要素にする */
-    padding: 0px 30px 20px;             /* 余白指定 */
-    width: auto;
-    height: 200px;              /* 高さ指定 */
+    width: 100%;
+    height: auto;              /* 高さ指定 */
     vertical-align: top;
     text-align: left;
     font-size: 14px;
+    margin: 0px auto 30px auto;
 }
 .inline-block_test h4{
     text-decoration: underline;
@@ -2655,12 +2652,12 @@ font-size: 9px;
 }
 .sitemapB {
     color: #000;
-    padding: 80px 100px 80px;
+    padding: 50px 40px 50px;
     width: 100%;
-    height: 350px;
+    height: auto;
     line-height: 2em;
     background: #fff;
-    font-size: 120%;
+    font-size: 100%;
     border-top: solid 8px #036;
     border-bottom: solid 8px #036;
     margin: 0 auto 100px;
@@ -4186,95 +4183,6 @@ max-height: 355px;
 }
 
 
-.contactB {
-    width: 90%;
-    height: 500px;
-    margin: 100px auto 100px;
-    border: solid 1px #003366;
-}
-.contactB h2 {
-    width: 90%;
-    margin: 30px auto 0;
-    text-align: center;
-}
-.contactB h4 {
-    width: 90%;
-    margin: 0px auto 30px;
-    text-align: center;
-    font-size: 16px;
-}
-.contactB p {
-    width: 90%;
-    margin: 0 auto 20px;
-    font-size: 10px;
-    text-align: center;
-
-}
-.contactB ul {
-    margin: 0 auto;
-    text-align: center;
-    display: block;
-    float: left;
-    padding: 0;
-    width: 100%;
-}
-.contactB ul li.telN {
-    width: 47%;
-    margin-right: 10px;
-    text-align: center;
-    float: left;
-}
-.contactB ul li.telN a {
-    width: 100%;
-    margin: 0 ;
-    text-align: center;
-    float: left;
-    border: 2px solid #003366;
-    padding:10px;
-    border-radius:10px;
-    height:50px;
-}
-.contactB ul li.telN a:hover {
-    width: 100%;
-    margin: 0;
-    text-align: center;
-    float: left;
-    background-color: #003366;
-    color:#FFF;
-    height:50px;
-}
-.contactB ul li.contactF {
-    width: 47%;
-    margin: 0;
-    text-align: center;
-    float: left;
-    height:50px;
-}
-.contactB ul li.contactF a {
-    width: 100%;
-    margin: 0;
-    text-align: center;
-    float: left;
-    background-color: #003366;
-    color:#FFF;
-    height: 50px;
-    padding: 10px;
-    border-radius: 10px;
-}
-
-
-.contactB ul li.contactF a:hover {
-    width: 100%;
-        margin: 0;
-        text-align: center;
-        float: left;
-        border: 2px solid #003366;
-        background-color: #fff;
-        color: #003366;
-}
-
-
-
 /*トップページのスタイル END */
 
 .globalHeader {
@@ -4295,7 +4203,7 @@ max-height: 355px;
     display: none;
     width: 100%;
 }
-.globalHeader_sp { 
+.globalHeader_sp {
     display: block;
     width: 100%;
 }
@@ -4388,7 +4296,7 @@ max-height: 355px;
 	}
 
 
-    
+
         .fixed .globalNav_item > a, .fixed .globalNav_item.subMenuOpen > a {
             height: 45px;
             border-radius: 0;
@@ -4469,7 +4377,7 @@ max-height: 355px;
     z-index: 150;
     top: 300px;
     }
-    
+
     .globalSubNav_item {
 
     }
@@ -4800,8 +4708,6 @@ section .category-caption {
     vertical-align: middle;
     top: 130px;
     color: #fff;
-
-
 }
 section .category-caption .caption-content h2 {
     font-size: 38px;
@@ -4822,14 +4728,13 @@ section .category-caption .caption-content h2 {
 }
 .titleB p {
     background-color: #036;
-    padding: 50px 10px 50px;
+    padding: 50px 30px 50px;
     color: #fff;
     width: 100%;
-    height: 320px;
-    text-align: center;
-    line-height: 18px;
-    font-size: 10px;
-    letter-spacing: .1em;
+    text-align: left;
+    line-height: 24px;
+    font-size: 16px;
+    letter-spacing: .2em;
 }
 .agilemainB {
     margin:  0 auto;
@@ -4837,7 +4742,7 @@ section .category-caption .caption-content h2 {
 
 .agileB {
     margin:  0 auto;
-    width: 100%;
+    width: 960px;
 }
 .agileB h5 {
     background-color: #036;
@@ -4845,47 +4750,43 @@ section .category-caption .caption-content h2 {
     color: #fff;
     width: 250px;
     height: 50px;
-    margin-bottom: 30px;
+    margin: 0px 0px 30px -15px;
     text-align: center;
 }
 .agileB p{
     text-align: left;
-    font-size: 11.5px;
-    margin-bottom: 20px;
-    width: 100%;
-    margin: 0px;
+    line-height: 1.5em;
+    font-size: 18px;
+    margin: 0px 20px 20px;
 }
 .agileB img {
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: auto;
     float:left;
 }
 .waterfallB {
     margin:  0 auto;
-    width: 100%;
+    width: 960px;
     float: left;
 }
 .waterfallB h5 {
     background-color: #036;
     padding: 12px;
     color: #fff;
-    width: 250px;
+    width: 300px;
     height: 50px;
-    margin: 100px 0 30px;
-
+    margin: 100px 0 30px -15px;
 }
 .waterfallB p{
     text-align: left;
-    font-size: 11.5px;
-    margin-bottom: 0px;
-    width: 100%;
-    margin: 0px 0px 30px;
+    line-height: 1.5em;
+    font-size: 18px;
+    margin: 0px 20px 20px;
 }
 .waterfallB img {
-    width: 100%;
-    height: 100%;
-    margin: 0px 0px 30px;
-    float: left;
+    max-width: 90%;
+    height: auto;
+    margin: 0px 0px 10px;
 }
 /*---------- アジャイル end ----------*/
 /*---------- 制作実績ページ ----------*/
@@ -5188,87 +5089,84 @@ font-size: 9px;
 /*---------- 採用情報end ----------*/
 
 /*---------- プライバシーポリシー ----------*/
-/*section#category01 {
+section#category01 {
     background-image: url(../img/privacypolicy/privacypolicy_main.png);
     background-size: cover;
     color: #fff;
     width: 100%;
     height: 400px;
-}*/
+}
 .privacyB {
     color: #000;
-    padding: 100px 100px 100px;
+    padding: 50px 30px 50px;
     width: 100%;
-    height: 650px;
-    margin: 0 auto 100px;
+    height: 950px;
+    margin: 0px auto 0px;
     line-height: 2em;
     background: #fff;
-    font-size: 120%;
+    font-size: 12px;
     border-top: solid 8px #036;
     border-bottom: solid 8px #036;
 }
 .privacyB h5 {
-    width: 960px;
+    width: 100%;
     margin: 0 auto 30px
 }
 .privacyB p {
-    width: 960px;
-    margin: 0 auto
+    width: 100%;
 }
 .privacynow p {
-    width: 960px;
+    width: 100%;
     text-align: right;
 }
 /*---------- プライバシーポリシー end----------*/
 
 /*---------- サイトマップ  ----------*/
-/*section#category01 {
+section#category01 {
     background-image: url(../img/sitemap/sitemap_main.png);
     background-size: cover;
     color: #fff;
     width: 100%;
     height: 400px;
-}*/
+    min-height: 400px;
+}
 .parent {
-    text-align: center;         /* 子要素を左右中央揃えにする */
+    text-align: left;         /* 子要素を左右中央揃えにする */
 }
 .parent a{
     color: #000;
 }
 .inline-block_test {
-    display: inline-block;      /* インラインブロック要素にする */
-    padding: 0px 30px 20px;             /* 余白指定 */
-    width: auto;
-    height: 200px;              /* 高さ指定 */
-    vertical-align: top;
+    padding: 0px 0px 50px;
+    width: 100%;
+    height: 100%;
     text-align: left;
-    font-size: 14px;
+    font-size: 10px;
+    line-height: 1.5em;
+    display: inline-block;
 }
 .inline-block_test h4{
-    text-decoration: underline;
-    font-size: 18px;
-    font-weight: bold;
-    letter-spacing: .2ex;
+    text-decoration: none;
+    font-size: 24px;
+    text-align: left;
 }
 .inline-block_test h4 :hover{
     background: #036;
     color: #fff;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: bold;
     letter-spacing: .2ex;
     transition: .3s ease-in-out;
 }
 .sitemapB {
     color: #000;
-    padding: 80px 100px 80px;
     width: 100%;
-    height: 350px;
-    line-height: 2em;
+    height: 100%;
+    line-height: 1.5em;
     background: #fff;
-    font-size: 120%;
     border-top: solid 8px #036;
     border-bottom: solid 8px #036;
-    margin: 0 auto 100px;
+    margin: 50px auto 0px;
 }
 
 /*---------- サイトマップ end----------*/
@@ -5389,9 +5287,117 @@ font-size: 9px;
 
     }
 
+
 /*スマホ横から見た状態の時用　ブラウザ幅768px以上、980px以下 start */
 @media (min-width: 768px) and (max-width:980px) {
+.topicsB {
+    width: 768px;
+    margin: 100px 0px 0px;
+    }
+.serviceB p {
+    color: #000;
+    width: 230px;
+    margin: 0 auto;
+   text-align: left;
+    letter-spacing: 1px;
+    }
+.topicsB .contents {
+        background-color: #b2ddff;
+        padding: 40px 10px 30px 0px;
+        width: 100%;
+        margin: 0 auto;
+        }
+.agileB {
+    margin: 0 auto;
+    width: 768px;
+}
+.waterfallB {
+    margin: 0 auto;
+    width: 768px;
+}
+.titleB p {
+    background-color: #036;
+    padding: 50px 40px 50px;
+    color: #fff;
+    width: 100%;
+    text-align: left;
+}
+.contactB {
+    width: 768px;
+    margin: 150px auto 150px;
+    border: solid 1px #003366;
+    padding: 10px;
+}
+.contactB h2 {
+    width: 100%;
+    margin: 30px auto 0;
+    text-align: center;
+}
+.contactB h4 {
+    width: 100%;
+    margin: 0px auto 30px;
+    text-align: center;
+    font-size: 16px;
+}
+.contactB p {
+    width: 100%;
+    margin: 0 auto 20px;
+    font-size: 10px;
+    text-align: center;
 
+}
+.contactB ul {
+    margin: 0 auto;
+    text-align: center;
+    width: 65%;
+}
+.contactB ul li.telN {
+    width: 200px;
+    text-align: center;
+    float: left;
+}
+.contactB ul li.telN a {
+    width: 100%;
+    margin-bottom: -15px;
+    text-align: center;
+    float: left;
+    border: 2px solid #003366;
+    border-radius:10px;
+    height:50px;
+}
+.contactB ul li.telN a:hover {
+    width: 200px;
+    margin: 0;
+    text-align: center;
+    float: left;
+    background-color: #003366;
+    color:#FFF;
+    height:50px;
+}
+.contactB ul li.contactF {
+    width: 200px;
+    text-align: center;
+    float: left;
+    height: 50px;
+}
+.contactB ul li.contactF a {
+    width: 200px;
+    text-align: center;
+    float: left;
+    background-color: #003366;
+    color:#FFF;
+    height: 50px;
+    border-radius: 10px;
+}
+.contactB ul li.contactF a:hover {
+    width: 200px;
+        margin: 0;
+        text-align: center;
+        float: left;
+        border: 2px solid #003366;
+        background-color: #fff;
+        color: #003366;
+}
 }
 /*スマホ横から見た状態の時用 　ブラウザ幅768px以上、980px以下 end*/
 

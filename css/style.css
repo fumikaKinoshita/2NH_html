@@ -975,10 +975,10 @@ position: absolute;
 }
 .mainV3 h1 {
     margin: 200px auto 0;
-    width: 960px;
+    width: 100%;
     text-align: center;
     color: #fff;
-    height: 300px;
+    height: auto;
     display: block;
     font-family: "YuMincho","游明朝";
     line-height: 100px;
@@ -1001,7 +1001,7 @@ position: absolute;
 }
 .mainV3 h2 {
     margin: 40px auto;
-    width: 960px;
+    width: 100%;
     text-align: center;
     color: #fff;
     height: 500px;
@@ -1039,7 +1039,7 @@ position: absolute;
 
 .welcomeB p {
     margin: 11px auto 20px;
-    width: 980px;
+    width: 100%;
     text-align: center;
     letter-spacing: 1px;
 }
@@ -1083,19 +1083,27 @@ position: absolute;
 }
 
 .serviceB {
-    height: 500px;
     width: 100%;
-    margin: -500px 0px 0px  ;
-    background-image: url(../img/TOP_back.jpg);
-   background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 500px;
+    height: auto;
 }
+
+.bg-image {
+    background-image: url(../img/TOP/service_back.jpg);
+    width: 100%;
+    height: auto;
+    background-position: top center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.bg-mask {
+    height: 100%;
+    background: rgba(255,255,255,0.2);
+  }
+
 .serviceB h2 {
     color: #000;
-    width: 400px;
-    margin: 0px auto 8px;
+    width: 100%;
+    margin: -500px auto 8px;
     font-size: 32px;
     text-align: center;
 }
@@ -1110,8 +1118,9 @@ position: absolute;
     width: 190px;
     height: 33px;
     padding-top: 20px;
+    letter-spacing: 1px;
 }
-/*.serviceB .col-sm-12{
+/*.serviceB .col-sm-12
     background-color: #003366;
     padding: 60px 60px 45px;
     width: 960px;
@@ -1120,7 +1129,7 @@ position: absolute;
 .serviceB h4 {
     color: #000;
     width: 400px;
-    margin: 0 auto 30px;
+    margin: 0px auto 30px;
     font-size: 16px;
     text-align: center;
 }
@@ -1146,8 +1155,7 @@ position: absolute;
     border:solid 1px #ccc;
     width: 100%;
     height:100%;
-    display: table;
-    table-layout: fixed;
+    padding: 20px 20px;
 }
 .serviceM01 {
     width: 160px;
@@ -1165,7 +1173,7 @@ position: absolute;
     width: 160px;
     height: 160px;
     margin: 0 auto 5px;
-    
+
 }
 
 .serviceM01 a {
@@ -1261,18 +1269,18 @@ position: absolute;
     padding : 40px 50px;
 }
 .serviceB .serviceDetail{
-    padding: 20px 40px;
+    padding: 15px 20px;
     line-height: 25px;
     letter-spacing: 1px;
 }
 .serviceB .serviceDetail img{
     opacity: 0.5;
+    margin-bottom: 10px;
 }
-
 .aboutusB {
-    margin-top: 500px;
+    margin: 150px 0px 0px;
     width: 100%;
-    min-height: 430px;
+    min-height: 600px;
     float: left;
 }
 .aboutusC {
@@ -1293,8 +1301,8 @@ height: 100%;
 max-height: 355px;
 }
 .aboutusB h2 {
-    margin-top: 300px;
     text-align: center;
+    width: 100%;
 }
 .aboutusB h4 {
     font-size: 16px;
@@ -1304,7 +1312,7 @@ max-height: 355px;
 
 .aboutusC p {
     background: white ;
-    background-color: rgba(255,255,255,0.4);
+    background-color: rgba(255,255,255,0.5);
     text-decoration: none;
     text-align: center;
     width: 200px;
@@ -1327,7 +1335,7 @@ max-height: 355px;
   color: #333;/*文字は白に*/
   font-weight: bold; /*太字に*/
   font-size: 2em;/*サイズ2倍*/
-  bottom: 0;
+  bottom: -16px;
   right: 0;
 }
 .Menu01 a {
@@ -1378,7 +1386,7 @@ max-height: 355px;
   color: #333;/*文字は白に*/
   font-weight: bold; /*太字に*/
   font-size: 2em;/*サイズ2倍*/
-  bottom: 0px;
+  bottom: -16px;
   right: 0;
 }
 .Menu02 a {
@@ -1435,7 +1443,7 @@ max-height: 355px;
   color: #333;/*文字は白に*/
   font-weight: bold; /*太字に*/
   font-size: 2em;/*サイズ2倍*/
-  bottom: 0;
+  bottom: -16px;
   right: 0;
 }
 .Menu03 a {
@@ -1488,7 +1496,7 @@ max-height: 355px;
   color: #333;/*文字は白に*/
   font-weight: bold; /*太字に*/
   font-size: 2em;/*サイズ2倍*/
-  bottom: 0;
+  bottom: -16px;
   right: 0;
 }
 .Menu04 a {
@@ -1496,7 +1504,7 @@ max-height: 355px;
 	filter: grayscale(100%);
 	-webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
-    background-image: url(../img/TOPCEO_off.jpg);
+    background-image: url(../img/TOP/topceo_off.jpg);
     background-repeat: no-repeat;
     display: block;
     width:100%;
@@ -1506,7 +1514,7 @@ max-height: 355px;
 .Menu04 a:hover {
 	-webkit-filter: grayscale(0);
     filter: grayscale(0);
-    background-image: url(../img/TOPCEO_on.jpg);
+    background-image: url(../img/TOP/topceo_on.jpg);
     background-repeat: no-repeat;
     display: block;
     width:100%;
@@ -1531,13 +1539,11 @@ max-height: 355px;
 }
 
 .topicsB {
-    margin: 98px auto;
-    padding: 400px 0px 0px;
+    margin: 150px 0px 0px;
 }
 
 .topicsB h2 {
     text-align: center;
-    margin-top: 60px;
 }
 
 .topicsB h4 {
@@ -1581,7 +1587,7 @@ max-height: 355px;
 
 .contactB {
     width: 960px;
-    margin: 100px auto 100px;
+    margin: 150px auto 150px;
     border: solid 1px #003366;
     padding: 10px;
 }
@@ -1592,7 +1598,7 @@ max-height: 355px;
 }
 .contactB h4 {
     width: 960px;
-    margin: 0 auto 30px;
+    margin: 0px auto 30px;
     text-align: center;
     font-size: 16px;
 }
@@ -1871,7 +1877,7 @@ max-height: 355px;
         top:71px;
     }
     .globalSubNav_item {
-    
+
     }
     .globalSubNav_item:first-child {
         margin-left: 0;
@@ -1883,7 +1889,7 @@ max-height: 355px;
         width: 100%;
         height: 100%;
     }
-    
+
     .globalHeader_utilityNav {
         position: absolute;
         top: 7px;
@@ -1904,7 +1910,7 @@ max-height: 355px;
         padding: 7.5px 28px;
     }
     .globalHeader_utilityNav_item.linkBtn a:hover {
-    
+
     }
     .globalHeader_utilityNav_item.linkBtn a:after {
         background-size: 5px 9px;
@@ -1912,7 +1918,7 @@ max-height: 355px;
         height: 10px;
         right: 11px;
     }
-    
+
     @media screen and (min-width: 769px) {
         header:not(.fixed) .globalNav_item.current:not(.subMenuOpen) > a {
             margin-bottom: 10px !important;
@@ -1987,7 +1993,7 @@ max-height: 355px;
             background-position: center right 10px;
         }
     }
-    
+
 
 
 /*ページごとタイトル*/
@@ -2330,43 +2336,25 @@ section#contactcatV .category-caption {
         align-items: left;
         z-index: 2;
         float: left;*/
+    }
+.smain .r_h2 {
         width: 100%;
     }
-.r_h2 {
-        width: 100%;
-        /*float: left;*/
+.smain h2{
+        background-color: #003366;
+        color: #ffffff;
+        height: -35em;
+        width: 53em;
     }
-.h2l {
-    width: 70%;
-    float: left;
-}
-.h2r {
-    background-image: url(../img/brain/small_brain_l_1.png);
-    background-repeat: no-repeat;
-    color: #ffffff;
-    background-position-x: 62%;
-}
 
-
-div#seisaku {
-    background-color: #003366;
-    color: #ffffff;
-    height: 65px;
-    width: 48%;
-    position: relative;
-    left: 63%;
-    }
-div#seisaku h2 {
-    background-color: #003366;
-    color: #ffffff;
-    height: 65px;
-    width: 61%;
-    position: relative;
-    left: 0%;
-    }
-div#seisaku h2 p {
-    background-color: #003366;
-    color: #ffffff;
+.smain h2#seisaku{
+        background-color: #003366;
+        color: #ffffff;
+        height: -35em;
+        width: 30%;
+        background-image: url(../img/brain/small_brain_l_1.png);
+        background-repeat: no-repeat;
+        float:right;
     }
 
 
@@ -2387,53 +2375,7 @@ div#seisaku h2 p {
 /*    left: 20em;*/
     bottom: 20em;
 }
-.l_brain {
-    width: 200px;
-    position: relative;
-    margin: 80px 50px 50px;
-    padding: 20px;
-}
-.l_brain_text {
-    display: none;
-    width: 200px;
-    float: left;
-    position: absolute;
-    top: 0;
-    left: 250px;
-    padding: 16px;
-    background-color: #fff;
-}
-.l_brain_text:after {
-      position: absolute;
-      width: 0;
-      height: 0;
-      left: 0;
-      bottom: -19px;
-      margin-left: 10px;
-      border: solid transparent;
-      border-color: rgba(51, 204, 153, 0);
-      border-top-color: #33cc99;
-      border-width: 10px;
-      pointer-events: none;
-      content: " ";
-    }
-    .l_brain:hover + .l_brain_text {
-      display: block;
-    }
 
-/*.l_brain ul {
-    width: 200px;
-}
-.l_brain ul a {
-    width: 100%;
-    height: 100%;
-}
-.l_brain ul a:hover {
-    display: block;
-}*/
-.r_brain {
-    width: 50%;
-}
 
 .braintro {
     font-size: 1.2em;
@@ -2550,8 +2492,7 @@ ul.webseisaku {
 .sikaku{
     width: 1089px;
     border: 0.5em solid #003366;
-    margin: 100px auto 0;
-    padding-bottom: 30px;
+    margin: 0 auto;
 }
 .sikaku_logo{
     margin-left: 1%;
@@ -2566,15 +2507,23 @@ ul.webseisaku {
 }
 
 .sikaku h1{
+ position: relative;
+ top: -6em;
+ bottom: 0em;
 }
 
 .sikaku p{
+    letter-spacing: 1%;
     font-size: 90%;
+    position: relative;
+    top: -6em;
+    left: 0em;
+
 }
 
 .text{
     position: relative;
-    top: 3em;
+    top: 5em;
     left: 1em;
 }
 
@@ -2582,6 +2531,7 @@ ul.webseisaku {
     padding-top: 20%;
     justify-content: space-between;
     position: relative;
+    top: 10em;
     left: 0em;
 }
 
@@ -2590,39 +2540,36 @@ ul.webseisaku {
 }
 
 .websys {
+    height: 58em;
+    width: 130em;
+    position: relative;
+    top: 11em;
+    left: 0em;
+    float: left;
+    text-align: right;
+    padding: 1rem 1rem 0rem 1rem;
+    }
+
+.websystem {
     height: auto;
     width: 100%;
     float: left;
     text-align: right;
-    margin-top: 100px;
-    margin-bottom:100px;
-}
-.websystem {
-    height: 65px;
-    width: 100%;
-    float: left;
-    text-align: right;
-    background-image: url(../img/brain/small_brain_l_2.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-bottom: 50px;
+    padding: 1rem 1rem 0rem 1rem;
     }
 
 .websystem h2 {
     float: left;
     text-align: right;
     padding: 1.1rem 3em 0rem 6rem;
-    width: 49%;
+    background-image: url(../img/brain/small_brain_l_2.png);
+    background-repeat: no-repeat;
+    width: 45%;
     background-color: #003366;
     color: #fff;
-    height: 65px;
+    background-position: right;
 }
-.websystem h2 p {
-    background-color: #003366;
-    position: relative;
-    top: 20px;
-    left: 79%;
-}
+
 .websystem p {
     color: #fff;
     font-size: 0.5rem;
@@ -2641,6 +2588,8 @@ ul.webseisaku {
 
 .websys p{
     position: relative;
+    left: 1em;
+    top: 5em;
     text-align: left;
 }
 
@@ -2705,12 +2654,11 @@ top: 10em;
 
 
 .operation {
-    height: auto;
-    width: 100%;
+    height: 45em;
+    width: 130em;
     position: relative;
     top: 0em;
     float: left;
-    margin: 100px auto;
     }
 
 .operation h2{
@@ -2719,12 +2667,9 @@ top: 10em;
     text-align: right;
     float: right;
     padding: 1.1rem 11rem 0rem 6rem;
-    /*background-image: url(../img/brain/small_brain_l_2.png);*/
+    background-image: url(../img/brain/small_brain_l_2.png);
     background-position: right;
     background-repeat: no-repeat;
-    color: #fff;
-    background-color: #003366;
-    height: 80px;
 }
 
 .operation h2 p{
@@ -2752,13 +2697,13 @@ top: 10em;
     top: 6em;
 }
 
-.cms {
+    .cms {
         height: 45em;
         width: 130em;
         position: relative;
         top: 0em;
         float: left;
-    }
+        }
 
     .cms h2 {
     display: inline-block;
@@ -2801,6 +2746,8 @@ top: 10em;
     }
     .other img{
         position: relative;
+        left: 0em;
+        top: 7.5em;
     }
 
     .other h2{
@@ -2821,7 +2768,9 @@ top: 10em;
     }
 
     .other h1{
-        margin:50px auto;
+        position: relative;
+        top: 6em;
+        left: 0em;
 
     }
     .other .o_midashi {
@@ -2894,7 +2843,7 @@ section .category-caption .caption-content h2 {
     text-align: center;
 }
 .titleB h4 {
-    width: 960px;
+    width: 100%;
     margin: 100px auto 100px;
     color: #000;
 }
@@ -2903,8 +2852,6 @@ section .category-caption .caption-content h2 {
     padding: 50px 0px 50px;
     color: #fff;
     width: 100%;
-    height: 300px;
-
     text-align: center;
     line-height: 24px;
     font-size: 16px;
@@ -2917,6 +2864,10 @@ section .category-caption .caption-content h2 {
 .agileB {
     margin:  0 auto;
     width: 960px;
+}
+.agileB img {
+    width: 100%;
+    height: auto;
 }
 .agileB h5 {
     background-color: #036;
@@ -2936,6 +2887,10 @@ section .category-caption .caption-content h2 {
 .waterfallB {
     margin:  0 auto;
     width: 960px;
+}
+.waterfallB img {
+    max-width: 100%;
+    height: auto;
 }
 .waterfallB h5 {
     background-color: #036;
@@ -3250,6 +3205,92 @@ ul.tech {
     font-weight: bold;
 }
 /*---------- 採用情報ページ end ----------*/
+/*---------- プライバシーポリシー ----------*/
+section#category01 {
+    background-image: url(../img/TOP/naminomi.jpg);
+    background-size: cover;
+    color: #fff;
+    width: 100%;
+    height: 400px;
+}
+.privacyB {
+    color: #000;
+    padding: 100px 100px 100px;
+    width: 100%;
+    height: 650px;
+    margin: 0 auto 0px;
+    line-height: 2em;
+    background: #fff;
+    font-size: 120%;
+    border-top: solid 8px #036;
+    border-bottom: solid 8px #036;
+}
+.privacyB h5 {
+    width: 960px;
+    margin: 0 auto 30px
+}
+.privacyB p {
+    width: 960px;
+    margin: 0 auto
+}
+.privacynow p {
+    width: 960px;
+    text-align: right;
+}
+/*---------- プライバシーポリシー end----------*/
+
+/*---------- サイトマップ  ----------*/
+section#category01 {
+    background-image: url(../img/TOP/naminomi.jpg);
+    background-size: cover;
+    color: #fff;
+    width: 100%;
+    height: 400px;
+}
+.parent {
+    text-align: center;         /* 子要素を左右中央揃えにする */
+}
+.parent a{
+    color: #000;
+}
+.inline-block_test {
+    display: inline-block;      /* インラインブロック要素にする */
+    padding: 0px 30px 20px;             /* 余白指定 */
+    width: auto;
+    height: 200px;              /* 高さ指定 */
+    vertical-align: top;
+    text-align: left;
+    font-size: 14px;
+}
+.inline-block_test h4{
+    text-decoration: underline;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: .2ex;
+}
+.inline-block_test h4 :hover{
+    background: #036;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: .2ex;
+    transition: .3s ease-in-out;
+}
+.sitemapB {
+    color: #000;
+    padding: 80px 100px 80px;
+    width: 100%;
+    height: auto;
+    line-height: 2em;
+    background: #fff;
+    font-size: 12px;
+    border-top: solid 8px #036;
+    border-bottom: solid 8px #036;
+    margin: 0 auto 0px;
+
+}
+
+/*---------- サイトマップ end----------*/
 /*---------- お問い合わせページ  ----------*/
 #contactmsg {
     border-top:10px solid #003366;

@@ -2972,7 +2972,7 @@ ul.tech {
 #recruitmsg table {
     font-size: 14px;
     border: 0;
-    width:960px;
+    width:100%;
     margin: 100px auto 120px;
 }
 #recruitmsg table th {
@@ -2980,11 +2980,13 @@ ul.tech {
     color: #111;
     background-color: #FFF;
     border: 0;
+    padding: 5px;
 }
 #recruitmsg table td {
     font-size: 14px;
     color: #111;
     border: 0;
+    padding: 5px;
 }
 
 .recruitContents {

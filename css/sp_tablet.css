@@ -2098,8 +2098,6 @@ section#recruitmain {
 .accessB {
     margin: 0 auto 100px;
     width: 480px;
-    border-top:2px #c1e0ff solid;
-    border-bottom: 2px #c1e0ff solid;
 }
 
 .accessB h2.yokohama_7 {
@@ -3509,8 +3507,6 @@ position: absolute;
 .btn.btn-primary-s:not(:disabled):not(.disabled).active, .btn.btn-primary-s:not(:disabled):not(.disabled):active {
     background-image:url(../img/button.jpg);
 }
-
-/*ページごとタイトル*/
 /*会社概要*/
 section#category01 {
     background-image: url(../img/COMPANY.png);
@@ -3546,10 +3542,7 @@ section .category-caption .caption-content h2 {
     font-size: 24px;
 
 }
-
 /*会社概要 end*/
-
-
 /*会社沿革*/
 section#category02 {
     background-image: url(../img/company_1.png);
@@ -3709,44 +3702,6 @@ section#recruitmain {
     text-align: left;
     font-size: 14px;
 }
-
-/*---------- アクセス ----------*/
-.accessB {
-    margin: 0 auto 100px;
-    width: 480px;
-    border-top:2px #c1e0ff solid;
-    border-bottom: 2px #c1e0ff solid;
-}
-
-.accessB h2.yokohama_7 {
-    font-size: 24px;
-    text-decoration: underline;
-    font-weight: bold;
-    text-align: left;
-    margin: 30px auto;
-    width: 960px;
-}
-
-.add_postN {
-    text-align: left;
-    width:100%;
-    margin: 10px auto;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 1.5rem;
-    text-decoration: underline;
-}
-
-.accessBattn p {
-    text-align: right;
-    width:100%;
-    margin: 10px auto;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 1.5rem;
-}
-
-/*---------- アクセス end ----------*/
 
 /*---------- 制作実績ページ ----------*/
 .worksContents {
@@ -4167,6 +4122,7 @@ font-size: 9px;
 
 /*スマホ横から見た状態の時用　ブラウザ幅768px以上、980px以下 start */
 @media (min-width: 768px) and (max-width: 980px) {
+/*-------------トップページ--------------- */
     .mainV3 {
         background-image: url(../img/naminomi.jpg);
         background-repeat: no-repeat;
@@ -4408,6 +4364,72 @@ font-size: 9px;
             background-color: #fff;
             color: #003366;
     }
+/*-------------トップページ end--------------- */
+/*-------------会社概要--------------- */
+
+.nav-tabs .nav-link {
+    color:#111;
+    border-bottom: 6px solid #bfbfbf;
+    border-top: none;
+    border-right: none;
+    border-left:none;
+}
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    border-bottom: 6px solid #003366;
+    border-top: none;
+    border-right: none;
+    border-left:none;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #111;
+    background-color: #fff;
+    border-bottom: 6px solid #003366;
+    border-top: none;
+    border-right: none;
+    border-left:none;
+    font-weight:bold;
+}
+.nav-tabs {
+    border-bottom: none;
+    width: 650px;
+    margin: 0 auto 90px;
+}
+/*-------------会社概要　end--------------- */
+/*---------- アクセス ----------*/
+.accessB {
+    margin: 0 auto 100px;
+    width: 650px;
+}
+.accessB h2.yokohama_7 {
+    font-size: 24px;
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: left;
+    width: 650px;
+    margin: 30px auto;
+}
+.add_postN {
+    text-align: left;
+    width: 650px;
+    margin: 10px auto;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.5rem;
+    text-decoration: underline;
+}
+.accessBattn p {
+    text-align: right;
+    width: 650px;
+    margin: 10px auto;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.5rem;
+}
+.g_map iframe {
+    width: 650px;
+}
+/*---------- アクセス end ----------*/
+/*-------------アジャイルページ --------------- */
     .titleB p {
         background-color: #036;
         padding: 50px 50px 50px;
@@ -4448,6 +4470,8 @@ font-size: 9px;
         width: 90%;
         height: auto;
     }
+/*-------------アジャイルページ　end--------------- */
+/*-------------プライバシーポリシー --------------- */
     .privacyB {
         color: #000;
         padding: 100px 60px 100px;
@@ -4470,6 +4494,8 @@ font-size: 9px;
         width: 100%;
         text-align: right;
     }
+/*-------------プライバシーポリシー end--------------- */
+/*-------------サイトマップ  --------------- */
     .parent {
         text-align: center;         /* 子要素を左右中央揃えにする */
     }
@@ -4510,6 +4536,7 @@ font-size: 9px;
         border-bottom: solid 8px #036;
         margin: 0 auto 0px;
     }
+/*-------------サイトマップ end --------------- */
 }
 /*スマホ横から見た状態の時用 　ブラウザ幅768px以上、980px以下 end*/
 

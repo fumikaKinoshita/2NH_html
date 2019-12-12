@@ -4069,7 +4069,7 @@ font-size: 9px;
 }
 /*スマホ縦から見た状態の時用　ブラウザ幅481px以上、767px以下　end*/
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 767px) {
 
 
         .globalNav_item > a {
@@ -4182,7 +4182,39 @@ font-size: 9px;
     }
 
 /*スマホ横から見た状態の時用　ブラウザ幅768px以上、980px以下 start */
-@media (min-width: 768px) and (max-width:980px) {
+@media (min-width: 768px) {
+
+    .serviceB h3 {
+        color: #003366;
+        font-size: 15px;
+        margin: 0 auto 20px;
+        text-align: center;
+        /*background-image: url(../img/TOP_SERVICEh3bg.png);
+        background-repeat: no-repeat;*/
+        font-weight: bold;
+        height: auto;
+        padding-top: 20px;
+        letter-spacing: 1px;
+    }
+    .serviceB h5 {
+        color: #036;
+        font-size: 16px;
+        text-align: left;
+    }
+    .serviceB table{
+        padding: 100px;
+        margin: 150px auto 0px;
+        width: 100%;
+        height: 320px;
+    }
+    .serviceB table th{
+        padding : 40px 50px;
+    }
+    .serviceB .serviceDetail{
+        padding: 15px 20px;
+        line-height: 25px;
+        letter-spacing: 1px;
+    }
     .topicsB {
         margin: 100px 0px 0px;
         padding: 0px 0px 0px;

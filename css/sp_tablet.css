@@ -997,12 +997,20 @@ position: absolute;
     font-size: 15px;
     text-align: left;
     font-weight: bold;
-    width: 230px;
+    width: 270px;
     height: 33px;
     padding-top: 20px;
     letter-spacing: 1px;
     text-decoration: underline;
-    float: left;
+}
+.serviceB p {
+    color: #000;
+    width: 230px;
+    margin: 0px auto 50px;
+    font-size: 12px;
+    text-align: left;
+    line-height: 20px;
+    float: none;
 }
 .serviceB h4 {
     color: #000;
@@ -3402,7 +3410,7 @@ section#recruitmain {
                     transform: translateY(-50%);
             background-repeat: no-repeat;
             background-size: 7px 13px;
-            background-position: center right 10px;s
+            background-position: center right 10px;
         }
 
     }
@@ -3477,7 +3485,7 @@ section#recruitmain {
         margin: 0px 0px 0px 10px;
     }
     .serviceB .row {
-        width: 100%;
+        width: 780px;
     }
     .serviceB table{
         padding: 100px;

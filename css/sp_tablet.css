@@ -1825,7 +1825,7 @@ position: absolute;
     top:10px;
     left: 5px;
         }
-        
+
 /*ページごとタイトル*/
 /*会社概要*/
 section#category01 {
@@ -3472,6 +3472,7 @@ section#recruitmain {
         width: 230px;
         float: right;
         padding-left: 1em;
+        text-align: center;
     }
     .serviceB p {
         color: #000;
@@ -3503,7 +3504,8 @@ section#recruitmain {
         margin: 0px 0px 0px 10px;
     }
     .serviceB .row {
-        width: 780px;
+        width: 100%;
+        margin: 0px 0px 0px -5px;
     }
     .serviceB table{
         padding: 100px;
@@ -3516,6 +3518,9 @@ section#recruitmain {
         padding: 15px 10px;
         height: 320px;
         width: 100%;
+    }
+    .serbiceC .container {
+        margin-left: -15px;
     }
     .topicsB {
         margin: 100px 0px 0px;

@@ -1088,6 +1088,7 @@ position: absolute;
 }
 .serviceB .row {
     width: 100%;
+    margin: 0px 15px 0px 15px;
 }
 .serviceM01 {
     width: 160px;
@@ -2859,12 +2860,15 @@ ul.tech {
     background-color: #FFF;
     border: 0;
     padding: 5px;
+    width: 200px;
+    vertical-align: top;
 }
 #recruitmsg table td {
     font-size: 14px;
     color: #111;
     border: 0;
     padding: 5px;
+    width: 1000px;
 }
 
 .recruitContents {

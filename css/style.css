@@ -258,7 +258,7 @@ a.btn:hover {
 
 @media (min-width: 1200px){
 .container {
-    max-width: 1600px;
+    max-width: 1200px;
     display: flex;
     align-items: start;
     justify-content: space-around;
@@ -1132,7 +1132,7 @@ position: absolute;
 }
 .serviceB h5 {
     color: #036;
-    width: 320px;
+    width: 250px;
     margin: 20px auto 40px;
     font-size: 16px;
     text-align: center;
@@ -1144,7 +1144,7 @@ position: absolute;
     color: #000;
     width: 230px;
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
     letter-spacing: 1px;
     line-height: 25px;
 }

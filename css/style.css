@@ -259,6 +259,9 @@ a.btn:hover {
 @media (min-width: 1200px){
 .container {
     max-width: 1600px;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
 }
 }
 .content-area {
@@ -849,7 +852,7 @@ a.btn.btn-default-s:hover {
 
 }
 
-.btn-default-s:focus:before, .btn-primary-s:focus:before, {
+.btn-default-s:focus:before, .btn-primary-s:focus:before {
 position: absolute;
     content: '';
     top: 0;

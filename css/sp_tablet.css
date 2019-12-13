@@ -2153,8 +2153,6 @@ section .category-caption {
     width: 100%;
     z-index: 11;
 }
-/*---------- アジャイル開発ページ ----------*/
-
 .category-caption .caption-content {
     text-align: center;
     display: table-cell;

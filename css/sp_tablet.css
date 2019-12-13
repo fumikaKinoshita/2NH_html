@@ -962,7 +962,7 @@ position: absolute;
     border-radius: 10px;
 }
 .serviceB {
-    padding: 50px 0px 50px -15px;
+    padding: 50px 0px;
     width: 100%;
     height: auto;
     text-align: left;
@@ -981,6 +981,9 @@ position: absolute;
     font-size: 12px;
     text-align: left;
     line-height: 20px;
+}
+.serviceB .container {
+    padding-left: -15px;
 }
   .serviceB .row {
         width: 100%;
@@ -1033,7 +1036,7 @@ position: absolute;
     color: #036;
     width: 180px;
     margin: 20px auto 40px;
-    font-size: 13spx;
+    font-size: 12px;
     text-align: left;
     padding-left: 1em;
     display: contents;
@@ -1166,7 +1169,6 @@ position: absolute;
     margin-top: 100px;
 }
 .serviceC {
-    margin: 50px 0px 0px
 }
 .aboutusB {
     width: 100%;
@@ -2201,90 +2203,95 @@ font-size: 9px;
     }
 /*---------- 制作実績ページ end----------*/
 /*---------- 採用情報 ----------*/
-#recruitmsg h2 {
-    font-size: 18px;
-    text-align: center;
-    margin-bottom: 98px;
-}
 #recruitmsg table {
     font-size: 14px;
     border: 0;
-    width: 100%;
+    width: 85%;
     margin: 100px auto 120px;
 }
 #recruitmsg table th {
-    font-size: 10px;
+    font-size: 14px;
     color: #111;
     background-color: #FFF;
     border: 0;
+    padding: 5px;
+    width: 300px;
+    vertical-align: top;
 }
-#recruitmsg table td {
-    font-size: 10px;
-    color: #111;
-    border: 0;
-}
-.recruitContents {
-    background-image: url(../img/recruit_back.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    font-size: 14px;
-    padding-top: 205px;
-    margin-bottom: 100px;
-}
-.recruitContents p {
-    line-height: 2rem;
-    text-align: center;
-}
-.recruitContents ul {
+.sw_system_wrap {
+    background-color: #003466;
     width: 100%;
-    margin: 0 auto;
-    padding-left: 0;
-    text-align: center;
-}
-.recruitContents ul li {
+    margin: 0;
     float: left;
-    width: 47%;
-    padding: 20px 0;
-    margin-bottom: 130px;
-    height: 60px;
-}
-.recruitContents ul li:first-child {
-    margin-right: 10px;
-}
-.recruitContents ul li a {
-    float: left;
-    width: 100%;
-    display: block;
-    background-color: #fff;
-    height: 60px;
-    padding: 20px 0;
-}
-
-.system01 .inner, .system02 .inner, .system03 .inner, .system04 .inner, .system05 .inner, .system06 .inner, .system07 .inner, .system08 .inner {
-    width: 100%;
-    height: auto;
-    margin-top: 100px;
-}
-.system01 .inner, .system02 .inner, .system03 .inner, .system04 .inner, .system05 .inner, .system06 .inner, .system07 .inner, .system08 .inner {
-    width: 100%;
-    height: auto;
-    margin-top: 120px;
-}
-.system01 .inner h3, .system02 .inner h3, .system03 .inner h3, .system04 .inner h3, .system05 .inner h3, .system06 .inner h3, .system07 .inner h3, .system08 .inner h3 {
-    font-size: 10px;
-    color: #003366;
-    text-align: center;
-    font-weight: bold;
-}
-.system01 .inner p, .system02 .inner p, .system03 .inner p, .system04 .inner p, .system05 .inner p, .system06 .inner p, .system07 .inner p, .system08 .inner p {
-    font-size: 8px;
-    color: #003366;
-    text-align: center;
 }
 .sw_system {
     background-color: #003466;
-    width:480px;
+    width: 320px;
     margin: 0 auto;
+}
+.system01 {
+    background-image: url(../img/health.png);
+    background-repeat: no-repeat;
+    width:230px;
+    height: 230px;
+    float: left;
+    margin: 0px 0px 10px 0px;
+}
+.system02 {
+    background-image: url(../img/skillup.png);
+    background-repeat: no-repeat;
+    width:230px;
+    height: 230px;
+    float: left;
+    margin: 0px 0px 10px 0px;
+}
+.system03 {
+    background-image: url(../img/waterserver.png);
+    background-repeat: no-repeat;
+    width:230px;
+    height: 230px;
+    float: left;
+    margin: 0px 0px 10px 0px;
+}
+.system04 {
+    background-image: url(../img/baby.png);
+    background-repeat: no-repeat;
+    width:230px;
+    height: 230px;
+    float: left;
+    margin: 0px 0px 10px 0px;
+}
+.system05 {
+    background-image: url(../img/vacation.png);
+    background-repeat: no-repeat;
+    width:230px;
+    height: 230px;
+    float: left;
+    margin: 0px 0px 10px 0px;
+}
+.system06 {
+    background-image: url(../img/schedule.png);
+    background-repeat: no-repeat;
+    width:230px;
+    height: 230px;
+    float: left;
+    margin: 0px 0px 10px 0px;
+}
+.system07 {
+    background-image: url(../img/family.png);
+    background-repeat: no-repeat;
+    width:230px;
+    height: 230px;
+    float: left;
+    margin: 0px 0px 10px 0px;
+}
+.system08 {
+    background-image: url(../img/relax.png);
+    background-repeat: no-repeat;
+    width:230px;
+    height: 230px;
+    float: left;
+    margin: 0px 0px 10px 0px;
 }
 .rectopbtn {
     width: 100%;
@@ -2310,17 +2317,6 @@ font-size: 9px;
     padding: 10px 0;
     border:solid 1px #003366;
     border-radius: 0;
-}
-.rectopbtn a:hover {
-    float: left;
-    width: 220px;
-    display: block;
-    background-color: #003366;
-    height: 52px;
-    padding: 10px 0;
-    border:solid 1px #003366;
-    border-radius: 0;
-    color: #FFF;
 }
 .entryform {
     width: 90%;

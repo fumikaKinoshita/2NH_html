@@ -46,10 +46,10 @@ header ul li {
     width:100%;
 }
 header ul li.dropdown {
-    float: left;
+    float: none;
     padding: 0;
     width:100%;
-    height: 80px;
+    height: 60px;
     color: #fff;
     text-align: center;
 }
@@ -60,8 +60,8 @@ header ul li.dropdown a {
 }
 header ul li.dropdown span {
     color: #fff;
-    font-size: 10px;
-    text-decoration: underline;
+    font-size: 12px;
+    text-decoration: none;
 }
 header ul li a {
     float: left;
@@ -71,13 +71,14 @@ header ul li a {
     color: #fff;
 }
 .navbar-header {
-    width: 70%;
+    width: 60%;
 }
 .navbar-nav .dropdown-menu {
-    position: relative;
-    float: left;
-    top:0;
+    position: static;
+    float: none;
     width:100%;
+    border: none;
+    margin-top: 0;
 }
 .spmenu {
     width: 30%;
@@ -108,6 +109,7 @@ header ul li a {
     float: left;
     background-color: #003366;
     opacity: 0.8;
+    width: 100%;
 }
 .nav .navbar-nav {
     display: inline-block;
@@ -201,8 +203,16 @@ header ul li a {
     color: #fff;
     padding: 0;
     background-image: url(../img/footerbg.png);
-    background-position: right bottom;
+    background-position: left bottom;
     background-repeat: no-repeat;
+    background-size: 100%;
+}
+.SNSicon {
+    float: left;
+}
+a.pagetop {
+    width: 100px;
+    height: 100px;
 }
 .ftr {
     border-right: #fff solid 1px;
@@ -1606,12 +1616,12 @@ position: absolute;
 		background-position: 875px 8px;
 	}
 .globalNav_item {
-	float: left;
+	float: none;
     height: 80px;
     width:100%;
     }
     .globalNav_item.home, .globalNav_item.works, .globalNav_item.contact {
-	float: left;
+	float: none;
     height: 80px;
     width:100%;
 	}
@@ -1771,36 +1781,44 @@ position: absolute;
 
 .contactmenu {
             background-color: #fff;
-            width:50px;
-            height: 50px;
+            width:20%;
+            height: 60px;
             float: left;
+}
+.contactmenu a {
+    background-color: #fff;
+    width:51px;
+    height: 68px;
+    display: block;
+     background-image: url(../img/mailIcon.jpg);
+    background-repeat: no-repeat;
+    text-indent: -99999px;
+    background-position: center;
+    background-size: 90%;
+}
+.hamburgermenu {
+    background-color: #003366;
+    width:20%;
+    height: 70px;
+    float: left;
+}
+.hamburgermenu a {
+    color: #fff;
+    background-color: #003366;
+    width:50px;
+    height: 50px;
+    float: left;
+    background-image: url(../img/hm.jpg);
+    background-repeat: no-repeat;
+    text-indent: -99999px;
+}
+.hamburgermenu img {
+    position: relative;
+    top:10px;
+    left: 5px;
         }
-        .contactmenu a {
-            background-color: #fff;
-            width:50px;
-            height: 50px;
-            display: block;
-             background-image: url(../img/mailIcon.jpg);
-            background-repeat: no-repeat;
-            text-indent: -99999px;
-
-        }
-        .hamburgermenu {
-            background-color: #003366;
-            width:50px;
-            height: 50px;
-            float: left;
-        }
-        .hamburgermenu a {
-            color: #fff;
-            background-color: #003366;
-            width:50px;
-            height: 50px;
-            float: left;
-            background-image: url(../img/hm.jpg);
-            background-repeat: no-repeat;
-            text-indent: -99999px;
-        }
+        
+/*ページごとタイトル*/
 /*会社概要*/
 section#category01 {
     background-image: url(../img/COMPANY.png);

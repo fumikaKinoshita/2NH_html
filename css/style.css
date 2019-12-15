@@ -2957,6 +2957,7 @@ ul.tech {
     width:230px;
     height: 240px;
     float: left;
+    margin-right: 10px;
     margin-bottom: 10px;
 }
 .system05 {
@@ -2966,6 +2967,7 @@ ul.tech {
     height: 240px;
     float: left;
     margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 
@@ -2976,6 +2978,7 @@ ul.tech {
     height: 240px;
     float: left;
     margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .system07 {
@@ -2994,6 +2997,8 @@ ul.tech {
     width:230px;
     height: 240px;
     float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .system01 .inner, .system02 .inner, .system03 .inner, .system04 .inner, .system05 .inner, .system06 .inner, .system07 .inner, .system08 .inner {

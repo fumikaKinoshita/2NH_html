@@ -3231,6 +3231,14 @@ section#recruitmain {
     height: 200px;
     margin-bottom: 90px;
 }
+section#recriut_career {
+    background-image: url(../img/career_main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    height: 200px;
+    margin-bottom: 90px;
+}
 }
 /*スマホ縦から見た状態の時用　ブラウザ幅481px以上、767px以下　end*/
 

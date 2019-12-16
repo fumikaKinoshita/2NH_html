@@ -985,7 +985,7 @@ position: absolute;
 .serviceB .container {
     padding-left: -15px;
 }
-  .serviceB .row {
+.serviceB .row {
         width: 100%;
     }
 .serviceB p br {
@@ -993,10 +993,7 @@ position: absolute;
     border-bottom: solid 8px #036;
 }
 .col-sm-12{
-    background-color: #fff;
-    padding: 0px 0px 0px;
-    width: 100%;
-    font-size: 10px;
+    font-size: 11px;
 }
 .serviceB h2 {
     color: #000;
@@ -1167,6 +1164,9 @@ position: absolute;
 .serviceB2 {
     height: 588px;
     margin-top: 100px;
+}
+.serviceC {
+    margin: 0px 0px 0px -30px;
 }
 .aboutusB {
     width: 100%;
@@ -2119,12 +2119,9 @@ section#works {
 section#works .category-caption {
     color: #fff;
     display: table;
-    /* height: 100%; */
     left: 0;
     min-height: 100%;
-    /* position: absolute; */
     text-align: center;
-    /* top: 0; */
     width: 100%;
     z-index: 11;
 }
@@ -2198,23 +2195,14 @@ font-size: 9px;
     text-align: center;
 }
 .recruitContents ul {
-    width: 330px;
-    margin: 0 auto;
-    padding-left: 0;
-    text-align: center;
+    width: 100%;
 }
-
 .recruitContents ul li {
     float: left;
     width: 150px;
-    padding: 20px 0;
-    margin-bottom: 130px;
-    height: 60px;
+    margin: 10px;
+    padding: 0px 0px;
 }
-.recruitContents ul li:first-child {
-    margin-right: 10px;
-}
-
 .recruitContents ul li a {
     float: left;
     width: 150px;
@@ -2222,7 +2210,6 @@ font-size: 9px;
     padding: 20px 0;
     border: solid 1px #003366;
 }
-
 .recruitContents ul li a:hover {
     width: 150px;
     background-color: #003366;
@@ -3417,7 +3404,7 @@ section#recriut_career {
     }
     .serviceB .row {
         width: 800px;
-        margin: 0px 0px 0px -10%;
+        margin: 0px 0px 0px -8%;
     }
     .serviceB table{
         padding: 100px;
@@ -3658,6 +3645,28 @@ float: right;
     border: 0;
     width: 85%;
     margin: 100px auto 120px;
+}
+.recruitContents ul {
+    width: 100%;
+}
+
+.recruitContents ul li {
+    float: left;
+    width: 150px;
+}
+.recruitContents ul li a {
+    float: left;
+    width: 150px;
+    height: 60px;
+    padding: 20px 0;
+    border: solid 1px #003366;
+}
+
+.recruitContents ul li a:hover {
+    width: 150px;
+    background-color: #003366;
+    color:#FFF;
+    height:60px;
 }
 .sw_system_wrap {
     background-color: #003466;

@@ -2094,18 +2094,6 @@ section#contactcatV .category-caption {
 }
 /*お問い合わせend*/
 
-
-
-
-/*ページごとタイトル end*/
-
-
-/*-------------------------------
-
-	ページごとのデザイン（PC）
-
--------------------------------*/
-
 /*---------- トップページ ----------*/
 
 
@@ -2130,13 +2118,13 @@ section#contactcatV .category-caption {
 .ceoMessage {
     margin: 0 auto 100px;
     width: 960px;
-    background-image: url(../img/company_2back.png);
+    background-image: url(../img/company_ceoback.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 .ceoMessage h2 {
-    margin: 0 auto 30px;
+    margin: 0 auto 50px;
     width: 960px;
     text-decoration: underline;
     text-align: left;
@@ -2926,11 +2914,16 @@ ul.tech {
 .recruitContents ul li a {
     float: left;
     width: 220px;
-    display: block;
-    background-color: #fff;
     height: 60px;
     padding: 20px 0;
+    border: solid 1px #003366;
+}
 
+.recruitContents ul li a:hover {
+    width: 220px;
+    background-color: #003366;
+    color:#FFF;
+    height:0px;
 }
 .sw_system_wrap {
     background-color: #003466;

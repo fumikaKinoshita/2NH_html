@@ -2051,6 +2051,18 @@ section#works .category-caption {
     width: 100%;
     z-index: 11;
 }
+.mb18 {
+    margin-bottom: 50px;
+}
+.mb77 {
+    margin-bottom: 20px;
+}
+.ml50 {
+    margin-bottom: 20px;
+}
+.mb130 {
+    margin-bottom: 100px;
+}
 .worksContents {
     width: 100%;
     margin: 0 auto;
@@ -2088,7 +2100,6 @@ font-size: 9px;
     border-right: 0!important;
 }
 #worksContents h3 {
-    font-size: 13px;
     width: 100%;
 }
 .tech li {
@@ -3834,7 +3845,7 @@ margin-right: 0;
     font-size: 9px;
     }
     .mb77 {
-        display: none;
+
     }
     .mb18 {
         margin-bottom: 77px;

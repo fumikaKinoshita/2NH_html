@@ -617,7 +617,6 @@ ul.nml_btn {
 .mb150 {
     margin-bottom: 150px;
 }
-
 .ml50 {
     margin-left: 50px;
 }
@@ -2119,7 +2118,6 @@ section#contactcatV .category-caption {
     background-size: contain;
     background-position: center center;
 }
-
 .ceoMessage h2 {
     margin: 0 auto 50px;
     width: 960px;
@@ -2134,7 +2132,9 @@ section#contactcatV .category-caption {
     text-align: left;
     font-size: 14px;
 }
-
+.ceoMessage h5{
+    text-align: right;
+}
 /*---------- アクセス ----------*/
 .accessB {
     margin: 0 auto 100px;

@@ -1059,62 +1059,38 @@ position: absolute;
 }
 .serviceM01 a {
     width: 100%;
-    height: 100%;
+    height: 50%;
     display: block;
-    text-indent: -9999px;
-    background-image: url(../img/TOP/WEBconsulting_off.jpg);
-    background-repeat: no-repeat;
-    transition: 0.5s;
     background-size: contain;
 }
 .serviceM02 a {
     width: 100%;
-    height: 100%;
+    height: 50%;
     display: block;
-    text-indent: -9999px;
-    background-image: url(../img/TOP/WEBdesign_off.jpg);
-    background-repeat: no-repeat;
-    transition: 0.5s;
     background-size: contain;
 }
 .serviceM03 a {
     width: 100%;
-    height: 100%;
+    height: 50%;
     display: block;
-    text-indent: -9999px;
-    background-image: url(../img/TOP/WEBsystem_off.jpg);
-    background-repeat: no-repeat;
-    transition: 0.5s;
     background-size: contain;
 }
 .serviceM01 a:hover {
     width: 100%;
-    height: 100%;
+    height: 50%;
     display: block;
-    text-indent: -9999px;
-    background-image: url(../img/TOP/WEBconsulting_on.jpg);
-    background-repeat: no-repeat;
-    transition: 0.5s;
     background-size: contain;
 }
 .serviceM02 a:hover {
     width: 100%;
-    height: 100%;
+    height: 50%;
     display: block;
-    text-indent: -9999px;
-    background-image: url(../img/TOP/WEBdesign_on.jpg);
-    background-repeat: no-repeat;
-    transition: 0.5s;
     background-size: contain;
 }
 .serviceM03 a:hover {
     width: 100%;
-    height: 100%;
+    height: 50%;
     display: block;
-    text-indent: -9999px;
-    background-image: url(../img/TOP/WEBsystem_on.jpg);
-    background-repeat: no-repeat;
-    transition: 0.5s;
     background-size: contain;
 }
 .serviceB div a.btn {
@@ -3412,8 +3388,170 @@ section#recriut_career {
         width: 100%;
         font-size: 14px;
     }
-    .serbiceC .container {
-        margin-left: -15px;
+
+    .aboutusB {
+        width: 100%;
+        min-height: 400px;
+        float: left;
+        margin: 100px 0px 0px;
+    }
+    .aul {
+        width: 60%;
+        float: left;
+        height: 100%;
+        display: inline;
+    }
+    .aur {
+        width:40%;
+        float: left;
+        height: 100%;
+        max-height: 355px;
+    }
+    .aboutusB h2 {
+        color: #000;
+        width: 100%;
+        margin: 0px auto 8px;
+        font-size: 32px;
+        text-align: center;
+    }
+    .aboutusB h4 {
+        font-size: 16px;
+        text-align: center;
+        margin: 0px auto 30px;
+    }
+    .aboutusC {
+        width: 100%;
+        height: auto;
+        margin: 0px auto;
+        display: inline-block;
+    }
+    /* Gray Scale */
+    .aul {
+       width: 100%;
+        float: left;
+        height: 150px;
+        }
+        .aur {
+        width: 100%;
+        float: left;
+        height: auto;
+        max-height: 100%;
+        }
+        .aboutusB h2 {
+            text-align: center;
+            width: 100%;
+        }
+        .aboutusB h4 {
+            font-size: 16px;
+            text-align: center;
+            margin: 0px auto 30px;
+            width: 100%;
+        }
+        .aboutusC p {
+            background: white ;
+            background-color: rgba(255,255,255,0.5);
+            text-decoration: none;
+            text-align: center;
+            width: 100%;
+            font-size: 16px;
+        }
+    .Menu01 {
+        float: left;
+        width:50%;
+        height: 150px;
+        background-size: contain;
+        display: block;
+    }
+    .Menu01 p {
+       position: absolute;
+      color: #333;
+      font-weight: normal;
+      width: 100%;
+    }
+    .Menu01 a {
+        height: 150px;
+    }
+    .Menu01 figure img {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+        width: 50%;
+        height: 150px;
+    }
+    .Menu02 {
+        float: left;
+        width: 50%;
+        height: 150px;
+        display: block;
+    }
+    .Menu02 p {
+        position: absolute;
+      color: #333;
+      font-weight: normal;
+      width: 100%;
+    }
+    .Menu02 a {
+        height: 150px;
+    }
+    .Menu02 figure img {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+        width: 50%;
+        height: 150px;
+    }
+    .Menu02 figure:hover img {
+        -webkit-filter: grayscale(0);
+        filter: grayscale(0);
+        text-decoration:underline;
+    }
+    .Menu03 {
+        float: right;
+        width: 50%;
+        height: 150px;
+        object-fit: cover;
+    }
+    .Menu03 p {
+        position: absolute;
+      color: #333;
+      font-weight: normal;
+      width: 100%;
+    }
+    .Menu03 a {
+        height: 150px;
+    }
+    .Menu03 figure img {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+        width: 50%;
+        height: 150px;
+    }
+    .Menu04 {
+        float: left;
+        width: 50%;
+        height: 150px;
+    }
+    .Menu04 p {
+        position: absolute;
+        color: #333;
+        font-weight: normal;
+        width: 100%;
+    }
+    .Menu04 a {
+        height: 150px;
+
+    }
+    .Menu04 figure img {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+        width: 50%;
+        max-height: 150px;
     }
     .topicsB {
         margin: 100px 0px 0px;
@@ -3704,7 +3842,10 @@ float: right;
     border-radius: 0;
 }
 /*-------------採用情報　end--------------- */
+/*-------------制作実績 --------------- */
 
+
+/*-------------制作実績　end--------------- */
 /*-------------プライバシーポリシー --------------- */
     .privacyB {
         color: #000;

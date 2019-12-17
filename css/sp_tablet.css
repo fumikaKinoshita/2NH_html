@@ -864,19 +864,8 @@ position: absolute;
 }
 /*トップページのスタイル*/
 .mainV3 {
-    background-image: url(../img/TOP/naminomi.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-    width: 100%;
     height: 480px;
-    display: block;
     min-height: 480px;
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-transition: .8s ease-in-out;
-    transition: .8s ease-in-out;
 }
 .mainV3:hover {
         -webkit-transform: scale(1.1);
@@ -884,39 +873,14 @@ position: absolute;
 }
 .mainV3 h1 {
     margin: 80px auto 0;
-    width: 100%;
-    text-align: center;
-    color: #fff;
     height: 300px;
-    display: block;
-    font-family: "YuMincho","游明朝";
     line-height: 80px;
     letter-spacing: 4px;
     font-size: 50px;
-    font-weight: semi light;
-    text-shadow:
-      0 1px 0 #ccc,
-      0 2px 0 #c9c9c9,
-      0 3px 0 #bbb,
-      0 4px 0 #b9b9b9,
-      0 5px 0 #aaa,
-      0 6px 1px rgba(0,0,0,.1),
-      0 0 5px rgba(0,0,0,.1),
-      0 1px 3px rgba(0,0,0,.3),
-      0 3px 5px rgba(0,0,0,.2),
-      0 5px 10px rgba(0,0,0,.25),
-      0 10px 10px rgba(0,0,0,.2),
-      0 20px 20px rgba(0,0,0,.15);
 }
 .mainV3 h2 {
     margin: 0px auto;
-    width: 100%;
-    text-align: center;
-    color: #fff;
-    height: 100%;
-    display: block;
     font-size: 18px;
-    font-family: "YuMincho","游明朝","Hiragino Mincho ProN",;
 }
 .About p {
     text-align: center;
@@ -924,7 +888,6 @@ position: absolute;
 .welcomeB {
     width: 100%;
     height: 480px;
-    margin: 0 auto;
     padding: 150px 0 150px;
     letter-spacing: 1px;
 }
@@ -1004,24 +967,14 @@ position: absolute;
     text-align: center;
 }
 .serviceB h3 {
-    color: #003366;
     font-size: 15px;
     text-align: left;
-    font-weight: bold;
     width: 270px;
     height: 33px;
-    padding-top: 20px;
-    letter-spacing: 1px;
     text-decoration: underline;
 }
 .serviceB p {
-    color: #000;
     width: 230px;
-    margin: 0px auto 50px;
-    font-size: 12px;
-    text-align: left;
-    line-height: 20px;
-    float: none;
 }
 .serviceB h4 {
     color: #000;
@@ -3328,21 +3281,10 @@ section#recriut_career {
 /*スマホ横から見た状態の時用　ブラウザ幅768px以上、980px以下 start */
 @media (min-width: 768px) and (max-width: 980px) {
 /*-------------トップページ--------------- */
-    .mainV3 {
-        background-image: url(../img/naminomi.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-        background-attachment: fixed;
-        width: 100%;
-        height: 700px;
-        display: block;
-        min-height: 700px;
-        -webkit-transform: scale(1);
-        transform: scale(1);
-        -webkit-transition: .8s ease-in-out;
-        transition: .8s ease-in-out;
-    }
+.mainV3 {
+    width: 100%;
+    height: 500px;
+}
     .col-sm-12{
         background-color: #fff;
         padding: 0px 0px 0px;

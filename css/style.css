@@ -1471,6 +1471,7 @@ max-height: 355px;
     margin-bottom: 10px;
     float: left;
     width: 100%;
+    font-size: smaller;
 }
 .topicsB .contents ul span.newsicon {
     background-color: #6dc1ff;

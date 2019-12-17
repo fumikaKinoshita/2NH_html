@@ -2121,6 +2121,7 @@ section#contactcatV .category-caption {
     background-image: url(../img/company_ceoback.png);
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: center center;
 }
 
 .ceoMessage h2 {
@@ -2885,7 +2886,6 @@ ul.tech {
     background-repeat: no-repeat;
     font-size: 14px;
     padding-top: 205px;
-    margin-bottom: 100px;
 }
 .recruitContents p {
     line-height: 2rem;
@@ -2920,10 +2920,11 @@ ul.tech {
 }
 
 .recruitContents ul li a:hover {
+    float: left;
     width: 220px;
     background-color: #003366;
     color:#FFF;
-    height:0px;
+    height:60px;
 }
 .sw_system_wrap {
     background-color: #003466;

@@ -647,11 +647,12 @@ ul.nml_btn {
     border-bottom: none;
     width: 960px;
     margin: 0 auto 90px;
+    font-size: 14px;
 }
 .tabbottomcont {
     background-color:#d8e7ec;
     border-bottom: 6px solid #bfbfbf;
-    height:10px;
+    height:11px;
 }
 .nav-tabs .nav-item {
     margin-bottom: -2px;
@@ -1919,12 +1920,8 @@ section .category-caption .caption-content h2 {
 }
 .category-caption span {
     font-size: 24px;
-
 }
-
 /*会社概要 end*/
-
-
 /*会社沿革*/
 section#category02 {
     background-image: url(../img/company_1.png);
@@ -1934,7 +1931,6 @@ section#category02 {
     height: 400px;
     margin-bottom: 90px;
 }
-
 section#category02 .category-caption {
     color: #111;
     display: table;
@@ -1947,15 +1943,12 @@ section#category02 .category-caption {
     width: 100%;
     z-index: 11;
 }
-
 section#category02 .category-caption .caption-content h2 {
     font-size: 38px;
 }
 section#category02.category-caption span {
     font-size: 24px;
-
 }
-
 /*会社沿革 end*/
 /*社長挨拶*/
 section#category03 {

@@ -2188,30 +2188,27 @@ font-size: 9px;
 /*---------- 制作実績ページ end----------*/
 /*---------- 採用情報 ----------*/
 .recruitContents p {
-    line-height: 2rem;
+    line-height: 1.5rem;
     text-align: center;
 }
 .recruitContents ul {
+    width: 100%;
 }
+
 .recruitContents ul li {
-    float: left;
-    width: 120px;
-    margin: 10px;
-    padding: 0px 0px;
+    width: 150px;
+}
+.recruitContents ul li:first-child {
+    margin-right: 10px;
 }
 .recruitContents ul li a {
-    float: left;
-    width: 120px;
-    height: 60px;
-    padding: 20px 0;
-    border: solid 1px #003366;
+    width: 150px;
 }
+
 .recruitContents ul li a:hover {
-    width: 120px;
-    background-color: #003366;
-    color:#FFF;
-    height:60px;
+    width: 150px;
 }
+
 #recruitmsg table {
     font-size: 14px;
     border: 0;
@@ -3631,25 +3628,6 @@ float: right;
     }
 /*-------------アジャイルページ　end--------------- */
 /*-------------採用情報　--------------- */
-.recruitContents ul {
-
-}
-.recruitContents p {
-
-}
-.recruitContents ul {
-
-}
-
-.recruitContents ul li {
-
-}
-.recruitContents ul li:first-child {
-}
-
-.recruitContents ul li a {
- \
-}
 #recruitmsg table {
     font-size: 14px;
     border: 0;
@@ -3793,7 +3771,6 @@ float: right;
         margin: 0 auto 0px;
     }
 /*-------------サイトマップ end --------------- */
-}
 /*スマホ横から見た状態の時用 　ブラウザ幅768px以上、980px以下 end*/
 
 /*最大980px PC表示用*/

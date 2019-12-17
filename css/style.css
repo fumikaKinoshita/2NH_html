@@ -117,6 +117,10 @@ header ul li a {
     padding: 0%;
     float: left;
 }
+.footer_pc .row {
+    width: 100%;
+}s
+
 .footer_sp {
     display: none;
 }
@@ -129,8 +133,8 @@ header ul li a {
 /*    margin: -15%;*/
 }
 .footer_pc .footerbtn img{
-
     float: right;
+    margin: 0px -30px 0px
 }
 .footer_pc .footertop {
     height: auto;
@@ -237,7 +241,7 @@ a.btn:hover {
 }
 @media (min-width: 1200px){
 .container {
-    max-width: 1200px;
+    max-width: 1600px;
     display: flex;
     align-items: start;
     justify-content: space-around;
@@ -2891,13 +2895,12 @@ ul.tech {
     line-height: 2rem;
     text-align: center;
 }
-
-
 .recruitContents ul {
     width: 460px;
     margin: 0 auto;
     padding-left: 0;
     text-align: center;
+    display: flex;
 }
 
 .recruitContents ul li {

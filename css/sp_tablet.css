@@ -3770,6 +3770,15 @@ float: right;
         border-bottom: solid 8px #036;
         margin: 0 auto 0px;
     }
+/*-------------footer------------- */
+    .offset-1 {
+        margin: 0px;
+    }
+    .footer_sp {
+        display: none;
+    }
+/*-------------footer end------------- */
+}
 /*-------------サイトマップ end --------------- */
 /*スマホ横から見た状態の時用 　ブラウザ幅768px以上、980px以下 end*/
 

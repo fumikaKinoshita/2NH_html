@@ -3833,12 +3833,28 @@ float: right;
 }
 /*-------------採用情報　end--------------- */
 /*-------------制作実績 --------------- */
-#worksContents h3 {
-    font-size: 11px;
+.mb77 {
+    margin: 0px 70px 0px 70px;
+}
+.offset-md-3 {
+    margin: 0px 70px 50px 30px;
+}
+.mb150 {
+    margin: 0px 70px 0px 70px;
+}
+.mb130 {
+    margin-bottom: 100px;
+}
+.worksContents {
     width: 100%;
+    margin: 0 auto;
+    padding: 0;
 }
 .worksContents table {
     width: 100%;
+}
+.worksContents table th {
+    font-size: 9px;
 }
 .worksContents table ul li:last-child{
 float: left;
@@ -3847,11 +3863,17 @@ margin-right: 0;
 .brn {
     border-right: 0!important;
 }
+#worksContents h3 {
+    width: 200px;
+}
 .tech li {
     margin-bottom: 10px;
 }
 .worksContents table ul {
-    width:65%;
+    float: left;
+    margin: 5px;
+    padding: 0;
+    width:62%;
     }
     .worksContents table ul li {
     float: left;
@@ -3860,7 +3882,7 @@ margin-right: 0;
     }
     .worksContents table ul li img {
     float: left;
-    width: 100%;
+    width: 96%;
     }
     .worksContents table p {
     float: left;
@@ -3868,12 +3890,10 @@ margin-right: 0;
     width: 30%;
     font-size: 9px;
     }
-    .mb77 {
-
-    }
-    .mb18 {
-        margin-bottom: 77px;
-    }
+ul.tech {
+    margin: 0px 50px 0px;
+    width: 80px;
+}
 /*-------------制作実績　end--------------- */
 /*-------------プライバシーポリシー --------------- */
     .privacyB {

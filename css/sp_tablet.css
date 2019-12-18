@@ -2552,7 +2552,7 @@ header ul li a {
 .footer_sp {
     display: block;
     background-color:#003366;
-    height:600px;
+    height:750px;
     margin-top:0px;
     flex-shrink: 0;
     color: #fff;
@@ -2565,11 +2565,13 @@ header ul li a {
     border-right: #fff solid 1px;
 }
 .footer_sp h3 {
-    color: #fff;
+    color: #111;
     font-size: 18px;
+    text-align: center;
+    margin: 5px 0;
 }
 .footer_sp a {
-    color: #fff;
+    color: #111;
 }
 .footer_sp a:hover {
     color: #fff;
@@ -2592,6 +2594,23 @@ header ul li a {
 }
 .footer_sp .copyright p {
     margin-bottom: 0;
+}
+
+.footer_sp .footerbtn {
+    background-color: #fff;
+    border-bottom:50px solid #003466;
+    float: left;
+    width: 100%;
+}
+.footer_sp .footerbtn a img {
+    float: right;
+}
+.footer_sp .footertop {
+    background-color: #fff;
+    color: #111;
+}
+.footer_sp .footerunder {
+    min-height: 200px;
 }
 
 .bbf7 {

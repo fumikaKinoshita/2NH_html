@@ -3240,232 +3240,190 @@ section#recriut_career {
     text-align: center;
     margin: 20px 0px 20px;
 }
-    .serviceB p {
-        text-align: left;
-        font-size: 11px;
-    }
-    .serviceB .row {
-        width: 800px;
-        margin: 0px 0px 0px -8%;
-    }
-    .serviceB table{
-        padding: 100px;
-        margin: 150px auto 0px;
-    }
-    .serviceB table th{
-        padding : 40px 50px;
-    }
-    .serviceB .serviceDetail{
-        padding: 15px 10px;
-        height: 320px;
-        width: 100%;
-        font-size: 14px;
-    }
-
-    .aboutusB {
-        width: 100%;
-        min-height: 400px;
-        float: left;
-        margin: 100px 0px 0px;
-    }
-    .aul {
-        width: 60%;
-        float: left;
-        height: 100%;
-        display: inline;
-    }
-    .aur {
-        width:40%;
-        float: left;
-        height: 100%;
-        max-height: 355px;
-    }
-    .aboutusB h2 {
-        color: #000;
-        width: 100%;
-        margin: 0px auto 8px;
-        font-size: 32px;
-        text-align: center;
-    }
-    .aboutusB h4 {
-        font-size: 16px;
-        text-align: center;
-        margin: 0px auto 30px;
-    }
-    .aboutusC {
-        width: 100%;
-        height: auto;
-        margin: 0px auto;
-        display: inline-block;
-    }
+.serviceB p {
+    text-align: left;
+    font-size: 11px;
+}
+.serviceB .row {
+    width: 768px;
+    margin: 0px 0px 0px -6%;
+}
+.serviceB table{
+    padding: 100px;
+    margin: 150px auto 0px;
+}
+.serviceB table th{
+    padding : 40px 50px;
+}
+.serviceB .serviceDetail{
+    padding: 15px 10px;
+    height: 320px;
+    width: 100%;
+    font-size: 14px;
+}
+.aboutusB {
+    width: 100%;
+    min-height: 400px;
+    float: left;
+    margin: 100px 0px 0px;
+}
+.aboutusB h2 {
+    color: #000;
+    width: 100%;
+    margin: 0px auto 8px;
+    font-size: 32px;
+    text-align: center;
+}
+.aboutusB h4 {
+    font-size: 16px;
+    text-align: center;
+    margin: 0px auto 30px;
+    width: 100%;
+}
+.aboutusC {
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+    display: inline-block;
+}
     /* Gray Scale */
-    .aul {
-       width: 100%;
-        float: left;
-        height: 150px;
-        }
-        .aur {
-        width: 100%;
-        float: left;
-        height: auto;
-        max-height: 100%;
-        }
-        .aboutusB h2 {
-            text-align: center;
-            width: 100%;
-        }
-        .aboutusB h4 {
-            font-size: 16px;
-            text-align: center;
-            margin: 0px auto 30px;
-            width: 100%;
-        }
-        .aboutusC p {
-            background: white ;
-            background-color: rgba(255,255,255,0.5);
-            text-decoration: none;
-            text-align: center;
-            width: 100%;
-            font-size: 16px;
-        }
-    .Menu01 {
-        float: left;
-        width:50%;
-        height: 150px;
-        background-size: contain;
-        display: block;
+.aul {
+    width: 100%;
+    float: left;
+    height: 150px;
+    white-space: nowrap;
+}
+.aur {
+    width: 100%;
+    float: left;
+    height: auto;
+    max-height: 100%;
+}
+.aboutusC p {
+    width: 100%;
+    font-size: 16px;
+}
+.Menu01 {
+    float: left;
+    width:50%;
+    height: 150px;
+    background-size: contain;
+    display: block;
+}
+.Menu01 p {
+    font-weight: normal;
+    width: 100%;
+}
+.Menu01 a {
+    height: 150px;
+}
+.Menu01 figure img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    width: 50%;
+    height: 150px;
+}
+.Menu02 {
+    float: left;
+    width: 50%;
+    height: 150px;
+    display: block;
+}
+.Menu02 p {
+    font-weight: normal;
+    width: 100%;
+}
+.Menu02 a {
+    height: 150px;
+}
+.Menu02 figure img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    width: 50%;
+    height: 150px;
+}
+.Menu02 figure:hover img {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    text-decoration:underline;
+}
+.Menu03 {
+    float: right;
+    width: 50%;
+    height: 150px;
+    object-fit: cover;
+}
+.Menu03 p {
+    font-weight: normal;
+    width: 100%;
+}
+.Menu03 a {
+    height: 150px;
+}
+.Menu03 figure img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    width: 50%;
+    height: 150px;
+}
+.Menu04 {
+    width: 50%;
+    height: 150px;
+}
+.Menu04 p {
+    font-weight: normal;
+    width: 100%;
+}
+.Menu04 a {
+    height: 150px;
     }
-    .Menu01 p {
-       position: absolute;
-      color: #333;
-      font-weight: normal;
-      width: 100%;
+.Menu04 figure img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    width: 50%;
+    max-height: 150px;
+}
+.topicsB {
+    margin: 100px 0px 0px;
+    padding: 0px 0px 0px;
+    width: 100%;
+    height: auto;
+}
+.topicsB .contents {
+    padding: 40px 10px 30px 0px;
+    width: 100%;
+}
+.contactB {
+    width: 100%;
+    height: auto;
+    margin: 100px auto 100px;
+}
+.contactB h2 {
+    width: 100%;
+    margin: 20px auto 0;
+}
+.contactB h4 {
+    width: 100%;
+    margin: 0px auto 30px;
+    font-size: 16px;
     }
-    .Menu01 a {
-        height: 150px;
-    }
-    .Menu01 figure img {
-        -webkit-filter: grayscale(100%);
-        filter: grayscale(100%);
-        -webkit-transition: .3s ease-in-out;
-        transition: .3s ease-in-out;
-        width: 50%;
-        height: 150px;
-    }
-    .Menu02 {
-        float: left;
-        width: 50%;
-        height: 150px;
-        display: block;
-    }
-    .Menu02 p {
-        position: absolute;
-      color: #333;
-      font-weight: normal;
-      width: 100%;
-    }
-    .Menu02 a {
-        height: 150px;
-    }
-    .Menu02 figure img {
-        -webkit-filter: grayscale(100%);
-        filter: grayscale(100%);
-        -webkit-transition: .3s ease-in-out;
-        transition: .3s ease-in-out;
-        width: 50%;
-        height: 150px;
-    }
-    .Menu02 figure:hover img {
-        -webkit-filter: grayscale(0);
-        filter: grayscale(0);
-        text-decoration:underline;
-    }
-    .Menu03 {
-        float: right;
-        width: 50%;
-        height: 150px;
-        object-fit: cover;
-    }
-    .Menu03 p {
-        position: absolute;
-      color: #333;
-      font-weight: normal;
-      width: 100%;
-    }
-    .Menu03 a {
-        height: 150px;
-    }
-    .Menu03 figure img {
-        -webkit-filter: grayscale(100%);
-        filter: grayscale(100%);
-        -webkit-transition: .3s ease-in-out;
-        transition: .3s ease-in-out;
-        width: 50%;
-        height: 150px;
-    }
-    .Menu04 {
-        float: left;
-        width: 50%;
-        height: 150px;
-    }
-    .Menu04 p {
-        position: absolute;
-        color: #333;
-        font-weight: normal;
-        width: 100%;
-    }
-    .Menu04 a {
-        height: 150px;
-
-    }
-    .Menu04 figure img {
-        -webkit-filter: grayscale(100%);
-        filter: grayscale(100%);
-        -webkit-transition: .3s ease-in-out;
-        transition: .3s ease-in-out;
-        width: 50%;
-        max-height: 150px;
-    }
-    .topicsB {
-        margin: 100px 0px 0px;
-        padding: 0px 0px 0px;
-        width: 100%;
-        height: auto;
-        }
-    .topicsB .contents {
-        background-color: #b2ddff;
-        padding: 40px 10px 30px 0px;
-        width: 100%;
-        margin: 0 auto;
-        }
-    .contactB {
-        width: 100%;
-        height: auto;
-        margin: 100px auto 100px;
-        border: solid 1px #003366;
-    }
-    .contactB h2 {
-        width: 100%;
-        margin: 20px auto 0;
-        text-align: center;
-    }
-    .contactB h4 {
-        width: 100%;
-        margin: 0px auto 30px;
-        text-align: center;
-        font-size: 16px;
-    }
-    .contactB p {
+.contactB p {
         width: 100%;
         margin: 0 auto 20px;
         font-size: 10px;
-        text-align: center;
-    }
-    .contactB ul {
-        text-align: center;
+}
+.contactB ul {
         display: table;
         padding: 0px;
-    }
+}
     .contactB ul li.telN {
         width: 200px;
         text-align: center;

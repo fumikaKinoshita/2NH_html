@@ -251,6 +251,11 @@ a.pagetop {
 .footer_sp .footerbtn {
     background-color: #fff;
     border-bottom:50px solid #003466;
+    float: left;
+    width: 100%;
+}
+.footer_sp .footerbtn a img {
+    float: right;
 }
 .footer_sp .footertop {
     background-color: #fff;

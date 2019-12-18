@@ -933,8 +933,6 @@ position: absolute;
 }
 .serviceB {
     padding: 50px 0px;
-    width: 100%;
-    height: auto;
     text-align: left;
     line-height: 24px;
     font-size: 16px;
@@ -945,11 +943,9 @@ position: absolute;
     margin: -500px auto 8px;
 }
 .serviceB p {
-    color: #000;
     width: 230px;
     margin: 0px auto 20px;
     font-size: 12px;
-    text-align: left;
     line-height: 20px;
 }
 .serviceB .container {
@@ -962,9 +958,6 @@ position: absolute;
     display: none;
     border-bottom: solid 8px #036;
 }
-.col-sm-12{
-    font-size: 11px;
-}
 .serviceB h2 {
     color: #000;
     width: 100%;
@@ -973,14 +966,11 @@ position: absolute;
     text-align: center;
 }
 .serviceB h3 {
-    font-size: 15px;
+    width: 241px;
+    margin: 0px 0px 5px 0px;
+    padding-top: 0px;
     text-align: left;
-    width: 270px;
-    height: 33px;
-    text-decoration: underline;
-}
-.serviceB p {
-    width: 230px;
+    height: auto;
 }
 .serviceB h4 {
     color: #000;
@@ -998,58 +988,58 @@ position: absolute;
     padding-left: 1em;
     display: contents;
 }
+.col-md-2 .offset-md-2 {
+    margin: 0px 0px 20px -15px;
+}
+.col-md-2 .offset-md-1 {
+    margin: 0px 0px 20px -15px;
+}
 .serviceM01 {
-    width: 25%;
-    height: 100%;
+    width: 50px;
+    height: 100px;
     margin-right: 10px;
     float: left;
 }
 .serviceM02 {
-    width: 25%;
-    height: 100%;
+    width: 50px;
+    height: 100px;
     float: left;
     margin-right: 10px;
 }
 .serviceM03 {
-    width: 25%;
-    height: 100%;
+    width: 50px;
+    height: 100px;
     float: left;
     margin-right: 10px;
 }
 .serviceM01 a {
     width: 100%;
     height: 50%;
-    display: block;
     background-size: contain;
 }
 .serviceM02 a {
     width: 100%;
     height: 50%;
-    display: block;
     background-size: contain;
 }
 .serviceM03 a {
     width: 100%;
     height: 50%;
-    display: block;
     background-size: contain;
 }
 .serviceM01 a:hover {
     width: 100%;
     height: 50%;
-    display: block;
     background-size: contain;
 }
 .serviceM02 a:hover {
     width: 100%;
     height: 50%;
-    display: block;
     background-size: contain;
 }
 .serviceM03 a:hover {
     width: 100%;
     height: 50%;
-    display: block;
     background-size: contain;
 }
 .serviceB div a.btn {
@@ -1073,33 +1063,12 @@ position: absolute;
     background-color: #003366;
     color: #fff;
 }
-.serviceB2 .serviceDetail {
-    padding: 10px;
-    width: 100%;
-    height: 200px;
-    text-align: left;
-    font-size: 10px;
-    color: #000;
-}
-.serviceB2 table th {
-    padding: 20px 20px;
-    display: inline;
-    margin:0px auto;
-}
-.serviceB2 table td {
-    padding: 20px 20px;
-    display: inline-block;
-    margin:0px auto;
-    white-space: nowrap;
-    color: #000;
-    margin-top: 50px;
-}
-.serviceB2 .serviceDetail img{
-    opacity: 0.4;
-}
-.serviceB2 {
-    height: 588px;
-    margin-top: 100px;
+.serviceB .serviceDetail {
+        line-height: 25px;
+        letter-spacing: 1px;
+        font-size: 10px;
+        white-space: nowrap;
+    }
 }
 .serviceC {
     margin: 0px 0px 0px -30px;
@@ -1438,7 +1407,6 @@ position: absolute;
 }
 .contactB ul li.telN a {
     width: 100%;
-    margin-bottom: -15px;
     text-align: center;
     float: left;
     border: 2px solid #003366;
@@ -1907,6 +1875,7 @@ section#category04 {
 }
 .add_postN {
     width:100%;
+    font-size: 12px;
 }
 .g_map iframe {
     width: 100%;
@@ -1916,7 +1885,7 @@ section#category04 {
     width:100%;
     margin: 10px auto;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.5rem;
 }
 /*アクセスend*/
@@ -1939,13 +1908,6 @@ section .category-caption {
     /* top: 0; */
     width: 100%;
     z-index: 11;
-}
-.category-caption .caption-content {
-    text-align: center;
-    display: table-cell;
-    vertical-align: middle;
-    top: 130px;
-    color: #fff;
 }
 section .category-caption .caption-content h2 {
     font-size: 38px;
@@ -3320,7 +3282,7 @@ section#recriut_career {
         background-color: #fff;
         padding: 0px 0px 0px;
         width: 100%;
-        font-size: 10px;
+        font-size: 11px;
     }
     .serviceB h3 {
         color: #003366;

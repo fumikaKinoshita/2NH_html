@@ -2011,7 +2011,6 @@ section .category-caption .caption-content h2 {
 }
 .agileB img {
     float:left;
-    margin: 0px 0px 0px 15px;
 }
 .waterfallB {
     margin:  0 auto;
@@ -2034,7 +2033,7 @@ section .category-caption .caption-content h2 {
 .waterfallB img {
     width: 100%;
     height: auto;
-    margin: 0px 0px 30px 15px;
+    margin: 0px 0px 30px 0px;
     float: left;
 }
 /*---------- アジャイル end ----------*/
@@ -2043,12 +2042,10 @@ section#works {
     background-image: url(../img/works_main.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    color: #fff;
     height: 200px;
     margin-bottom: 90px;
 }
 section#works .category-caption {
-    color: #fff;
     display: table;
     left: 0;
     min-height: 100%;
@@ -2057,7 +2054,7 @@ section#works .category-caption {
     z-index: 11;
 }
 .mb18 {
-    margin-bottom: 50px;
+    margin: 0px 0px 18px -15px;
 }
 .mb77 {
     margin-bottom: 20px;
@@ -2105,7 +2102,7 @@ font-size: 9px;
     border-right: 0!important;
 }
 #worksContents h3 {
-    width: 100%;
+    width: 200px;
 }
 .tech li {
     margin-bottom: 10px;
@@ -2148,17 +2145,11 @@ font-size: 9px;
 .recruitContents ul {
     width: 100%;
 }
-.recruitContents ul li {
-    width: 150px;
-}
-.recruitContents ul li:first-child {
-    margin-right: 10px;
-}
 .recruitContents ul li a {
-    width: 150px;
+    width: 100%;
 }
 .recruitContents ul li a:hover {
-    width: 150px;
+    width: 100%;
 }
 #recruitmsg table {
     font-size: 14px;

@@ -872,6 +872,9 @@ position: absolute;
 .mainV3 {
     height: 480px;
     min-height: 480px;
+    background-image: url(../img/naminomi_iphone.jpg);
+    background-size: contain;
+    background-position: top;
 }
 .mainV3:hover {
         -webkit-transform: scale(1.1);
@@ -943,7 +946,6 @@ position: absolute;
     margin: -500px auto 8px;
 }
 .serviceB p {
-    width: 230px;
     margin: 0px auto 20px;
     font-size: 12px;
     line-height: 20px;
@@ -980,13 +982,9 @@ position: absolute;
     text-align: center;
 }
 .serviceB h5 {
-    color: #036;
     width: 180px;
-    margin: 20px auto 40px;
     font-size: 12px;
     text-align: left;
-    padding-left: 1em;
-    display: contents;
 }
 .col-md-2 .offset-md-2 {
     margin: 0px 0px 20px -15px;
@@ -1045,51 +1043,28 @@ position: absolute;
 .serviceB div a.btn {
     margin: 30px auto 50px;
     width: 300px;
-    height: 50px;
-    text-align: center;
-    border:solid 2px #003366;
-    display: block;
-    border-radius: 10px;
-    color: #000;
 }
 .serviceB div a:hover.btn {
     margin: 30px auto 30px;
     width: 300px;
     height: 50px;
     text-align: center;
-    border:solid 2px #003366;
-    display: block;
     border-radius: 10px;
-    background-color: #003366;
-    color: #fff;
 }
 .serviceB .serviceDetail {
-        line-height: 25px;
-        letter-spacing: 1px;
-        font-size: 10px;
-        white-space: nowrap;
-    }
+    line-height: 25px;
+    letter-spacing: 1px;
+    font-size: 10px;
+    white-space: nowrap;
+}
 .serviceC {
     margin: 0px 0px 0px -30px;
 }
 .aboutusB {
     width: 100%;
     min-height: 400px;
-    float: left;
     margin: 100px 0px 0px;
-}
-.aul {
-    width: 60%;
-    float: left;
-    height: 100%;
-    display: inline;
-}
-.aur {
-    width:40%;
-    float: left;
-    height: 100%;
-    max-height: 355px;
-}
+}d
 .aboutusB h2 {
     color: #000;
     width: 100%;
@@ -1097,13 +1072,7 @@ position: absolute;
     font-size: 32px;
     text-align: center;
 }
-.aboutusB h4 {
-    font-size: 16px;
-    text-align: center;
-    margin: 0px auto 30px;
-}
 .aboutusC {
-    width: 100%;
     height: auto;
     margin: 0px auto;
     display: inline-block;
@@ -1111,7 +1080,6 @@ position: absolute;
 /* Gray Scale */
 .aul {
    width: 100%;
-    float: left;
     height: 150px;
     }
     .aur {
@@ -1120,14 +1088,7 @@ position: absolute;
     height: auto;
     max-height: 100%;
     }
-    .aboutusB h2 {
-        text-align: center;
-        width: 100%;
-    }
     .aboutusB h4 {
-        font-size: 16px;
-        text-align: center;
-        margin: 0px auto 30px;
         width: 100%;
     }
     .aboutusC p {
@@ -1140,13 +1101,8 @@ position: absolute;
     }
 /* Gray Scale */
 .Menu01 {
-    float: left;
-    width:50%;
     height: 150px;
     background-image: url(../img/TOP/works_off.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    display: block;
 }
 .Menu01 p {
    position: absolute;
@@ -1188,10 +1144,7 @@ position: absolute;
     text-decoration:underline;
 }
 .Menu02 {
-    float: left;
-    width: 50%;
     height: 150px;
-    display: block;
 }
 .Menu02 p {
     position: absolute;
@@ -1332,20 +1285,14 @@ position: absolute;
  width: 100%;
  }
  .topicsB h2 {
- text-align: center;
  width: 100%;
  }
  .topicsB h4 {
- text-align: center;
- font-size: 16px;
- margin-bottom: 30px;
  width: 100%;
  }
  .topicsB .contents {
- background-color: #b2ddff;
  padding: 40px 10px 30px 0px;
  width: 100%;
- margin: 0 auto;
  }
  .topicsB .contents ul {
  float: left;
@@ -1353,10 +1300,8 @@ position: absolute;
  margin-bottom: 0;
  }
  .topicsB .contents ul li {
- margin-bottom: 10px;
  float: left;
  width: 100%;
- white-space:　break-word;
  padding-left: 7.5em;
  text-indent: -9.5em;
  }
@@ -1854,7 +1799,6 @@ section#category03 .category-caption .caption-content {
     vertical-align: middle;
     top: 130px;
 }
-
 /*社長挨拶end*/
 /*アクセス*/
 section#category04 {
@@ -1890,11 +1834,11 @@ section#category04 {
 /*アクセスend*/
 /*---------- アジャイル開発ページ ----------*/
 section#service02 {
-    background-image: url(../img/service/agile_main.jpg);
+    background-image: url(../img/works_main.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
-    color: #fff;
-    width: 100%;
-    height: 300px;
+    height: 200px;
+    margin-bottom: 90px;
 }
 section .category-caption {
     color: #111;
@@ -2293,13 +2237,6 @@ font-size: 9px;
 }
 /*---------- プライバシーポリシー end----------*/
 /*---------- サイトマップ  ----------*/
-/*section#category01 {
-    background-image: url(../img/sitemap/sitemap_main.png);
-    background-size: cover;
-    color: #fff;
-    width: 100%;
-    height: 400px;
-}*/
 .parent {
     text-align: center;
 }
@@ -3274,33 +3211,35 @@ section#recriut_career {
 @media (min-width: 768px) and (max-width: 980px) {
 /*-------------トップページ--------------- */
 .mainV3 {
-    width: 100%;
-    height: 500px;
+    width: 768px;
+    height: auto;
+    background-image: url(../img/naminomi_ipad.jpg);
+    background-size: contain;
+    background-position: top;
 }
-    .col-sm-12{
-        background-color: #fff;
-        padding: 0px 0px 0px;
-        width: 100%;
-        font-size: 11px;
-    }
-    .serviceB h3 {
-        color: #003366;
-        font-size: 14px;
-        margin: 20px 0px 20px;
-        text-align: left;
-        font-weight: bold;
-        height: auto;
-        letter-spacing: 0px;
-    }
-    .serviceB h5 {
-        color: #036;
-        font-size: 16px;
-        width: 230px;
-
-        padding-left: 0em;
-        text-align: center;
-        margin: 20px 0px 20px;
-    }
+.col-sm-12{
+    background-color: #fff;
+    padding: 0px 0px 0px;
+    width: 100%;
+    font-size: 11px;
+}
+.serviceB h3 {
+    color: #003366;
+    font-size: 14px;
+    margin: 20px 0px 20px;
+    text-align: left;
+    font-weight: bold;
+    height: auto;
+    letter-spacing: 0px;
+}
+.serviceB h5 {
+    color: #036;
+    font-size: 16px;
+    width: 230px;
+    padding-left: 0em;
+    text-align: center;
+    margin: 20px 0px 20px;
+}
     .serviceB p {
         text-align: left;
         font-size: 11px;

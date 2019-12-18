@@ -875,28 +875,6 @@ position: absolute;
     float: right;
 }
 /*トップページのスタイル*/
-.mainV {
-    background-image: url(../img/mainV.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-    width: 100%;
-    height: 820px;
-    display: block;
-    min-height: 820px;
-}
-.mainV1 {
-    background-image: url(../img/main1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-    width: 100%;
-    height: 820px;
-    display: block;
-    min-height: 820px;
-}
 .mainV3 {
     background-image: url(../img/naminomi.jpg);
     background-repeat: no-repeat;

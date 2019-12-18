@@ -1886,7 +1886,7 @@ max-height: 355px;
 
 /*ページごとタイトル*/
 /*会社概要*/
-section#category01 {
+section#company01 {
     background-image: url(../img/COMPANY.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -1894,7 +1894,7 @@ section#category01 {
     height: 400px;
     margin-bottom: 90px;
 }
-section#category01 .category-caption {
+section#company01 .category-caption {
     color: #111;
     display: table;
     /* height: 100%; */
@@ -1907,7 +1907,7 @@ section#category01 .category-caption {
     z-index: 11;
 }
 
-section#category01 .category-caption .caption-content {
+section#company01 .category-caption .caption-content {
     text-align: center;
     display: table-cell;
     vertical-align: middle;

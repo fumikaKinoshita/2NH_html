@@ -645,7 +645,7 @@ ul.nml_btn {
 .nav-tabs {
     border-bottom: none;
     width: 960px;
-    margin: 0 auto 90px;
+    margin: 90px auto 90px;
     font-size: 14px;
 }
 .tabbottomcont {
@@ -1906,7 +1906,6 @@ section#category02 {
     background-size: cover;
     color: #111;
     height: 400px;
-    margin-bottom: 90px;
 }
 section#category02 .category-caption {
     color: #111;
@@ -1934,7 +1933,6 @@ section#category03 {
     background-size: cover;
     color: #fff;
     height: 400px;
-    margin-bottom: 90px;
 }
 section#category03 .category-caption {
     color: #fff;
@@ -1963,7 +1961,6 @@ section#category04 {
     background-size: cover;
     color: #111;
     height: 400px;
-    margin-bottom: 90px;
 }
 section#category04 .category-caption .caption-content {
     text-align: center;

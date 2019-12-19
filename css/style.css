@@ -1805,6 +1805,7 @@ max-height: 355px;
         }
         .globalNav_item > a span {
             font-size: 10px;
+            color: #000;
         }
 
         .globalSubNav_items {
@@ -1859,9 +1860,6 @@ max-height: 355px;
             background-position: center right 10px;
         }
     }
-
-
-
 /*ページごとタイトル*/
 /*会社概要*/
 section#company01 {

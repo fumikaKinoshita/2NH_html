@@ -1657,9 +1657,6 @@ max-height: 355px;
 	.fixed .globalNav_item > a {
 		background-position: bottom 5px center;
 	}
-	.globalNav_item.subMenuOpen > a {
-	}
-
 
     @media screen and (min-width: 769px) {
         .globalNav_item > a {
@@ -1775,16 +1772,12 @@ max-height: 355px;
         display: block;
         padding: 7.5px 28px;
     }
-    .globalHeader_utilityNav_item.linkBtn a:hover {
-
-    }
     .globalHeader_utilityNav_item.linkBtn a:after {
         background-size: 5px 9px;
         width: 5px;
         height: 10px;
         right: 11px;
     }
-
     @media screen and (min-width: 769px) {
         header:not(.fixed) .globalNav_item.current:not(.subMenuOpen) > a {
             margin-bottom: 10px !important;
@@ -1862,28 +1855,23 @@ max-height: 355px;
     }
 /*ページごとタイトル*/
 /*会社概要*/
-section#company01 {
-    background-image: url(../img/COMPANY.png);
+section#company10 {
     background-repeat: no-repeat;
     background-size: cover;
     color: #111;
     height: 400px;
     margin-bottom: 90px;
 }
-section#company01 .category-caption {
+section#company10 .category-caption {
     color: #111;
     display: table;
-    /* height: 100%; */
     left: 0;
     min-height: 100%;
-    /* position: absolute; */
     text-align: center;
-    /* top: 0; */
     width: 100%;
     z-index: 11;
 }
-
-section#company01 .category-caption .caption-content {
+section#category10 .category-caption .caption-content {
     text-align: center;
     display: table-cell;
     vertical-align: middle;
@@ -2066,16 +2054,21 @@ section#contactcatV .category-caption {
 
 
 /*---------- 会社概要 ----------*/
+section#category10 {
+    background-image: url(../img/COMPANY.png);
+    background-size: cover;
+    color: #fff;
+    width: 100%;
+    height: 400px;
+}
 .companyContents {
     width: 960px;
     margin: 0 auto;
 }
-
 .companyContents table {
     width: 650px;
     margin: 0 auto 94px;
 }
-
 /*---------- 会社沿革 ----------*/
 .historyB {
     margin: 0 auto 100px;

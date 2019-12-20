@@ -642,7 +642,6 @@ ul.nml_btn {
     margin-right: 10px;
 }
 .nav-tabs .nav-link {
-    color:#111;
     border: none;
     padding:0.5rem;
 }
@@ -665,7 +664,7 @@ ul.nml_btn {
 .nav-tabs {
     border-bottom: none;
     width: 100%;
-    margin: 0 auto 90px;
+    margin: 0 auto 50px;
 }
 .tabbottomcont {
     background-color:#d8e7ec;
@@ -1648,55 +1647,30 @@ position: absolute;
     left: 5px;
 }
 /*会社概要*/
-section#company01 {
-    background-image: url(../img/COMPANY.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #111;
+section#category10 {
     height: 200px;
-    margin-bottom: 90px;
+    margin-bottom: 50px;
 }
 section .category-caption {
-    color: #111;
-    display: table;
-    /* height: 100%; */
     left: 0;
-    min-height: 100%;
-    /* position: absolute; */
-    text-align: center;
-    /* top: 0; */
-    width: 100%;
     z-index: 11;
-}
-.category-caption .caption-content {
-    text-align: center;
-    display: table-cell;
-    vertical-align: middle;
-    top: 130px;
 }
 section .category-caption .caption-content h2 {
     font-size: 38px;
-}
-.category-caption span {
-    font-size: 24px;
 }
 .companyContents {
     width: 100%;
     margin: 0 auto;
 }
 .companyContents table {
-    width: 100%;
-    margin: 0 auto 94px;
+    width: 110%;
+    margin: -35px auto 94px -15px;
 }
 /*会社概要 end*/
 /*会社沿革*/
 section#category02 {
-    background-image: url(../img/company_1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #fff;
     height: 200px;
-    margin-bottom: 90px;
+    margin-bottom: 50px;
 }
 section#category02 .category-caption {
     color: #fff;
@@ -1753,7 +1727,7 @@ section#category03 {
     background-size: cover;
     color: #fff;
     height: 200px;
-    margin-bottom: 90px;
+    margin-bottom: 50px;
 }
 section#category03 .category-caption {
     color: #fff;
@@ -1764,9 +1738,6 @@ section#category03 .category-caption {
     width: 100%;
 }
 section#category03 .category-caption .caption-content {
-    text-align: center;
-    display: table-cell;
-    vertical-align: middle;
     top: 130px;
 }
 /*社長挨拶end*/
@@ -1777,7 +1748,7 @@ section#category04 {
     background-size: cover;
     color: #fff;
     height: 200px;
-    margin-bottom: 90px;
+    margin-bottom: 50px;
 }
 .accessB {
     margin: 0 auto 100px;
@@ -1785,46 +1756,35 @@ section#category04 {
 }
 .accessB h2.yokohama_7 {
     width: 480px;
+    margin: 0px 0px 0px -30px;
 }
 .add_postN {
-    width:100%;
+    width: 100%;
     font-size: 12px;
+    margin: 20px 0px 20px -30px;
+    text-decoration: none;
 }
 .g_map iframe {
-    width: 100%;
+    width: 120%;
+    margin: 0px 0px 0px -30px;
 }
 .accessBattn p {
-    text-align: right;
-    width:100%;
-    margin: 10px auto;
+    text-align: left;
+    margin: 0px 0px 0px -30px;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 10px;
     line-height: 1.5rem;
 }
 /*アクセスend*/
 /*---------- アジャイル開発ページ ----------*/
-section#service02 {
-    background-image: url(../img/works_main.jpg);
+section#agile {
     background-repeat: no-repeat;
-    background-size: cover;
     height: 200px;
     margin-bottom: 90px;
-}
-section .category-caption {
-    color: #111;
-    display: table;
-    left: 0;
-    min-height: 100%;
-    text-align: center;
-    width: 100%;
-    z-index: 11;
 }
 section .category-caption .caption-content h2 {
     font-size: 38px;
     margin: 0px;
-}
-.category-caption span {
-    font-size: 24px;
 }
 .titleB {
     margin: 0 auto 100px;
@@ -1842,6 +1802,7 @@ section .category-caption .caption-content h2 {
     letter-spacing: .1em;
 }
 .agileB {
+    width: 100%;
     float: left;
 }
 .agileB h5 {
@@ -1857,7 +1818,6 @@ section .category-caption .caption-content h2 {
     margin:  0 auto;
     width: 100%;
     float: left;
-    max-width: 479px;
 }
 .agileB h5 {
     background-color: #036;
@@ -1875,6 +1835,7 @@ section .category-caption .caption-content h2 {
     max-width: 479px;
 }
 .agileB img {
+    width: 100%;
     float:left;
 }
 .waterfallB {
@@ -1899,24 +1860,11 @@ section .category-caption .caption-content h2 {
     width: 100%;
     height: auto;
     margin: 0px 0px 30px 0px;
-    float: left;
 }
 /*---------- アジャイル end ----------*/
 /*---------- 制作実績ページ ----------*/
 section#works {
-    background-image: url(../img/works_main.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 200px;
-    margin-bottom: 90px;
-}
-section#works .category-caption {
-    display: table;
-    left: 0;
-    min-height: 100%;
-    text-align: center;
-    width: 100%;
-    z-index: 11;
 }
 .mb18 {
     margin: 0px 0px 18px -15px;
@@ -1945,23 +1893,23 @@ section#works .category-caption {
     width: 20%;
 }
 .worksContents table ul {
-float: left;
-margin: 5px;
-padding: 0;
+    float: left;
+    margin: 5px;
+    padding: 0;
 }
 .worksContents table ul li {
-float: left;
-margin-right: 10px;
+    float: left;
+    margin-right: 10px;
 }
 .worksContents table ul li:last-child{
-float: left;
-margin-right: 0;
+    float: left;
+    margin-right: 0;
 }
 .worksContents table p {
-float: left;
-margin-right: 10px;
-width: 100%;
-font-size: 9px;
+    float: left;
+    margin-right: 10px;
+    width: 100%;
+    font-size: 9px;
 }
 .brn {
     border-right: 0!important;
@@ -1997,7 +1945,6 @@ font-size: 9px;
 /*---------- 採用情報 ----------*/
 .recruitContents {
     background-position: center 20%;
-    background-repeat: no-repeat;
     background-size: 110%;
     font-size: 10px;
     padding: 5px;
@@ -2005,7 +1952,6 @@ font-size: 9px;
 }
 .recruitContents p {
     line-height: 1.5rem;
-    text-align: center;
 }
 .recruitContents ul {
     width: 100%;
@@ -2147,11 +2093,11 @@ font-size: 9px;
     border: solid 1px #eee;
 }
 .entryform textarea {
-    width:80%;
+    width:90%;
     border: solid 1px #eee;
 }
 .entryform button {
-    width:120px;
+    width:130px;
     height: 30px;
     border-radius: 4px;
     color: #fff;
@@ -3079,7 +3025,7 @@ section#recriut_career {
             height: 90px;
         }
         .globalNav_item > a {
-            color: #fff
+            color: #fff;
             line-height: 1.3;
             margin: 0 3px !important;
             padding: 16px 0 !important;
@@ -3850,40 +3796,22 @@ float: right;
     margin: 0 auto;
 }
 .system01 {
-    background-image: url(../img/health.png);
-    background-repeat: no-repeat;
-    width:230px;
-    height: 240px;
-    float: left;
     margin-right: 10px;
     margin-bottom: 10px;
     margin-left: 30px;
 }
 .system04 {
-    background-image: url(../img/baby.png);
-    background-repeat: no-repeat;
-    width:230px;
-    height: 240px;
-    float: left;
     margin-right: 10px;
     margin-bottom: 10px;
     margin-left: 30px;
 }
 .system07 {
-    background-image: url(../img/family.png);
-    background-repeat: no-repeat;
-    width:230px;
-    height: 240px;
-    float: left;
     margin-right: 10px;
     margin-bottom: 10px;
     margin-left: 30px;
 }
 .rectopbtn {
-    width: 758px;
-    margin: 0 auto;
-    text-align: right;
-    height: 100%;
+    width: 768px;
 }
 .rectopbtn li {
     float: right;
@@ -3907,6 +3835,12 @@ float: right;
 .recruitContents {
     background-position: top center;
     background-size: 100%;
+}
+.entryform {
+    margin: 0px 0px 40px 40px;
+}
+.entryform textarea {
+    width: 700px;
 }
 /*-------------採用情報　end--------------- */
 /*-------------制作実績 --------------- */
@@ -4038,14 +3972,14 @@ ul.tech {
         margin: 0 auto 0px;
     }
 /*-------------footer------------- */
-    .offset-1 {
-        margin: 0px;
-    }
-    .footer_sp {
-        display: none;
-    }
-/*-------------footer end------------- */
+.offset-1 {
+    margin: 0px;
 }
+.footer_sp {
+    display: none;
+}
+}
+/*-------------footer end------------- */
 /*-------------サイトマップ end --------------- */
 /*スマホ横から見た状態の時用 　ブラウザ幅768px以上、980px以下 end*/
 

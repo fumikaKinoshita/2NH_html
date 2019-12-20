@@ -3112,7 +3112,8 @@ section#category01 {
     height: 400px;
 }
 .parent {
-    text-align: center;         /* 子要素を左右中央揃えにする */
+    text-align: center;
+    margin-bottom: 90px;
 }
 .parent a{
     color: #000;

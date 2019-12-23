@@ -241,7 +241,7 @@ a.btn:hover {
 @media (min-width: 1200px){
 .container {
     max-width: 1600px;
-    display: flex;
+/*    display: flex;*/
     align-items: start;
     justify-content: space-around;
 }
@@ -2143,6 +2143,7 @@ section#contactcatV .category-caption {
 .bodycontents {
 /*    display: flex;*/
     /* height: 550em; */
+    width: 100%;
     padding-top: 10em;
 }
 
@@ -2185,66 +2186,360 @@ section#contactcatV .category-caption {
 }
 
 .smain{
-/*        display: flex;
-        height: 440em;
-        position: relative;
-        top: -70em;
-        left: 35rem;
-        align-items: left;
-        z-index: 2;
-        float: left;*/
+    width: 100%;
     }
-.smain .r_h2 {
-        width: 100%;
+.r-h2 {
+    width: 100%;
+    background-image: url(../img/service/title_bar/website_title_brain.png);
+    background-repeat: no-repeat;
+    color: #ffffff;
+    background-position-x: right;
+    height: 80px;
     }
-.smain h2{
-        background-color: #003366;
-        color: #ffffff;
-        height: -35em;
-        width: 53em;
+div#seisaku {
+    /* background-color: #003366;
+    color: #ffffff; */
+    height: 65px;
+    width: 48%;
+    /* position: relative;
+    left: 63%; */
+    background-position-x: 100%;
     }
-
-.smain h2#seisaku{
-        background-color: #003366;
-        color: #ffffff;
-        height: -35em;
-        width: 30%;
-        background-image: url(../img/brain/small_brain_l_1.png);
-        background-repeat: no-repeat;
-        float:right;
+div#seisaku h2 {
+    /* background-color: #003366;
+    color: #ffffff; */
+    height: 65px;
+    width: 61%;
+    position: relative;
+    left: 0%;
     }
-
-
 .brain {
     margin-top: 0%;
-    background-image: url(../img/brain/brain_all.jpg);
-    height: 36em;
-    width: 67em;
-    margin-top: 8%;
+    margin-left: 5rem;
+     background-image: url(../img/service/brain/brain_all.jpg);
+    height: 31rem;
+    width: 60%;
+/*    margin-top: 8%;*/
     background-repeat: no-repeat;
+    float: left;
+    /* position: relative; */
+    /* *zoom: 1; */
 }
 
-.brainall{
-    height: 50em;
-    width: 139em;
+/*.brain-menue{
+    position: absolute;
+    float: left;
+    height: 87rem;
+    width: 100%;
+    margin-left: 0rem;
+    margin-top: -15rem;
+}*/
+
+
+.brainall {
+    height: 53em;
+    width: 100%;
     position: relative;
     top: 4em;
-/*    left: 20em;*/
-    bottom: 20em;
+/*    left: 20em;
+    bottom: 20em;*/
+    /* margin: 0rem auto;
+    background-position: center; */
+    border-bottom:solid 0.2em rgb(190, 183, 183);
+}
+.l-brain {
+    width: 0;
+    height: 0;
+    float: left;
+    position: relative;
+    margin-left: 0rem;
+/*    padding: 20px;*/
+    background-color: #fff;
+    line-height: 2rem;
+/*    position: absolute;*/
+    /* left: 20rem;
+    top: -24rem; */
+    z-index: 2;
+/*    padding-top: 5rem;*/
+border:none;
+background-color: transparent;
+}
+
+.l-brain-text{
+    height: 56rem;
+    width: 22rem;
+    /* margin: 17rem 4rem; */
+    line-height: 4rem;
+    position: absolute;
+    left: 0rem;
+    top: 0rem;
+    visibility: hidden
+    }
+/*    .brain-menue li a {
+        display: block;
+        height: 36rem;
+        width: 30rem;
+        display: block;
+        position: absolute;
+        top: -2rem;
+        left: -22rem;
+    }*/
+
+    .brain .brain-menue > img {
+        margin-top: 15rem;
+        margin-left: 4.5rem;
+        position: absolute;
+        left: 0rem;
+        top: 0rem;
+        float: left;
+    }
+
+    ul.brain-menue li.brahidari > img {
+        margin-top: 15rem;
+        margin-left: 4.5rem;
+        float: left;
+    }
+    .brain ul.brain-menue li.brahidari {
+        width: 335px;
+       top: 0rem;
+       float: left;
+    }
+    .brain ul.brain-menue li.brahidari a {
+        height: 200px;
+        width: 200px;
+       top: 0rem;
+       float: left;
+    }
+    .brain ul.brain-menue li.brahidari a:hover {
+        height: 200px;
+        width: 200px;
+       top: 0rem;
+       float: left;
+    }
+
+    ul.brain-menue li.centerborder > img {
+        position: absolute;
+        left: 0rem;
+        top: 0rem;
+        float: left;
+        position: relative;
+        left: 37rem;
+        top: 27rem;
+        height: auto;
+        width: 100%;
+    }
+
+    div.brain ul.brain-menue li.centerborder {
+        position: absolute;
+        left: 10rem;
+        top: 10rem;
+    }
+
+    div.brain ul.brain-menue li.bramigi {
+        height: 250px;
+        width: 200px;
+        float: left;
+    }
+
+    .brain .brain-menue .bramigi > img {
+        position: absolute;
+        /* margin: 0rem 68rem; */
+        left: 66rem;
+        top: -55rem;
+        float: left;
+    }
+
+.r-brain {
+    width: 25rem;
+    height: 35rem;
+    float: left;
+    /* margin-left: 30rem;
+    margin-top: -49rem; */
+    background-color: #fff;
+    position: relative;
+    left: 0rem;
+    top:0rem;
+    z-index: 3;
+    padding-top: 4.2rem;
+    line-height: 4rem;
+    border:none;
+    background-color: transparent;
 }
 
 
+div.r-brain ul.r-brain-text {
+    position: absolute;
+    top: 40px;
+    width: 25rem;
+    height: 35rem;
+    background: #ffffff;
+    /* -webkit-transition: .2s ease;
+    transition: .2s ease;
+    visibility: hidden;
+    opacity: 0; */
+    /* margin: 0rem 0rem; */
+}
+
+div.r-brain ul.r-brain-text > li {
+    /* position: absolute; */
+    position: relative;
+    line-height: 1rem;
+    height: 2.5rem;
+    width: 25rem;
+    /* margin: 0rem 0rem;
+    */
+    font-size: 80%;
+}
+
+div.r-brain ul.r-brain-text > li > img {
+    position: absolute;
+/*    height: 42rem;
+    width: 45rem;*/
+    margin: 8rem 25rem;
+}
+
+div.r-brain ul.r-brain-text li.menue-deco > img {
+/*    height: 7rem;
+    width: auto;
+    margin: 22rem 61rem;*/
+}
+
+div.r-brain ul.r-brain-text > li > a {
+    position: absolute;
+    height: 30rem;
+    width: 33rem;
+    /* margin:9rem 15rem; */
+    display: block;
+    /* position: relative; */
+    line-height: 4rem;
+}
+
+.l-brain .l-brain-text ul {
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    left: -38rem;
+    top: -42rem;
+    /* -webkit-transition: .2s ease;
+    transition: .2s ease;
+    visibility: hidden;
+    opacity: 0; */
+}
+    li.brahidari div.l-brain ul.l-barain-text {
+        position: absolute;
+        height: 27rem;
+        width: 21rem;
+        margin: 0rem -13rem;
+        top: 10rem 0rem;
+        float: left;
+        /* visibility: hidden;
+        opacity: 0;
+        z-index: 4; */
+        background-image: url(../img/service/brain/left_deco.png);
+        background-repeat: no-repeat;
+        
+    }
+
+    li.bramigi div.r-brain ul.r-brain-text {
+        position: absolute;
+        height: 25rem;
+        width: 28rem;
+        margin: 11rem 0rem 0rem;
+        top: 10rem 0rem;
+        float: left;
+        /* visibility: hidden;
+        opacity: 0;
+        z-index: 4; */
+        background-image: url(../img/service/brain/right_deco.png);
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+
+    ul.l-brain-text{
+        position: absolute;
+    }
+    .l-brain ul.l-brain-text li{
+        position: absolute;
+    }
+
+    div.l-brain ul{
+        position: absolute;
+    }
+
+    li.brahidari div.l-brain ul.l-barain-text > li > img {
+    float: left;
+    width: auto; 
+/*    height: 48rem;*/
+    background-color: #fff;
+    margin: 10rem -10rem;
+    padding: 0rem 0rem;
+    display: block;
+    left: 0rem;
+    }
+    li.brahidari div.l-brain ul.l-barain-text li {
+    float: left;
+    width: 100%; 
+    height: 2.5rem;
+    background-color: #fff;
+    margin: 0rem 3rem;
+    padding: 0rem 0rem;
+    /* position: absolute; */
+    position: relative;
+    font-size: 80%;
+    }
+
+    li.brahidari div.l-brain ul.l-barain-text li.menue-deco > img {
+/*        float: left;
+        height: 7rem;
+        width: auto;
+        position: absolute;
+        margin: 14rem -36rem;*/
+    }
+    .l-brain ul.l-brain-text li a:hover {
+        color: #6DC1FF;
+    }
+
+    .menu > li a:hover {
+        color: #999;
+    }
+
+    .l-brain:hover + .l-brain-text {
+        display: block;
+    }
+.l-brain ul a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+
+.l-brain ul a:hover {
+    display: block;
+    color: #003366;
+}
 .braintro {
     font-size: 1.2em;
     letter-spacing: 0.2em;
     position: relative;
     top: 8em;
+    left: 17rem;
+    float: left;
+    width: 30%;
+}
 
+.braintro h1{
+    margin-bottom: 11rem;
+    margin-left: 0.5rem;
+    font-size: 1.2em;
+    line-height: 3rem;
 }
 
 .braintro img{
     align-items: left;
-    margin-left: 2%;
+    margin-top: 9rem;
+    margin-left: -1rem;
 }
 
 .brainall hr {
@@ -2280,7 +2575,7 @@ font-weight: bolder;
 display: inline-block;
 letter-spacing: 4px;
 line-height: 167%;
-margin-bottom: 6%;
+margin: 11% auto;
 }
 
 .bodycontents p {
@@ -2291,25 +2586,30 @@ margin-bottom: 6%;
 }
 
 .webseisaku h2 {
-display: inline-block;
+/* display: inline-block;
 position: relative;
 top: 0%;
 left: 12%;
-float: left;
-text-align: left;
-padding: 1.1rem 1rem 0rem 6rem;
-background-image: url(../img/brain/small_brain_l_1.png);
+float: left; */
+/* text-align: left; */
+/* padding: 1.1rem 1rem 0rem 6rem; */
+height: 65px;
+width: 100%;
+background-image: url(../img/service/title_bar/website_title_brain.png);
 background-position: left;
 background-repeat: no-repeat;
+background-position-x: 100%;
+margin-bottom: 50px;
 }
 
-.webseisaku h2 p{
+/* .webseisaku h2 p{
     position: relative;
     left: 3em;
-}
+} */
 
 .webseisaku h1{
-    margin-top: 28%;
+    margin-top: 0rem;
+
 }
 
 .webseisaku ul {
@@ -2322,7 +2622,7 @@ background-repeat: no-repeat;
     text-align: center;
 }
 ul.webseisaku {
-    margin-top: 0%;
+    margin-top: 9%;
     display: inline-block;
     float: left;
     position: relative;
@@ -2331,15 +2631,21 @@ ul.webseisaku {
     text-align: center;
     width: 100%;
 }
-
 .webseisaku li {
-    letter-spacing: 0.7em;
+    letter-spacing: 0.4em;
     position: relative;
-    top: 13em;
-    left: 0em;
+    top: 12em;
+    left: -10em;
     border: 0.1em solid #000000;
     margin: -10em 0em 10em 0em;
     padding: 1em 6em 1em 6em;
+
+}
+
+.webseisaku li img{
+    position: relative;
+    left: 0rem;
+/* background-position: center; */
 }
 
 .webseisaku li:first-of-type{
@@ -2347,11 +2653,13 @@ ul.webseisaku {
 }
 
 .sikaku{
-    width: 1089px;
+    width: 67%;
     border: 0.5em solid #003366;
-    margin: 0 auto;
+    margin: 4rem 37rem 0rem 30rem;
+    padding-bottom: 6rem;
+    padding-left: 2rem;
 }
-.sikaku_logo{
+.sikaku-logo{
     margin-left: 1%;
     margin-top: 1%;
     float: left;
@@ -2364,31 +2672,24 @@ ul.webseisaku {
 }
 
 .sikaku h1{
- position: relative;
- top: -6em;
- bottom: 0em;
+    margin: 1.5rem 0rem;
 }
 
 .sikaku p{
-    letter-spacing: 1%;
     font-size: 90%;
-    position: relative;
-    top: -6em;
-    left: 0em;
-
 }
 
 .text{
     position: relative;
-    top: 5em;
-    left: 1em;
+    top: 3em;
+    left: 2em;
 }
 
+
 .sikaku img{
-    padding-top: 20%;
+    padding-top: 40%;
     justify-content: space-between;
     position: relative;
-    top: 10em;
     left: 0em;
 }
 
@@ -2397,34 +2698,41 @@ ul.webseisaku {
 }
 
 .websys {
-    height: 58em;
-    width: 130em;
-    position: relative;
-    top: 11em;
-    left: 0em;
-    float: left;
-    text-align: right;
-    padding: 1rem 1rem 0rem 1rem;
-    }
-
-.websystem {
     height: auto;
     width: 100%;
     float: left;
     text-align: right;
-    padding: 1rem 1rem 0rem 1rem;
+    margin-top: 100px;
+    margin-bottom:100px;
+}
+
+.websystem {
+    height: 65px;
+    width: 100%;
+    float: left;
+    text-align: right;
+    /* background-image: url(../img/brain/small-brain_l_2.png); */
+        background-image: url(../img/service/title_bar/websystem_title_brain.png);
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-position-x: 0%;
+    margin-bottom: 50px;
     }
 
 .websystem h2 {
     float: left;
     text-align: right;
     padding: 1.1rem 3em 0rem 6rem;
-    background-image: url(../img/brain/small_brain_l_2.png);
-    background-repeat: no-repeat;
-    width: 45%;
-    background-color: #003366;
+    width: 49%;
+    /* background-color: #003366; */
     color: #fff;
-    background-position: right;
+    height: 65px;
+}
+.websystem h2 p {
+    background-color: #003366;
+    position: relative;
+    top: 20px;
+    left: 79%;
 }
 
 .websystem p {
@@ -2435,65 +2743,67 @@ ul.webseisaku {
     background-color: #003366;
 }
 
-.websystem h1{
+/*.websystem h1{
     margin-top: 6em;
     letter-spacing: 0.1em;
     position: relative;
     left: 7em;
     top: 3em;
-}
+}*/
 
 .websys p{
     position: relative;
-    left: 1em;
-    top: 5em;
     text-align: left;
+    left: -11rem;
+    top: 0rem;
 }
 
-.websystem img{
+.websys img{
     position: relative;
-    top: 7em;
-    left: 0em;
+    top: 5em;
+    left: 11em;
     padding-top: 0em;
+}
+
+.websys h1{
+    padding-right: 0rem;
 }
 
 
 .ajile {
-height: 60em;
-width: 130em;
+/* height: 48em; */
+height: 54rem;
+width: 100%;
 position: relative;
 top: 0em;
 float: left;
 }
 
 .ajile h2 {
-    display: inline-block;
+    /* display: inline-block;
     position: relative;
     top: 0em;
     left: 9.5em;
     margin-top: 0em;
     float: left;
     text-align: left;
-    padding: 1.1rem 1rem 0rem 6rem;
-    background-image: url(../img/brain/small_brain_l_1.png);
+    padding: 1.1rem 1rem 0rem 6rem; */
+    /* background-image: url(../img/brain/small-brain_l_1.png); */
+    height: 65px;
+    width: 100%;
+    background-image: url(../img/service/title_bar/ajile_title_brain.png);
     background-position: left;
     background-repeat: no-repeat;
+    background-position-x: 100%;
+    margin-bottom: 50px;
     }
-.ajile h1{
-position: relative;
-top: 10em;
-}
-
 .ajile img{
     float: left;
     position: relative;
-    top: 7em;
-    left: 5em;
+    top: 2em;
+    left: 1em;
 }
-
 .ajile p{
-    position: relative;
-    top: 13em;
 }
 
 .ajile a.btn{
@@ -2508,40 +2818,57 @@ top: 10em;
     background-color: #fff;
     float: left;
 }
+div#ajile{
+    /* height: 48em; */
+height: 52rem;
+width: 130em;
+position: relative;
+top: 0em;
+float: left;
 
+}
 
 .operation {
-    height: 45em;
-    width: 130em;
+    height: 20rem;
+    width: 100%;
     position: relative;
     top: 0em;
     float: left;
+    margin: 164px auto;
     }
 
 .operation h2{
-    position: relative;
+    /* position: relative;
     left: -10em;
     text-align: right;
     float: right;
-    padding: 1.1rem 11rem 0rem 6rem;
-    background-image: url(../img/brain/small_brain_l_2.png);
+    padding: 1.1rem 11rem 0rem 6rem; */
+    /* background-image: url(../img/brain/small-brain_l_2.png); */
+    height: 65px;
+    width: 100%;
+    background-image: url(../img/service/title_bar/unyo_title_brain.png);
     background-position: right;
     background-repeat: no-repeat;
+    background-position-x: 0%;
+    margin-bottom: 50px;
+    /* color: #fff; */
+    /* background-color: #003366; */
+    /* height: 80px; */
 }
 
-.operation h2 p{
+/* .operation h2 p{
     position: relative;
     left: 82em;
     top: 0.4em;
     padding left: 0.5em;
 
-}
+} */
 
 .operation h1{
     width: 9em;
     margin-top: 0em;
     position: relative;
-    top: 5em;
+    top: 4em;
     left: 0em;
     background-image: url(../img/operation/line.png);
     background-position: right;
@@ -2549,9 +2876,15 @@ top: 10em;
 }
 
 .operation p{
-    float: left;
+}
+
+div#operation{
+    height: 20rem;
+    width: 100%;
     position: relative;
-    top: 6em;
+    top: 0em;
+    float: left;
+    margin: 194px auto;
 }
 
     .cms {
@@ -2562,86 +2895,116 @@ top: 10em;
         float: left;
         }
 
+    div#cms{
+        height: 42rem;
+        width: 100%;
+        position: relative;
+        top: 0em;
+        float: left;
+        margin: 194px auto;
+    }
+
     .cms h2 {
-    display: inline-block;
+    /* display: inline-block;
     position: relative;
     top: 0%;
     left: 3.5em;
     margin-top: 0%;
     float: left;
-    text-align: left;
-    padding: 1.1rem 6.5rem 0rem 6rem;
-    background-image: url(../img/brain/small_brain_l_1.png);
+    text-align: left; */
+    /* padding: 1.1rem 6.5rem 0rem 6rem; */
+    height: 65px;
+    width: 100%;
+    background-image: url(../img/service/title_bar/cms_title_brain.png);
     background-position: left;
     background-repeat: no-repeat;
+    background-position-x: 100%;
+    margin-bottom: 50px;
     }
 
     .cms img{
         position: relative;
-        top: 6em;
-        left: 2.5em;
+        top: 2em;
+        left: -4.5em;
     }
 
     .cms h1{
-        position: relative;
-        top: 5em;
-        left: 0em;
+        /* position: relative;
+        top: 0em;
+        left: -8em; */
+        /* margin-left: -2rem; */
+        margin: 3rem 0rem 5rem -2rem;
+        
     }
 
     .cms p{
         position: relative;
-        top: 6em;
-        left: 0em;
-    }
-
-    .other {
-        height: 120em;
-        width: 130em;
-        position: relative;
-        top: 0em;
-        float: left;
+        top: 0rem;
+        left: -2rem;
+        margin-bottom: 2rem;
     }
     .other img{
-        position: relative;
-        left: 0em;
-        top: 7.5em;
+        /* position: relative; */
+        margin: 4rem 7rem;
     }
 
     .other h2{
-        position: relative;
+        /* position: relative;
         left: -16em;
         text-align: right;
-        float: right;
-        padding: 1.1rem 6.5rem 0rem 6rem;
-        background-image: url(../img/brain/small_brain_r.png);
+        float: right; */
+        /* padding: 1.1rem 6.5rem 0rem 6rem; */
+        /* background-image: url(../img/service/title_bar/other_title_brain.jpg);
         background-position: right;
+        background-repeat: no-repeat; */
+        height: 65px;
+        width: 100%;
+        background-image: url(../img/service/title_bar/other_title_brain.png);
+        background-position: left;
         background-repeat: no-repeat;
+        background-position-x: 0%;
+        margin-bottom: 50px;
     }
 
-    .other p{
+    .other p {
 /*        position: relative;
         left: 10em;
         top: 10em;*/
+        margin-bottom: 6rem;
+        margin-left: 7rem;
     }
 
     .other h1{
+        margin:36px auto;
         position: relative;
-        top: 6em;
-        left: 0em;
+        top: -1rem;
+        left: -1rem;
 
     }
     .other .o_midashi {
         width: 100%;
     }
-.other .o_midashi h2{
-        position: relative;
+    .other .o-midashi h2{
+        /* position: relative;
         left: -16em;
-        text-align: right;
-        float: right;
-        padding: 1.1rem 6.5rem 0rem 6rem;
-        background-image: url(../img/brain/small_brain_r.png);
-        background-position: right;
+        text-align: right; */
+        /* float: right; */
+        /* padding: 1.1rem 6.5rem 0rem 6rem; */
+        /* background-image: url(../img/brain/small-brain_r.png); */
+        height: 65px;
+        width: 100%;
+        background-image: url(../img/service/title_bar/other_title_brain.png);
+        background-position: left;
         background-repeat: no-repeat;
+        background-position-x: 10%;
+    }
+
+    div#other{
+        height: 166em;
+        width: 130em;
+        position: relative;
+        top: 0em;
+        float: left;
     }
 
     .other .o_midashi p {
@@ -2655,7 +3018,9 @@ top: 10em;
         margin-left: 0%;
         float: left;
     }
-
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
 /*---------- サービスend --------------*/
 /*---------- アジャイル開発ページ ----------*/
 section#agile {

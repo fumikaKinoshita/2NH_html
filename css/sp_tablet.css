@@ -443,8 +443,6 @@ float:left;
     padding:10px auto;
 }
 /*ボタン関連のスタイル*/
-.btn-default-xs {
-}
 .btn-default-s {
     width:93px;
     height:43px;
@@ -459,10 +457,7 @@ float:left;
     font-size: 12px;
     position: relative;
 }
-.btn-default-m {
-}
-.btn-default-l {
-}
+
 /*フォーム関連のスタイル*/
 .input-text-xxs {
     width:25px;
@@ -1517,10 +1512,6 @@ position: absolute;
             position: relative;
             height: 18px;
             width:100%;
-        }
-        .globalNav_item.recruit > a:hover:before {
-        }
-        .globalNav_item.recruit > a:after {
         }
         .globalNav_item.linkTxt00 > a:after {
             top: -1px;
@@ -3079,7 +3070,7 @@ section#recriut_career {
             height: 90px;
         }
         .globalNav_item > a {
-            color: #fff
+            color: #fff;
             line-height: 1.3;
             margin: 0 3px !important;
             padding: 16px 0 !important;

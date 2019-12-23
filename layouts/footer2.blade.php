@@ -67,8 +67,8 @@
                 <div class="col-xl-5 offset-4">
                     <div class="pra">
                         <p><a href="">&rsaquo; プライバシーポリシー</a><a href="">&rsaquo; サイトマップ</a></p>
-                        <p class="SNSicon"><a href=""><img src="../img/instagram.png" alt="instagram"></a></p>
-                        <p class="SNSicon"><a href=""><img src="../img/Facebook.png" alt="Facebook"></a></p>
+                        <p class="SNSicon"><a href="https://www.instagram.com/2ndwave_info/"><img src="../img/instagram.png" alt="instagram"></a></p>
+                        <p class="SNSicon"><a href="https://m.facebook.com/2ndwave.jp/"><img src="../img/Facebook.png" alt="Facebook"></a></p>
                     </div>
                 </div>
             </div>
@@ -133,8 +133,8 @@
                 </div>
                 <div class="col-xl-5 offset-4">
                     <div class="pra">
-                        <p class="SNSicon"><a href=""><img src="../img/instagram.png" alt="instagram"></a></p>
-                        <p class="SNSicon"><a href=""><img src="../img/Facebook.png" alt="Facebook"></a></p>
+                        <p class="SNSicon"><a href="https://www.instagram.com/2ndwave_info/"><img src="../img/instagram.png" alt="instagram"></a></p>
+                        <p class="SNSicon"><a href="https://m.facebook.com/2ndwave.jp/"><img src="../img/Facebook.png" alt="Facebook"></a></p>
                     </div>
                 </div>
             </div>
@@ -146,7 +146,7 @@
         </div>
     </div>
 </footer>
-    
+
 {{-- <footer id="footer">
 <div class="container">
     <div class="row">
@@ -155,7 +155,7 @@
                 <h3>{{ __('home.heading.company_profile') }}</h3>
                 <ul>
                     <li>{{ link_to('/company01', __('home.heading.company_outline')) }}</li>
-                     <li>{{ link_to('/company02', __('home.heading.history')) }}</li> 
+                     <li>{{ link_to('/company02', __('home.heading.history')) }}</li>
                     <li>{{ link_to('/company03', __('home.heading.access')) }}</li>
                     <li>{{ link_to('/company04', __('home.heading.management_philosoph')) }}</li>
                 </ul>
@@ -163,7 +163,7 @@
             <div class="col-md-2 col-sm-6 col-xs-12 wow animated fadeInDown footermenu02">
                 <h3>{{ __('home.heading.our_business') }}</h3>
                 <ul>
-                    <li>{{ link_to('', __('home.heading.open')) }}</li>                               
+                    <li>{{ link_to('', __('home.heading.open')) }}</li>
                 </ul>
             </div>
             <div class="col-md-2 col-sm-6 col-xs-12 wow animated fadeInDown footermenu03">
@@ -180,7 +180,7 @@
                     <li>{{ link_to('product01', __('home.heading.carbon_graphite')) }}</li>
                     <li>{{ link_to('product02', __('home.heading.carbon_fiber')) }}</li>
                     <li>{{ link_to('product03', __('home.heading.kitchen_ware')) }}</li>
-                    <li>{{ link_to('product04', __('home.heading.print_3d')) }}</li> 
+                    <li>{{ link_to('product04', __('home.heading.print_3d')) }}</li>
                 </ul>
             </div>
             <div class="col-md-2 col-sm-6 col-xs-12 wow animated fadeInDown footermenu04">

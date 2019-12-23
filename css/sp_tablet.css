@@ -1,7 +1,15 @@
 /* スマートフォンやタブレット用のスタイルを記述するためのCSSです */
 /*スマホ 480pxより画面が小さい時用 start */
 @media screen and (max-width:479px) {
-    /*デザイン全体*/
+    button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        outline: none;
+        padding: 0;
+        appearance: none;
+}
+/*デザイン全体*/
 body, html {
     height: 100%;
 }
@@ -2110,6 +2118,14 @@ section#recruit_career {
 /*スマホ 480pxより画面が小さい時用　end */
 /*スマホ縦から見た状態の時用 ブラウザ幅481px以上、767px以下　start */
 @media screen and (min-width: 480px) and (max-width:767px) {
+button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    appearance: none;
+}
 body, html {
     height: 100%;
 }
@@ -2491,6 +2507,14 @@ section#recriut_career {
 /*スマホ横から見た状態の時用　ブラウザ幅768px以上、980px以下 start */
 @media (min-width: 768px) and (max-width: 980px) {
 /*-------------トップページ--------------- */
+button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    appearance: none;
+}
 .container {
     max-width: 100%;
 }

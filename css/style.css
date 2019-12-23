@@ -1714,10 +1714,6 @@ max-height: 355px;
             position: relative;
             height: 18px;
         }
-        .globalNav_item.recruit > a:hover:before {
-        }
-        .globalNav_item.recruit > a:after {
-        }
         .globalNav_item.linkTxt00 > a:after {
             top: -1px;
         }
@@ -1798,7 +1794,7 @@ max-height: 355px;
         }
         .globalNav_item > a span {
             font-size: 10px;
-            color: #000;
+            color: #fff;
         }
 
         .globalSubNav_items {

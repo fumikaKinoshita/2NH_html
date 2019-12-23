@@ -114,6 +114,15 @@ header ul li a {
 .dropdown, .dropup {
     position: static;
 }
+.globalHeader {
+	position: static;
+	width: 100%;
+	z-index: 100;
+	background-color: #fff;
+	-webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
+	   -moz-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
+	        box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
+	}
 .navbar-nav {
     background-color: #003366;
     opacity: 0.8;
@@ -2059,6 +2068,9 @@ section#recruit_career {
 }
 /*---------- 採用情報end ----------*/
 /*---------- プライバシーポリシー ----------*/
+section#category10 {
+    height: 200px;
+}
 .privacyB {
     color: #000;
     padding: 100px 30px 100px;
@@ -2600,13 +2612,6 @@ header ul li a {
 .navbar-header {
     width: 80%;
 }
-.navbar-nav .dropdown-menu {
-    position: static;
-    float: none;
-    width:100%;
-    border: none;
-    margin-top: 0;
-}
 .spmenu {
     width: 30%;
 }
@@ -2869,8 +2874,8 @@ header ul li a {
 }
 .hamburgermenu img {
     position: relative;
-    top:10px;
-    left: 5px;
+    top: 15px;
+    left: 20px;
 }
 .mainV3 {
     width: 100%;
@@ -3339,8 +3344,8 @@ ul.tech {
 }
 /*-------------制作実績　end--------------- */
 /*-------------プライバシーポリシー --------------- */
-section#category01 {
-    height: 200px;
+section#category10 {
+    height: 400px;
 }
 .privacyB {
     color: #000;

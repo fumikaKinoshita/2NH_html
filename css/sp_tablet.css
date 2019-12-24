@@ -1561,6 +1561,7 @@ position: absolute;
     width:20%;
     height: 70px;
     float: left;
+    border: 1px solid lightgray;
 }
 .contactmenu a {
     background-color: #fff;
@@ -1572,6 +1573,7 @@ position: absolute;
     text-indent: -99999px;
     background-position: center;
     background-size: 85%;
+    margin: 7%;
 }
 .hamburgermenu {
     background-color: #003366;
@@ -1591,9 +1593,9 @@ position: absolute;
 .hamburgermenu img {
     position: relative;
     width: 80%;
-    margin: 25%;
+    margin: 30%;
 }
-.button navbar-toggle {
+.button navbar-toggle .collapsed {
     display: none;
 }
 /*会社概要*/
@@ -2126,8 +2128,13 @@ section#category10 {
     padding: 80px 50px 80px;
     float: left;
 }
-}
 /*---------- サイトマップ end----------*/
+/*---------- お問い合わせ ----------*/
+section#contactcatV {
+    height: 200px;
+}
+}
+/*---------- お問い合わせ end----------*/
 /*スマホ 480pxより画面が小さい時用　end */
 /*スマホ縦から見た状態の時用 ブラウザ幅481px以上、767px以下　start */
 @media screen and (min-width: 480px) and (max-width:767px) {
@@ -2844,17 +2851,16 @@ header ul li a {
     width: 10%;
     height: 70px;
     float: left;
+    border: 1px solid lightgray;
 }
 .contactmenu a {
     background-color: #fff;
-    width: 60px;
-    height: 70px;
+    height: 100%;
     display: block;
-     background-image: url(../img/mailIcon.jpg);
+    background-image: url(../img/mailIcon.jpg);
     background-repeat: no-repeat;
     text-indent: -99999px;
     background-position: center;
-    background-size: 100%;
 }
 .hamburgermenu {
     background-color: #003366;
@@ -2875,8 +2881,8 @@ header ul li a {
 }
 .hamburgermenu img {
     position: relative;
-    top: 15px;
-    left: 20px;
+    width: 80%;
+    margin: 35%;
 }
 .mainV3 {
     width: 100%;

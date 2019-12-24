@@ -1,14 +1,6 @@
 /* スマートフォンやタブレット用のスタイルを記述するためのCSSです */
 /*スマホ 480pxより画面が小さい時用 start */
 @media screen and (max-width:479px) {
-button{
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    outline: none;
-    padding: 0;
-    appearance: none;
-}
 /*デザイン全体*/
 body, html {
     height: 100%;
@@ -445,6 +437,14 @@ a.btn:hover {
     font-size: 12px;
     position: relative;
 }
+button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    appearance: none;
+}
 /*フォーム関連のスタイル*/
 .input-text-xxs {
     width:25px;
@@ -836,7 +836,255 @@ position: absolute;
 .btn.btn-primary-s:not(:disabled):not(.disabled).active, .btn.btn-primary-s:not(:disabled):not(.disabled):active {
     background-image:url(../img/button.jpg);
 }
-/*トップページのスタイル*/
+/*-------------ヘッダー --------------- */
+.globalHeader_pc {
+    display: none;
+}
+.globalHeader_sp {
+    display: block;
+    width: 100%;
+}
+.globalHeader_inner {
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.globalHeader_logo {
+	overflow: hidden;
+	font-size: 13px;
+}
+.globalHeader_logo a {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    margin-top: 5px;
+    width: auto;
+}
+.globalHeader_logo a:hover,
+.globalNav_logo  a:hover {
+	background-color: transparent;
+}
+.globalHeader_logo img {
+	width: 220px;
+}
+.globalNav_logo {
+	display: none;
+	float: left;
+}
+.fixed .globalNav_logo {
+	display: block;
+	margin-right: 2px;
+}
+.fixed .globalNav_logo img {
+	margin-top: 16px;
+	width: 31px;
+    vertical-align: middle;
+}
+.fixed .globalNav_logo120th {
+	display: block;
+  	float: left;
+	margin-top: 11px;
+    margin-right: 6px;
+}
+.globalNav_items {
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-size: 1px 30px;
+	background-position: 949px 8px;
+}
+.fixed .globalNav_items {
+	height: 45px;
+	margin-top: 0;
+	background-position: 875px 8px;
+}
+.globalNav_item {
+	float: none;
+    height: 80px;
+    width:100%;
+}
+.globalNav_item.home, .globalNav_item.works, .globalNav_item.contact {
+	float: none;
+    height: 80px;
+    width:100%;
+    margin:20px 0px;
+}
+.fixed .globalNav_item {
+	height: 45px;
+}
+
+.globalNav_item.active {
+    background-color: #7f99b2;
+}
+.globalNav_item > a {
+	position: relative;
+	display: block;
+	height: 80px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	background-repeat: no-repeat;
+	background-size: 9px 5px;
+    background-position: bottom 15px center;
+    color: #FFF;
+}
+.fixed .globalNav_item > a {
+	background-position: bottom 5px center;
+}
+.fixed .globalNav_item > a, .fixed .globalNav_item.subMenuOpen > a {
+    height: 45px;
+    border-radius: 0;
+}
+.globalNav_item.current > a {
+    color: #fff !important;
+    height: 45px;
+    background-color: #003366;
+    background-position: bottom 5px center;
+}
+.globalNav_item > a:only-child {
+    background-image: none;
+    width:100%;
+    padding: 15px 0px;
+    }
+.globalNav_item > a { background-color: transparent;
+    width:100%;
+}
+.globalNav_item.recruit > a:before {
+    content: '';
+    display: inline-block;
+    position: relative;
+    height: 18px;
+    width:100%;
+}
+.globalNav_item.linkTxt00 > a:after {
+    top: -1px;
+}
+.globalNav_item.linkTxt00 > a:hover:after {
+    background-size: 13px 9px;
+    width: 13px;
+    height: 9px;
+}
+.globalSubNav_items {
+    overflow: hidden;
+    min-width: 100%;
+    width: 100%;
+    background-color: #003366;
+    display: block;
+    float: left;
+    color: #FFF;
+    z-index: 150;
+}
+.globalSubNav_items.agile {
+    overflow: hidden;
+    min-width: 50%;
+    width: 50%;
+    background-color: #003366;
+    display: block;
+    float: left;
+    color: #FFF;
+    position: absolute;
+    left: 50%;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    z-index: 150;
+    top: 250px;
+}
+.globalSubNav_items.rec {
+    overflow: hidden;
+    min-width: 50%;
+    width: 50%;
+    background-color: #003366;
+    display: block;
+    float: left;
+    color: #FFF;
+    position: absolute;
+    left: 50%;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    z-index: 150;
+    top: 300px;
+}
+.globalSubNav_item:first-child {
+    margin-left: 0;
+}
+.globalSubNav_item a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    color: #FFF;
+}
+.globalHeader_utilityNav {
+    position: absolute;
+    top: 7px;
+    right: 0;
+}
+.globalHeader_utilityNav_item {
+    margin-left: 8px;
+    float: left;
+}
+.globalHeader_utilityNav_item.linkBtn {
+    margin-top: 0;
+}
+.globalHeader_utilityNav_item.linkBtn a {
+    font-size: 12px;
+    width: auto;
+    height: auto;
+    display: block;
+    padding: 7.5px 28px;
+}
+.globalHeader_utilityNav_item.linkBtn a:after {
+    background-size: 5px 9px;
+    width: 5px;
+    height: 10px;
+    right: 11px;
+}
+.contactmenu {
+    background-color: #fff;
+    width:20%;
+    height: 70px;
+    float: left;
+    border: 1px solid lightgray;
+}
+.contactmenu a {
+    background-color: #fff;
+    width:85%;
+    height: 85%;
+    display: block;
+     background-image: url(../img/mailIcon.jpg);
+    background-repeat: no-repeat;
+    text-indent: -99999px;
+    background-position: center;
+    background-size: 85%;
+    margin: 7%;
+}
+.hamburgermenu {
+    background-color: #003366;
+    width:20%;
+    height: 70px;
+    float: left;
+}
+.hamburgermenu a {
+    width: 100%;
+    height: 100%;
+    float: left;
+    background-image: url(../img/hm.jpg);
+    background-repeat: no-repeat;
+    text-indent: -99999px;
+    background-position: center center;
+}
+.hamburgermenu img {
+    position: relative;
+    width: 80%;
+    margin: 30%;
+}
+.button navbar-toggle .collapsed {
+    display: none;
+}
+/*-------------ヘッダーend --------------- */
+/*-------------トップページ --------------- */
 .mainV3 {
     height: 480px;
     min-height: 480px;
@@ -1151,254 +1399,9 @@ position: absolute;
     background-color: #fff;
     color: #003366;
 }
-/*トップページのスタイル END */
-.globalHeader_pc {
-    display: none;
-}
-.globalHeader_sp {
-    display: block;
-    width: 100%;
-}
-.globalHeader_inner {
-	width: 100%;
-	margin: 0 auto;
-	position: relative;
-}
-.globalHeader_logo {
-	overflow: hidden;
-	font-size: 13px;
-}
-.globalHeader_logo a {
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 10px;
-    margin-top: 5px;
-    width: auto;
-}
-.globalHeader_logo a:hover,
-.globalNav_logo  a:hover {
-	background-color: transparent;
-}
-.globalHeader_logo img {
-	width: 220px;
-}
-.globalNav_logo {
-	display: none;
-	float: left;
-}
-.fixed .globalNav_logo {
-	display: block;
-	margin-right: 2px;
-}
-.fixed .globalNav_logo img {
-	margin-top: 16px;
-	width: 31px;
-    vertical-align: middle;
-}
-.fixed .globalNav_logo120th {
-	display: block;
-  	float: left;
-	margin-top: 11px;
-    margin-right: 6px;
-}
-.globalNav_items {
-	overflow: hidden;
-	background-repeat: no-repeat;
-	background-size: 1px 30px;
-	background-position: 949px 8px;
-}
-.fixed .globalNav_items {
-	height: 45px;
-	margin-top: 0;
-	background-position: 875px 8px;
-}
-.globalNav_item {
-	float: none;
-    height: 80px;
-    width:100%;
-}
-.globalNav_item.home, .globalNav_item.works, .globalNav_item.contact {
-	float: none;
-    height: 80px;
-    width:100%;
-    margin:20px 0px;
-}
-.fixed .globalNav_item {
-	height: 45px;
-}
+/*-------------トップページend --------------- */
 
-.globalNav_item.active {
-    background-color: #7f99b2;
-}
-.globalNav_item > a {
-	position: relative;
-	display: block;
-	height: 80px;
-	font-weight: bold;
-	text-align: center;
-	text-decoration: none;
-	background-repeat: no-repeat;
-	background-size: 9px 5px;
-    background-position: bottom 15px center;
-    color: #FFF;
-}
-.fixed .globalNav_item > a {
-	background-position: bottom 5px center;
-}
-.fixed .globalNav_item > a, .fixed .globalNav_item.subMenuOpen > a {
-    height: 45px;
-    border-radius: 0;
-}
-.globalNav_item.current > a {
-    color: #fff !important;
-    height: 45px;
-    background-color: #003366;
-    background-position: bottom 5px center;
-}
-.globalNav_item > a:only-child {
-    background-image: none;
-    width:100%;
-    padding: 15px 0px;
-    }
-.globalNav_item > a { background-color: transparent;
-    width:100%;
-}
-.globalNav_item.recruit > a:before {
-    content: '';
-    display: inline-block;
-    position: relative;
-    height: 18px;
-    width:100%;
-}
-.globalNav_item.linkTxt00 > a:after {
-    top: -1px;
-}
-.globalNav_item.linkTxt00 > a:hover:after {
-    background-size: 13px 9px;
-    width: 13px;
-    height: 9px;
-}
-.globalSubNav_items {
-    overflow: hidden;
-    min-width: 100%;
-    width: 100%;
-    background-color: #003366;
-    display: block;
-    float: left;
-    color: #FFF;
-    z-index: 150;
-}
-.globalSubNav_items.agile {
-    overflow: hidden;
-    min-width: 50%;
-    width: 50%;
-    background-color: #003366;
-    display: block;
-    float: left;
-    color: #FFF;
-    position: absolute;
-    left: 50%;
-    right: 0;
-    margin: 0;
-    padding: 0;
-    z-index: 150;
-    top: 250px;
-}
-.globalSubNav_items.rec {
-    overflow: hidden;
-    min-width: 50%;
-    width: 50%;
-    background-color: #003366;
-    display: block;
-    float: left;
-    color: #FFF;
-    position: absolute;
-    left: 50%;
-    right: 0;
-    margin: 0;
-    padding: 0;
-    z-index: 150;
-    top: 300px;
-}
-.globalSubNav_item:first-child {
-    margin-left: 0;
-}
-.globalSubNav_item a {
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    width: 100%;
-    height: 100%;
-    color: #FFF;
-}
-.globalHeader_utilityNav {
-    position: absolute;
-    top: 7px;
-    right: 0;
-}
-.globalHeader_utilityNav_item {
-    margin-left: 8px;
-    float: left;
-}
-.globalHeader_utilityNav_item.linkBtn {
-    margin-top: 0;
-}
-.globalHeader_utilityNav_item.linkBtn a {
-    font-size: 12px;
-    width: auto;
-    height: auto;
-    display: block;
-    padding: 7.5px 28px;
-}
-.globalHeader_utilityNav_item.linkBtn a:after {
-    background-size: 5px 9px;
-    width: 5px;
-    height: 10px;
-    right: 11px;
-}
-.contactmenu {
-    background-color: #fff;
-    width:20%;
-    height: 70px;
-    float: left;
-    border: 1px solid lightgray;
-}
-.contactmenu a {
-    background-color: #fff;
-    width:85%;
-    height: 85%;
-    display: block;
-     background-image: url(../img/mailIcon.jpg);
-    background-repeat: no-repeat;
-    text-indent: -99999px;
-    background-position: center;
-    background-size: 85%;
-    margin: 7%;
-}
-.hamburgermenu {
-    background-color: #003366;
-    width:20%;
-    height: 70px;
-    float: left;
-}
-.hamburgermenu a {
-    width: 100%;
-    height: 100%;
-    float: left;
-    background-image: url(../img/hm.jpg);
-    background-repeat: no-repeat;
-    text-indent: -99999px;
-    background-position: center center;
-}
-.hamburgermenu img {
-    position: relative;
-    width: 80%;
-    margin: 30%;
-}
-.button navbar-toggle .collapsed {
-    display: none;
-}
-/*会社概要*/
+/*-------------会社概要 --------------- */
 section#category01 {
     height: 200px;
     margin-bottom: 50px;
@@ -1418,8 +1421,8 @@ section .category-caption .caption-content h2 {
     width: 110%;
     margin: -35px auto 94px -15px;
 }
-/*会社概要 end*/
-/*会社沿革*/
+/*-------------会社概要　end --------------- */
+/*-------------会社沿革 --------------- */
 section#category02 {
     height: 200px;
     margin-bottom: 50px;
@@ -1446,8 +1449,8 @@ section#category02.category-caption span {
 .historyB img {
     width: 100%;
 }
-/*会社沿革 end*/
-/*社長挨拶*/
+/*-------------会社沿革　end --------------- */
+/*-------------社長挨拶 --------------- */
 .ceoMessage {
     margin: 0 auto 100px;
     width: 480px;
@@ -1491,8 +1494,8 @@ section#category03 .category-caption {
 section#category03 .category-caption .caption-content {
     top: 130px;
 }
-/*社長挨拶end*/
-/*アクセス*/
+/*-------------社長挨拶　end --------------- */
+/*-------------アクセス --------------- */
 section#category04 {
     background-image: url(../img/company_3.png);
     background-repeat: no-repeat;
@@ -1524,403 +1527,7 @@ section#category04 {
     margin: 0px 0px 0px -30px;
     font-size: 10px;
 }
-/*アクセスend*/
-/*---------- アジャイル開発ページ ----------*/
-section#agile {
-    background-repeat: no-repeat;
-    height: 200px;
-    margin-bottom: 90px;
-}
-section .category-caption .caption-content h2 {
-    font-size: 38px;
-    margin: 0px;
-    color: #fff;
-}
-.titleB {
-    margin: 0 auto 100px;
-    text-align: center;
-}
-.titleB h4 {
-    width: 100%;
-    margin: 100px auto 100px;
-    color: #000;
-}
-.titleB p {
-    padding: 50px 20px 50px;
-    line-height: 18px;
-    font-size: 10px;
-    letter-spacing: .1em;
-}
-.agileB {
-    width: 100%;
-    float: left;
-}
-.agileB h5 {
-    background-color: #036;
-    padding: 12px;
-    color: #fff;
-    width: 250px;
-    height: 50px;
-    margin-bottom: 30px;
-    text-align: center;
-}
-.agilemainB {
-    margin:  0 auto;
-    width: 100%;
-    float: left;
-}
-.agileB h5 {
-    background-color: #036;
-    padding: 12px;
-    color: #fff;
-    width: 250px;
-    height: 50px;
-    margin-bottom: 30px;
-    text-align: center;
-}
-.agileB p{
-    font-size: 11.5px;
-    margin: 0px 20px 30px 0px;
-    width: 100%;
-    max-width: 479px;
-}
-.agileB img {
-    width: 100%;
-    float:left;
-}
-.waterfallB {
-    margin:  0 auto;
-    width: 100%;
-    float: left;
-}
-.waterfallB h5 {
-    background-color: #036;
-    padding: 12px;
-    color: #fff;
-    width: 250px;
-    height: 50px;
-    margin: 100px 0 30px;
-}
-.waterfallB p{
-    font-size: 11.5px;
-    width: 100%;
-    margin: 0px 20px 30px 0px;
-}
-.waterfallB img {
-    width: 100%;
-    height: auto;
-    margin: 0px 0px 30px 0px;
-}
-/*---------- アジャイル end ----------*/
-/*---------- 制作実績ページ ----------*/
-section#works {
-    height: 200px;
-}
-.mb18 {
-    margin: 0px 0px 18px -15px;
-}
-.mb77 {
-    margin-bottom: 20px;
-}
-.ml50 {
-    margin-bottom: 20px;
-}
-.mb130 {
-    margin-bottom: 100px;
-}
-.worksContents {
-    width: 100%;
-    margin: 0 auto;
-    padding: 0;
-}
-.worksContents table {
-    width: 100%;
-    margin: 0 auto 94px;
-    font-size: 9px;
-}
-.worksContents table th {
-    font-size: 9px;
-    width: 20%;
-}
-.worksContents table ul {
-    float: left;
-    margin: 5px;
-    padding: 0;
-}
-.worksContents table ul li {
-    float: left;
-    margin-right: 10px;
-}
-.worksContents table ul li:last-child{
-    float: left;
-    margin-right: 0;
-}
-.worksContents table p {
-    float: left;
-    margin-right: 10px;
-    width: 100%;
-    font-size: 9px;
-}
-.brn {
-    border-right: 0!important;
-}
-#worksContents h3 {
-    width: 200px;
-}
-.tech li {
-    margin-bottom: 10px;
-}
-.worksContents table ul {
-    float: left;
-    margin: 5px;
-    padding: 0;
-    width:62%;
-    }
-    .worksContents table ul li {
-    float: left;
-    margin-right: 1px;
-    width: 16%;
-    }
-    .worksContents table ul li img {
-    float: left;
-    width: 96%;
-    }
-    .worksContents table p {
-    float: left;
-    margin-right: 5px;
-    width: 30%;
-    font-size: 9px;
-    }
-/*---------- 制作実績ページ end----------*/
-/*---------- 採用情報 ----------*/
-section#recruitmain {
-    height: 200px;
-}
-section#recruit_career {
-    height: 200px;
-}
-.recruitContents {
-    background-position: center 20%;
-    background-size: 110%;
-    font-size: 10px;
-    padding: 5px;
-    width: 100%;
-}
-.recruitContents p {
-    line-height: 1.5rem;
-}
-.recruitContents ul {
-    width: 100%;
-}
-.recruitContents ul li a {
-    width: 100%;
-}
-.recruitContents ul li a:hover {
-    width: 100%;
-}
-#recruitmsg table {
-    font-size: 14px;
-    border: 0;
-    width: 85%;
-    margin: 100px auto 120px;
-}
-#recruitmsg table th {
-    font-size: 14px;
-    color: #111;
-    background-color: #FFF;
-    border: 0;
-    padding: 5px;
-    width: 350px;
-    vertical-align: top;
-}
-.sw_system_wrap {
-    background-color: #003466;
-    width: 100%;
-    margin: 0 auto;
-}
-.sw_system {
-    background-color: #003466;
-    width: 230px;
-    margin: 0 auto;
-}
-.system01 {
-    background-image: url(../img/health.png);
-    background-repeat: no-repeat;
-    width:230px;
-    height: 230px;
-    float: left;
-    margin: 0px 0px 10px 0px;
-}
-.system02 {
-    background-image: url(../img/skillup.png);
-    background-repeat: no-repeat;
-    width:230px;
-    height: 230px;
-    float: left;
-    margin: 0px 0px 10px 0px;
-}
-.system03 {
-    background-image: url(../img/waterserver.png);
-    background-repeat: no-repeat;
-    width:230px;
-    height: 230px;
-    float: left;
-    margin: 0px 0px 10px 0px;
-}
-.system04 {
-    background-image: url(../img/baby.png);
-    background-repeat: no-repeat;
-    width:230px;
-    height: 230px;
-    float: left;
-    margin: 0px 0px 10px 0px;
-}
-.system05 {
-    background-image: url(../img/vacation.png);
-    background-repeat: no-repeat;
-    width:230px;
-    height: 230px;
-    float: left;
-    margin: 0px 0px 10px 0px;
-}
-.system06 {
-    background-image: url(../img/schedule.png);
-    background-repeat: no-repeat;
-    width:230px;
-    height: 230px;
-    float: left;
-    margin: 0px 0px 10px 0px;
-}
-.system07 {
-    background-image: url(../img/family.png);
-    background-repeat: no-repeat;
-    width:230px;
-    height: 230px;
-    float: left;
-    margin: 0px 0px 10px 0px;
-}
-.system08 {
-    background-image: url(../img/relax.png);
-    background-repeat: no-repeat;
-    width:230px;
-    height: 230px;
-    float: left;
-    margin: 0px 0px 10px 0px;
-}
-.rectopbtn {
-    width: 100%;
-    margin: 0 auto;
-    text-align: right;
-    height: 100%;
-}
-.rectopbtn li {
-    float: right;
-    width: 220px;
-    padding: 20px 0;
-    margin-bottom: 130px;
-    height: 52px;
-    border-radius: 0;
-    margin-right: 10px;
-}
-.rectopbtn a {
-    float: left;
-    width: 220px;
-    display: block;
-    background-color: #fff;
-    height: 52px;
-    padding: 10px 0;
-    border:solid 1px #003366;
-    border-radius: 0;
-}
-.entryform {
-    width: 90%;
-    margin:0 auto 40px;
-    font-size: 16px;
-}
-.entryform label {
-    font-size: 16px;
-}
-.entryform input[type="text"] {
-    width:90%;
-    border: solid 1px #eee;
-}
-.entryform input[type="text"].b_ymd {
-    width:80px;
-    border: solid 1px #eee;
-}
-.entryform textarea {
-    width:90%;
-    border: solid 1px #eee;
-}
-.entryform button {
-    width:130px;
-    height: 30px;
-    border-radius: 4px;
-    color: #fff;
-    background-color: #003366;
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
-.entryform .title {
-    color: #003366;
-    margin: 20px 0 5px;
-    font-weight: bold;
-}
-/*---------- 採用情報end ----------*/
-/*---------- プライバシーポリシー ----------*/
-section#category10 {
-    height: 200px;
-}
-.privacyB {
-    color: #000;
-    padding: 100px 30px 100px;
-    width: 100%;
-    height: auto;
-    margin: 0 auto 0px;
-    background: #fff;
-    border-top: solid 8px #036;
-    border-bottom: solid 8px #036;
-}
-.privacyB h5 {
-    width: 100%;
-    margin: 0 auto 30px
-}
-.privacyB p {
-    width: 100%;
-    margin: 0 auto
-}
-.privacynow p {
-    width: 100%;
-    text-align: right;
-}
-/*---------- プライバシーポリシー end----------*/
-/*---------- サイトマップ  ----------*/
-.parent {
-    text-align: center;
-}
-.parent a{
-    color: #000;
-}
-.inline-block_test {
-    padding: 0px 0px 30px;
-    width: 70%;
-    height: auto;
-    margin: 0px 20%;
-}
-.inline-block_test h4{
-    text-decoration: underline;
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: -5px;
-}
-.inline-block_test h4 :hover{
-    background: #036;
-    color: #fff;
-    font-size: 18px;
-    font-weight: bold;
-    letter-spacing: .2ex;
-    transition: .3s ease-in-out;
-}
+/*-------------アクセス　end --------------- */
 /* ---------SP_SERVICEページstart----- */
 
 .sp-all{
@@ -1978,7 +1585,7 @@ section#category10 {
    letter-spacing: 0.2em;
    margin: 0 auto;
    height: auto;
-   width: 100%;    
+   width: 100%;
 }
 
 
@@ -2365,11 +1972,11 @@ margin-right: 0rem;
        background-position-x: 0%;
        margin: 0rem auto;
 
-       
+
    }
 
 
-   
+
 .iconsystem{
    height: 11rem;
    width: 100%;
@@ -2633,7 +2240,289 @@ div#other{
 }
 
 /* ---------sp_SERVICEページ end----- */
-
+/*---------- アジャイル ----------*/
+section#agile {
+    background-repeat: no-repeat;
+    height: 200px;
+    margin-bottom: 90px;
+}
+section .category-caption .caption-content h2 {
+    font-size: 38px;
+    margin: 0px;
+    color: #fff;
+}
+.titleB {
+    margin: 0 auto 100px;
+    text-align: center;
+}
+.titleB h4 {
+    margin: 100px auto 100px;
+}
+.titleB p {
+    padding: 50px 20px 50px;
+    line-height: 18px;
+    font-size: 10px;
+    letter-spacing: .1em;
+}
+.agileB {
+    width: 100%;
+    float: left;
+}
+.agilemainB {
+    margin:  0 auto;
+    width: 100%;
+    float: left;
+}
+.agileB h5 {
+    background-color: #036;
+    padding: 12px;
+    color: #fff;
+    width: 250px;
+    height: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.agileB p{
+    font-size: 11.5px;
+    margin: 0px 20px 30px 0px;
+    width: 100%;
+    max-width: 479px;
+}
+.agileB img {
+    float:left;
+}
+.waterfallB {
+    margin:  0 auto;
+    width: 100%;
+    float: left;
+}
+.waterfallB h5 {
+    width: 250px;
+    margin: 100px 0 30px;
+}
+.waterfallB p{
+    font-size: 11.5px;
+    margin: 0px 20px 30px 0px;
+}
+.waterfallB img {
+    width: 100%;
+    height: auto;
+    margin: 0px 0px 30px 0px;
+}
+/*---------- アジャイル end ----------*/
+/*---------- 制作実績ページ ----------*/
+section#works {
+    height: 200px;
+}
+.mb18 {
+    margin: 0px 0px 18px -15px;
+}
+.mb77 {
+    margin-bottom: 20px;
+}
+.ml50 {
+    margin-bottom: 20px;
+}
+.mb130 {
+    margin-bottom: 100px;
+}
+.worksContents {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+.worksContents table {
+    width: 100%;
+    margin: 0 auto 94px;
+    font-size: 9px;
+}
+.worksContents table th {
+    font-size: 9px;
+    width: 20%;
+}
+.worksContents table ul {
+    float: left;
+    margin: 5px;
+    padding: 0;
+}
+.worksContents table ul li {
+    float: left;
+    margin-right: 10px;
+}
+.worksContents table ul li:last-child{
+    float: left;
+    margin-right: 0;
+}
+.worksContents table p {
+    float: left;
+    margin-right: 10px;
+    width: 100%;
+    font-size: 9px;
+}
+.brn {
+    border-right: 0!important;
+}
+#worksContents h3 {
+    width: 180px;
+}
+.tech li {
+    margin-bottom: 10px;
+}
+.worksContents table ul {
+    float: left;
+    margin: 5px;
+    padding: 0;
+    width:62%;
+    }
+    .worksContents table ul li {
+    float: left;
+    margin-right: 1px;
+    width: 16%;
+    }
+    .worksContents table ul li img {
+    float: left;
+    width: 96%;
+    }
+    .worksContents table p {
+    float: left;
+    margin-right: 5px;
+    width: 32%;
+    font-size: 9px;
+    }
+/*---------- 制作実績ページ end----------*/
+/*---------- 採用情報 ----------*/
+section#recruitmain {
+    height: 200px;
+}
+section#recruit_career {
+    height: 200px;
+}
+.recruitContents {
+    background-position: center 20%;
+    background-size: 110%;
+    font-size: 10px;
+    padding: 5px;
+    width: 100%;
+}
+.recruitContents p {
+    line-height: 1.5rem;
+}
+.recruitContents ul {
+    width: 100%;
+}
+.recruitContents ul li a {
+    width: 100%;
+}
+.recruitContents ul li a:hover {
+    width: 100%;
+}
+#recruitmsg table {
+    font-size: 14px;
+    border: 0;
+    width: 85%;
+    margin: 100px auto 120px;
+}
+#recruitmsg table th {
+    width: 350px;
+}
+.sw_system {
+    background-color: #003466;
+    width: 230px;
+    margin: 0 auto;
+}
+.system01 {
+    height: 230px;
+}
+.system02 {
+    height: 230px;
+}
+.system03 {
+    height: 230px;
+}
+.system04 {
+    height: 230px;
+}
+.system05 {
+    height: 230px;
+}
+.system06 {
+    height: 230px;
+}
+.system07 {
+    height: 230px;
+}
+.system08 {
+    height: 230px;
+}
+.rectopbtn {
+    width: 100%;
+}
+.entryform {
+    width: 90%;
+    margin:0 auto 40px;
+    font-size: 16px;
+}
+.entryform label {
+    font-size: 16px;
+}
+.entryform input[type="text"] {
+    width:90%;
+}
+.entryform textarea {
+    width:90%;
+}
+.entryform button {
+    width:130px;
+}
+/*---------- 採用情報end ----------*/
+/*---------- プライバシーポリシー ----------*/
+section#category10 {
+    height: 200px;
+}
+.privacyB {
+    color: #000;
+    padding: 100px 30px 100px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto 0px;
+    background: #fff;
+    border-top: solid 8px #036;
+    border-bottom: solid 8px #036;
+}
+.privacyB h5 {
+    width: 100%;
+    margin: 0 auto 30px
+}
+.privacyB p {
+    width: 100%;
+    margin: 0 auto
+}
+.privacynow p {
+    width: 100%;
+    text-align: right;
+}
+/*---------- プライバシーポリシー end----------*/
+/*---------- サイトマップ  ----------*/
+.parent {
+    text-align: center;
+}
+.inline-block_test {
+    padding: 0px 0px 30px;
+    width: 70%;
+    height: auto;
+    margin: 0px 20%;
+}
+.inline-block_test h4{
+    margin-bottom: -5px;
+}
+.inline-block_test h4 :hover{
+    background: #036;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: .2ex;
+    transition: .3s ease-in-out;
+}
 .sitemapB {
     padding: 80px 50px 80px;
     float: left;
@@ -3094,7 +2983,7 @@ section#recriut_career {
     letter-spacing: 0.2em;
     margin: 0 auto;
     height: auto;
-    width: 100%;    
+    width: 100%;
 }
 
 
@@ -4680,7 +4569,7 @@ section#category10 {
 /*-------------プライバシーポリシー end--------------- */
 /*-------------サイトマップ  --------------- */
 .parent {
-    text-align: center;         /* 子要素を左右中央揃えにする */
+    text-align: center;
 }
 .parent a{
     color: #000;
@@ -4775,7 +4664,7 @@ section#category10 {
     letter-spacing: 0.2em;
     margin: 0 auto;
     height: auto;
-    width: 100%;    
+    width: 100%;
 }
 
 

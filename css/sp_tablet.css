@@ -1,13 +1,13 @@
 /* スマートフォンやタブレット用のスタイルを記述するためのCSSです */
 /*スマホ 480pxより画面が小さい時用 start */
 @media screen and (max-width:479px) {
-    button{
-        background-color: transparent;
-        border: none;
-        cursor: pointer;
-        outline: none;
-        padding: 0;
-        appearance: none;
+button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    appearance: none;
 }
 /*デザイン全体*/
 body, html {
@@ -114,15 +114,7 @@ header ul li a {
 .dropdown, .dropup {
     position: static;
 }
-.globalHeader {
-	position: static;
-	width: 100%;
-	z-index: 100;
-	background-color: #fff;
-	-webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
-	   -moz-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
-	        box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
-	}
+
 .navbar-nav {
     background-color: #003366;
     opacity: 0.8;
@@ -511,26 +503,10 @@ table {
     border:solid 1px #CFCFCF;
 }
 th {
-    font-weight:bold;
-    font-size:12px;
-    padding: 5px 5px;
-    background-color: #EEEEEE;
     color: #666666;
-    text-align: left;
-    display: table-cell;
-    vertical-align: inherit;
-    border:solid 1px #CFCFCF;
 }
 td {
-    font-weight: normal;
-    font-size: 12px;
-    background-color: #fff;
     color: #666666;
-    text-align: left;
-    padding: 10px 10px;
-    display: table-cell;
-    vertical-align: inherit;
-    border: solid 1px #CFCFCF;
 }
 .btm_btnG {
     width:100%;
@@ -645,10 +621,6 @@ ul.nml_btn {
     color: #fff;
     background-color: #003466;
     border-bottom: 0;
-    border-top: none;
-    border-right: none;
-    border-left:none;
-    font-weight:bold;
     border-radius:0;
 }
 .nav-tabs {
@@ -957,11 +929,7 @@ position: absolute;
     border-bottom: solid 8px #036;
 }
 .serviceB h2 {
-    color: #000;
-    width: 100%;
     margin: 0px auto 8px;
-    font-size: 32px;
-    text-align: center;
 }
 .serviceB h3 {
     width: 241px;
@@ -971,11 +939,8 @@ position: absolute;
     height: auto;
 }
 .serviceB h4 {
-    color: #000;
     width: 100%;
     margin: 0px auto 40px;
-    font-size: 16px;
-    text-align: center;
 }
 .serviceB h5 {
     width: 180px;
@@ -1048,8 +1013,6 @@ position: absolute;
     border-radius: 10px;
 }
 .serviceB .serviceDetail {
-    line-height: 25px;
-    letter-spacing: 1px;
     font-size: 10px;
     white-space: nowrap;
 }
@@ -1057,19 +1020,15 @@ position: absolute;
     margin: 0px 0px 0px -30px;
 }
 .aboutusB {
-    width: 100%;
     min-height: 400px;
     margin: 100px 0px 0px;
 }
 .aboutusB h2 {
     color: #000;
-    width: 100%;
     margin: 0px auto 8px;
     font-size: 32px;
-    text-align: center;
 }
 .aboutusC {
-    height: auto;
     margin: 0px auto;
     display: inline-block;
 }
@@ -1079,9 +1038,6 @@ position: absolute;
 }
 .aur {
     width: 100%;
-    float: left;
-    height: auto;
-    max-height: 100%;
 }
 .aboutusB h4 {
     width: 100%;
@@ -1098,86 +1054,8 @@ position: absolute;
     height: 150px;
     background-image: url(../img/TOP/works_off.jpg);
 }
-.Menu01 p {
-    position: absolute;
-    color: #333;
-    font-weight: normal;
-    width: 100%;
-}
-.Menu01 a {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
-    background-image: url(../img/TOP/works_off.jpg);
-    background-repeat: no-repeat;
-    display: block;
-    width: 100%;
-    height:150px;
-    background-size: cover;
-}
-.Menu01 a:hover {
-    -webkit-filter: grayscale(0);
-    filter: grayscale(0);
-    background-image: url(../img/TOP/works_on.jpg);
-    width: 50%;
-    height: 150px;
-    text-decoration:underline;
-}
-.Menu01 figure img {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
-    width: 50%;
-    height: 150px;
-}
-.Menu01 figure:hover img {
-    -webkit-filter: grayscale(0);
-    filter: grayscale(0);
-    text-decoration:underline;
-}
 .Menu02 {
     height: 150px;
-}
-.Menu02 p {
-    position: absolute;
-    color: #333;
-    font-weight: normal;
-    width: 100%;
-}
-.Menu02 a {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
-    background-image: url(../img/TOP/recruit_off.jpg);
-    background-repeat: no-repeat;
-    display: block;
-    width: 100%;
-    height: 150px;
-    background-size: cover;
-}
-.Menu02 a:hover {
-    -webkit-filter: grayscale(0);
-    filter: grayscale(0);
-    background-image: url(../img/TOP/recruit_on.jpg);
-    width: 50%;
-    height: 150px;
-    text-decoration:underline;
-}
-.Menu02 figure img {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
-    width: 50%;
-    height: 150px;
-}
-.Menu02 figure:hover img {
-    -webkit-filter: grayscale(0);
-    filter: grayscale(0);
-    text-decoration:underline;
 }
 .Menu03 {
     float: right;
@@ -1185,93 +1063,16 @@ position: absolute;
     height: 150px;
     object-fit: cover;
 }
-.Menu03 p {
-    position: absolute;
-    color: #333;
-    font-weight: normal;
-    width: 100%;
-}
-.Menu03 a {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
-    background-image: url(../img/TOP/access_off.jpg);
-    background-repeat: no-repeat;
-    display: block;
-    width: 100%;
-    height: 150px;
-    background-size: cover;
-    float: right;
-}
-.Menu03 a:hover {
-    -webkit-filter: grayscale(0);
-    filter: grayscale(0);
-    background-image: url(../img/TOP/access_on.jpg);
-    width: 50%;
-    height: 150px;
-    text-decoration:underline;
-}
-.Menu03 figure img {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
-    width: 50%;
-    height: 150px;
-}
-.Menu03 figure:hover img {
-    -webkit-filter: grayscale(0);
-    filter: grayscale(0);
-    text-decoration:underline;
-}
 .Menu04 {
     float: left;
     width: 50%;
     height: 150px;
 }
-.Menu04 p {
-    position: absolute;
-    color: #333;
-    font-weight: normal;
-    width: 100%;
-}
 .Menu04 a {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
-    background-image: url(../img/TOP/topceo_off.jpg);
-    background-repeat: no-repeat;
-    display: block;
-    width: 100%;
     height: 150px;
-    background-size: cover;
 }
 .Menu04 a:hover {
-    -webkit-filter: grayscale(0);
-    filter: grayscale(0);
-    background-image: url(../img/TOP/topceo_on.jpg);
-    background-repeat: no-repeat;
-    display: block;
-    width: 50%;
     height: 150px;
-    background-size: cover;
-    text-decoration:underline;
-}
-.Menu04 figure img {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
-    width: 50%;
-    max-height: 150px;
-}
-.Menu04 figure:hover img {
-    -webkit-filter: grayscale(0);
-    filter: grayscale(0);
-    max-height: 150px;
-    text-decoration:underline;
 }
 .topicsB {
     width: 100%;
@@ -1307,7 +1108,6 @@ position: absolute;
 }
 .contactB h2 {
     width: 100%;
-    margin: 20px auto 0;
 }
 .contactB h4 {
     width: 100%;
@@ -1599,7 +1399,7 @@ position: absolute;
     display: none;
 }
 /*会社概要*/
-section#category10 {
+section#category01 {
     height: 200px;
     margin-bottom: 50px;
 }
@@ -1644,7 +1444,6 @@ section#category02.category-caption span {
     width: 100%;
 }
 .historyB img {
-    margin: 0 auto 100px;
     width: 100%;
 }
 /*会社沿革 end*/
@@ -1723,9 +1522,7 @@ section#category04 {
 .accessBattn p {
     text-align: left;
     margin: 0px 0px 0px -30px;
-    font-weight: bold;
     font-size: 10px;
-    line-height: 1.5rem;
 }
 /*アクセスend*/
 /*---------- アジャイル開発ページ ----------*/

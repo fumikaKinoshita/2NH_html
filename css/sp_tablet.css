@@ -205,7 +205,7 @@ header ul li a {
 .footer_sp {
     display: block;
     background-color:#003366;
-    height:600px;
+    height:750px;
     margin-top:0px;
     flex-shrink: 0;
     color: #fff;
@@ -2521,6 +2521,12 @@ section#recriut_career {
         background-repeat: no-repeat;
         background-size: 7px 13px;
         background-position: center right 10px;
+    }
+    .footer_sp {
+        height: 750px;
+    }
+    .offset-1 {
+        margin: 0px;
     }
 }
 /*スマホ縦から見た状態の時用　ブラウザ幅481px以上、767px以下　end*/

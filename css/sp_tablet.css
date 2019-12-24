@@ -205,7 +205,7 @@ header ul li a {
 .footer_sp {
     display: block;
     background-color:#003366;
-    height:600px;
+    height:750px;
     margin-top:0px;
     flex-shrink: 0;
     color: #fff;
@@ -2124,6 +2124,719 @@ section#category10 {
     letter-spacing: .2ex;
     transition: .3s ease-in-out;
 }
+/* ---------SP_SERVICEページstart----- */
+
+.sp-all{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.sbrainall{
+   height: auto;
+   width: 100%;
+}
+
+.sbrain{
+   height: 100%;
+   width: 100%;
+   margin: 0 auto;
+   padding-bottom: 2%;
+}
+
+
+/* .brain_s{
+   height: 100%;
+   width: 100%;
+   margin: 0 auto;
+   padding-bottom: 2%;
+} */
+
+.sbrain img{
+   margin: 0 auto;
+   position: relative;
+   z-index: 1;
+   height: auto;
+   width: 100%;
+}
+
+
+.sbrain h2{
+   text-align: center;
+   position: relative;
+   z-index: 2;
+   top: -35%;
+   letter-spacing: 0.1rem;
+}
+
+.sbrain h1{
+   font-size: 1.5rem;
+   padding-top: 0.8em;
+   text-align: center;
+   line-height: 2rem;
+}
+
+.braintro_s{
+   font-size: 1.2em;
+   letter-spacing: 0.2em;
+   margin: 0 auto;
+   height: auto;
+   width: 100%;    
+}
+
+
+.sbrain p{
+   font-size: 1rem;
+   padding-top: 0.8em;
+   text-align: center;
+}
+
+.sbrain hr{
+   width: 100%;
+   margin-top: 6rem;
+}
+
+
+.menue{
+   height: 100%;
+   width: auto;
+   margin-left: 0%;
+   margin-top: 0rem;
+}
+
+.menue h1{
+   font-size: 1.4rem;
+   font: bolder;
+   margin-bottom: 0rem;
+}
+
+.menue li img{
+   width: 3rem;
+   height: 2rem;
+   margin: 0rem 0rem;
+}
+
+.menue ul{
+   padding: 3em;
+   margin-left: 0em;
+   line-height: 2.2em;
+   /* max-width: 800rem; */
+}
+
+.menue li{
+   border-bottom: 0.1rem solid #666;
+   text-align: left;
+}
+
+.brain-lr{
+   background-image: url(../img/brain/sbrain-lr.png);
+   background-position: left;
+   background-repeat: no-repeat;
+   position: relative;
+}
+
+.brain-lr2{
+   background-image: url(../img/brain/sbrain-lr2.png);
+   background-position: left;
+   background-repeat: no-repeat;
+   position: relative;
+}
+
+.smain{
+   height: 100%;
+   width: auto;
+   margin: 0 auto;
+}
+
+.smain_l{
+   height: auto;
+   width: 50%;
+   align-content: flex-start;
+   position: relative;
+   left: 31%;
+   right: 0%;
+   margin-top: 4rem;
+}
+
+.smain_r{
+   height: auto;
+   width: 50%;
+   align-content: flex-end;
+   position: relative;
+   left: 0%;
+   right: 31%;
+   margin-left: -15%;
+   margin-top: 4rem;
+}
+
+
+/* .smain h2{
+   color: #fff;
+   font-size: 1.5rem;
+   background-color: #003366;
+   height: 2.8%;
+   width: 150%;
+} */
+
+.smain h1{
+   font-size: 1.5rem;
+   margin-top: 6%;
+   margin-bottom: 6%;
+   line-height: 184%;
+   font-weight: 600;
+}
+
+.smain p{
+   font-size: 0.5em;
+   padding-top: 0em;
+   line-height: 2rem;
+}
+
+.webseisaku{
+
+   height: auto;
+   width: 100%;
+   position: relative;
+   left: 0rem;
+}
+
+.bodycontents{
+padding-top: 10%;
+height: 100%;
+width: auto;
+}
+
+.bodycontents h1{
+   font-size: 1.5rem;
+   margin-top: 6%;
+   margin-bottom: 6%;
+   line-height: 184%;
+   font-weight: 600;
+   text-align: left;
+   width: 100%;
+   padding-right: 15px;
+   padding-left: 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+.bodycontents p{
+   font-size: 0.5em;
+   padding-top: 0em;
+   line-height: 2rem;
+   width: 100%;
+   padding-right: 15px;
+   padding-left: 15px;
+   margin-right: auto;
+   margin-left: auto;
+   text-align: left;
+}
+
+.webseisaku h2{
+   align-items: flex-end;
+   text-align: left;
+   margin-top: 4rem;
+   background-image: url(../img/brain/small_brain_l_1.png);
+   background-position: left;
+   background-repeat: no-repeat;
+   padding-left: 5rem;
+   padding-top: 0.4rem;
+}
+
+.webseisaku h2 img{
+   position: relative;
+   width: 60%;
+   height: auto;
+   left: 10rem;
+}
+
+ul.webseisaku{
+   height: 35rem;
+   width: auto;
+   position: relative;
+   left: 10%;
+   margin-top: 0rem;
+}
+
+
+.weebseisaku-table{
+   width: 152%;
+   height: 3.5rem;
+   border: none;
+   padding-top: 0.5rem;
+   margin-top: 3rem;
+   margin-bottom: 2rem;
+   background-image: url(../img/sp_service/website_seisaku/2ndwave_black.png);
+   background-repeat: no-repeat;
+   background-color: #000;
+   background-position: center;
+   margin-left: -10rem;
+   margin-right: -15rem;
+}
+
+.webtable{
+   width: 83rem;
+   height: 16rem;
+   background-position: center;
+   margin: 1.5rem 0rem;
+}
+
+
+.weebseisaku-table table td{
+   width: 24rem;
+   height: auto;
+}
+
+
+.webseisaku tr{
+   border: 0.2rem solid;
+   border-collapse: collapse;
+   max-width: 100%;
+}
+
+.smain td{
+   text-align: center;
+   padding: 1rem;
+   width: 24rem;
+}
+
+.sikaku{
+   width: auto;
+   margin: 2rem auto;
+   padding: 3rem 1rem;
+   border: 5px solid #003366;
+}
+
+.sikaku img{
+   height: 100%;
+   width: 10rem;
+   padding-top: 0rem;
+   margin: 0rem;
+}
+
+.sikaku h1{
+   font-size: 1.5rem;
+   text-indent: 1rem;
+   float: left;
+   margin: 0% 0%;
+}
+
+.sikaku p{
+   margin: 3rem 0rem;
+}
+
+
+
+div#seisaku h2 {
+    height: 100%;
+   width: 43rem;
+   background-image: url(../img/sp_service/title_bar/website_bar.png);
+   background-repeat: no-repeat;
+   /* background-position-x: -250%; */
+   position: relative;
+   right: -30%;
+   }
+
+
+   .h2r {
+       height: 100%;
+       width: 43rem;
+       background-image: url(../img/sp_service/title_bar/website_bar.png);
+       background-repeat: no-repeat;
+       /* background-position-x: -250%; */
+       position: relative;
+       right: -30%;
+
+   }
+
+
+/* .websys{
+   height: 9rem;
+   width: 46rem;
+   float: left;
+   background-image: url(../img/sp_service/title_bar/websystem_bar.png);
+   background-repeat: no-repeat;
+   position: relative;
+   left: -35%;
+   margin-bottom: 50px;
+   padding: 0rem 0rem;
+} */
+
+.websys{
+   height: 60rem;
+   width: 100%;
+   float: left;
+   text-align: right;
+   margin-top: 22%;
+   margin-bottom: 0rem;
+}
+
+
+.websystem{
+   height: auto;
+   width: 50rem;
+   float: left;
+   background-image: url(../img/sp_service/title_bar/websystem_bar.png);
+   background-repeat: no-repeat;
+   background-position-x: 120%;
+   position: relative;
+   left: -24%;
+   margin-bottom: 1rem;
+   padding: 0rem 0rem;
+}
+
+.websys img{
+   width: 6rem;
+   height: auto;
+   float: left;
+   position: relative;
+   left: 0rem;
+   top: 0rem;
+}
+
+
+.websys .second{
+   width: 152%;
+   height: 4rem;
+   border: none;
+   padding-top: 0.5rem;
+   margin-top: 3rem;
+   margin-bottom: 2rem;
+   background-image: url(../img/sp_service/website_seisaku/2ndwave_black.png);
+   background-repeat: no-repeat;
+   background-color: #000;
+   background-position: center;
+   margin-left: -10rem;
+   margin-right: -15rem;
+}
+
+.websys .second img{
+   width: 12.5rem;
+   height: 3.5rem;
+   border: none;
+   background-color: #000;
+   display: block;
+   position: relative;
+   top: -0.3rem;
+   left: 19rem;
+
+}
+
+.websys h1{
+margin-right: 0rem;
+}
+
+.websys p{
+   position: relative;
+   left: 0rem;
+   /* width: 6rem;
+   height: 100%; */
+}
+
+.websys a.btn{
+   margin: 1.5rem 10rem;
+   width: 16rem;
+   height: 5rem;
+   padding-top: 14px;
+   border: solid 2px #003366;
+   display: block;
+   border-radius: 10px;
+   background-color: #fff;
+   position: absolute;
+   left: 25%;
+   transform: translateX(-50%);
+   }
+
+   .websys .ajilelink{
+       height: 15rem;
+       width: 115%;
+       background-color: #003366;
+       margin: 3rem -2rem;
+       padding: 0rem 0rem;
+   }
+
+   .websys .ajilelink > p{
+       color: #fff;
+       text-align: center;
+       position: relative;
+       top: 2rem;
+       left: 0rem;
+       display: block;
+       /* text-align:center; */
+       margin-left:auto;
+       margin-right:auto;
+       background-position-x: 0%;
+       margin: 0rem auto;
+
+       
+   }
+
+
+   
+.iconsystem{
+   height: 11rem;
+   width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    margin: 1rem -3rem;
+    /* padding: 0rem 10rem; */
+}
+
+
+
+.websys .iconsysmo{
+   height: 10rem;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+
+.websys .iconsysmo p{
+   height: auto;
+   width: 4rem;
+   float: left;
+   padding-right: 3px;
+   padding-left: 3px;
+   margin-right: auto;
+}
+
+.websys .iconsysmo img{
+   height: 100%;
+   width: 10rem
+
+}
+
+
+.ajile h2 {
+   height: 9rem;
+   width: 100%;
+   background-position: left;
+   background-repeat: no-repeat;
+   /* background-position-x: 100%; */
+   position: relative;
+   left: 0%;
+   right: 0%;
+   margin-bottom: 50px;
+   }
+
+.operation{
+   height: 100%;
+   width: auto;
+   margin-top: 26rem;
+   margin-bottom: 0rem;
+}
+
+.operation h2{
+height: 9rem;
+width: 100%;
+}
+
+div#ope h2{
+   background-image: url(../img/sp_service/title_bar/operation_bar.png);
+   background-repeat: no-repeat;
+   position: relative;
+   right: -27%;
+}
+
+div#ope img{
+   /* margin: -4.5rem 11rem; */
+   height: 100%;
+   width: auto;
+   position: relative;
+   left: 0rem;
+   top: -0.3rem;
+}
+
+
+.cms{
+   height: 100%;
+   width: auto;
+}
+
+.cms h2{
+   background-image: url(../img/sp_service/title_bar/cms.png);
+   background-position: right;
+   background-repeat: no-repeat;
+   position: relative;
+   left: -33%;
+}
+
+.cms p{
+   position: relative;
+   left: 0rem;
+}
+
+.cms-table{
+   width: 152%;
+   height: 3.5rem;
+   border: none;
+   padding-top: 0.5rem;
+   margin-top: 3rem;
+   margin-bottom: 2rem;
+   background-image: url(../img/sp_service/website_seisaku/2ndwave_black.png);
+   background-repeat: no-repeat;
+   background-color: #000;
+   background-position: center;
+   margin-left: -10rem;
+   margin-right: -15rem;
+}
+
+.cms-table img{
+   position: relative;
+   top: 0rem;
+   left: 0rem;
+   display: inline-block;
+   margin: 0 auto;
+}
+
+
+.cms tr{
+   border: 0.2rem solid;
+   border-collapse: collapse;
+   max-width: 100%;
+}
+
+.cms td{
+   text-align: center;
+   padding: 0rem;
+   width: 30rem;
+   height: 6rem;
+}
+
+.cms table img{
+   position: relative;
+   top: 0rem;
+   left: 0rem;
+   float: left;
+   height: 6rem;
+   width: 13rem;
+   padding: 2rem 1rem;
+}
+
+div#cms{
+   height: 50rem;
+   width: 100%;
+   position: relative;
+   top: 0em;
+   float: left;
+   margin: 98px auto;
+}
+
+
+
+.other{
+   height: 100%;
+   width: auto;
+   /* padding-top: 0rem;
+   margin-top: 0rem; */
+}
+
+.other img{
+   width: 46%;
+   height: auto;
+   float: left;
+   margin-left: 19rem;
+   margin-top: -9rem;
+}
+
+.icon{
+   width: 35rem;
+   height: auto;
+   float: left;
+   margin-left: 0rem;
+   margin-top: -7rem;
+
+}
+
+.icong{
+   width: 100%;
+   height: auto;
+   float: left;
+   margin-left: 0rem;
+   margin-top: -3rem;
+
+}
+
+.other h2{
+   align-content: flex-start;
+   text-align: right;
+   padding-right: 5rem;
+   padding-top: 0.4rem;
+   margin: 2em;
+   /* background-image: url(../img/brain/small_brain_r.png);
+   background-position: right;
+   background-repeat: no-repeat; */
+}
+
+.other h2 p{
+   float:none
+}
+
+.other p{
+   float: none;
+   margin-bottom: 5rem;
+}
+
+
+.other .ptitle{
+   float: left;
+   margin-bottom: 5rem;
+   width: 19rem;
+   height: auto;
+}
+
+.other .ptitle p{
+   float: left;
+   margin-bottom: 5rem;
+   width: 19rem;
+   height: auto;
+}
+
+.other h1{
+   width: 100%;
+   padding-right: 15px;
+   padding-left: 15px;
+   margin-top: 1rem;
+   margin-bottom: 11rem;
+   position: relative;
+   top: 0rem;
+   left: 0rem;
+}
+
+/* .other hr{
+       float: none;
+       border: 1px #696969 solid;
+       width: 100%;
+       height: 3rem;
+       margin-top: 5rem;
+} */
+
+
+.other .o-midashi h2{
+   height: 9rem;
+   width: 100%;
+   background-image: url(../img/sp_service/title_bar/other.png);
+   background-repeat: no-repeat;
+   margin: 0 auto;
+}
+
+
+div#other{
+   width: 100%;
+   height:188rem;
+   padding-right: 15px;
+   padding-left: 15px;
+   margin-right: auto;
+   margin-left: auto;
+   margin-top: 7rem;
+   margin-bottom: 6rem;
+}
+
+/* ---------sp_SERVICEページ end----- */
+
 .sitemapB {
     padding: 80px 50px 80px;
     float: left;
@@ -2133,8 +2846,12 @@ section#category10 {
 section#contactcatV {
     height: 200px;
 }
+.servicecont_pc {
+    display:none;
+}
 }
 /*---------- お問い合わせ end----------*/
+
 /*スマホ 480pxより画面が小さい時用　end */
 /*スマホ縦から見た状態の時用 ブラウザ幅481px以上、767px以下　start */
 @media screen and (min-width: 480px) and (max-width:767px) {
@@ -2522,6 +3239,792 @@ section#recriut_career {
         background-size: 7px 13px;
         background-position: center right 10px;
     }
+    .footer_sp {
+        height: 750px;
+    }
+    .offset-1 {
+        margin: 0px;
+    }
+    /* ---------tablet_SERVICEページstart----- */
+
+
+.sbrainall{
+    height: auto;
+    width: 100%;
+}
+
+.sbrain{
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 2%;
+}
+
+
+/* .brain_s{
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 2%;
+} */
+
+.sbrain img{
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    height: auto;
+    width: 100%;
+}
+
+
+.sbrain h2{
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    top: -35%;
+    letter-spacing: 0.1rem;
+}
+
+.sbrain h1{
+    font-size: 1.5rem;
+    padding-top: 0.8em;
+    text-align: center;
+    line-height: 3rem;
+}
+
+.braintro_s{
+    font-size: 1.2em;
+    letter-spacing: 0.2em;
+    margin: 0 auto;
+    height: auto;
+    width: 100%;    
+}
+
+
+.sbrain p{
+    font-size: 1rem;
+    padding-top: 0.8em;
+    text-align: center;
+}
+
+.sbrain hr{
+    width: 100%;
+    margin-top: 6rem;
+}
+
+
+.menue{
+    height: 100%;
+    width: auto;
+    /* margin-left: 0%;
+    margin-top: 0rem; */
+    /* margin: 0 auto;
+    background-position: center; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menue h1{
+    font-size: 1.8rem;
+    font: bolder;
+    margin-bottom: 0rem;
+    padding: 0rem 0rem;
+    height: 1.8rem;
+    width: 100%;
+}
+
+
+.menue li img{
+    width: 3rem;
+    height: 2rem;
+    margin: 1rem 0rem;
+
+}
+
+.menue ul{
+    height: 4auto;
+    width: 150%;
+    /* margin: 0 auto; */
+    padding: 3em;
+    margin-left: -10rem;
+    line-height: 2.2em;
+    /* max-width: 800rem; */
+}
+
+.menue li{
+    border-bottom: 0.1rem solid #666;
+    text-align: left;
+    margin: 0rem 0rem;
+    padding: 0rem 0rem;
+}
+
+.brain-lr{
+    background-image: url(../img/brain/sbrain-lr.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    position: relative;
+    margin:  0rem;
+    background-size: 18rem 2rem;
+
+}
+
+.brain-lr2{
+    background-image: url(../img/brain/sbrain-lr2.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: 23rem 2rem;
+}
+
+.smain{
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.smain_l{
+    height: auto;
+    width: 50%;
+    align-content: flex-start;
+    position: relative;
+    left: 31%;
+    right: 0%;
+    margin-top: 4rem;
+}
+
+.smain_r{
+    height: auto;
+    width: 50%;
+    align-content: flex-end;
+    position: relative;
+    left: 0%;
+    right: 31%;
+    margin-left: -15%;
+    margin-top: 4rem;
+}
+
+
+/* .smain h2{
+    color: #fff;
+    font-size: 1.5rem;
+    background-color: #003366;
+    height: 2.8%;
+    width: 150%;
+} */
+
+.smain h1{
+    font-size: 1.5rem;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    line-height: 184%;
+    font-weight: 600;
+}
+
+.smain p{
+    font-size: 0.5em;
+    padding-top: 0em;
+    line-height: 2rem;
+}
+
+.webseisaku{
+
+    height: auto;
+    width: 100%;
+    position: relative;
+    left: 0rem;
+}
+
+.bodycontents{
+padding-top: 10%;
+height: 100%;
+width: auto;
+}
+
+.bodycontents h1{
+    font-size: 1.5rem;
+    margin: 4rem 0rem;
+    line-height: 184%;
+    font-weight: 600;
+    text-align: left;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+
+.bodycontents p{
+    font-size: 1em;
+    padding-top: 0em;
+    line-height: 3rem;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+}
+
+.webseisaku h2{
+    align-items: flex-end;
+    text-align: left;
+    margin-top: 4rem;
+    background-image: url(../img/brain/small_brain_l_1.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 5rem;
+    padding-top: 0.4rem;
+}
+
+.webseisaku h2 img{
+    position: relative;
+    width: 60%;
+    height: auto;
+    left: 10rem;
+}
+
+ul.webseisaku{
+    height: 35rem;
+    width: auto;
+    position: relative;
+    left: 10%;
+    margin-top: 0rem;
+}
+
+
+.weebseisaku-table{
+    width: 145%;
+    height: 4.5rem;
+    border: none;
+    padding-top: 4.5rem;
+    margin: 2rem -14rem;
+    background-color: #000;
+    background-image: url(../img/website_seisaku/2ndwave_black.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.webtable{
+    width: 83rem;
+    height: 16rem;
+    background-position: center;
+    margin: 1.5rem 0rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.weebseisaku-table table td{
+    width: 24rem;
+    height: auto;
+}
+
+
+.webseisaku tr{
+    border: 0.2rem solid;
+    border-collapse: collapse;
+    max-width: 100%;
+}
+
+.smain td{
+    text-align: center;
+    padding: 1rem;
+    width: 100rem;
+    height: 4.5rem;
+}
+
+.sikaku{
+    width: auto;
+    margin: 20rem auto;
+    padding: 3rem 1rem;
+    border: 5px solid #003366;
+}
+
+.sikaku img{
+    height: 100%;
+    width: 10rem;
+    padding-top: 0rem;
+    margin: 0rem;
+}
+
+.sikaku h1{
+    font-size: 1.5rem;
+    text-indent: 1rem;
+    float: left;
+    margin: 0% 0%;
+    width: 40rem;
+    height: auto;
+}
+
+
+.sikaku p{
+    margin: 3rem 0rem;
+}
+
+
+div#seisaku{
+    height: 65px;
+    width: 48%;
+    background-position-x: 100%;
+    margin: 0rem 17rem;
+}
+
+div#seisaku h2 {
+    height: 100%;
+    width: 43rem;
+    background-image: url(../img/sp_service/title_bar/website_bar.png);
+    background-repeat: no-repeat;
+    /* background-position-x: -250%; */
+    position: relative;
+    left: -12%;
+    }
+
+
+    .h2r {
+    height: 100%;
+    width: 43rem;
+        /* background-image: url(../img/sp_service/title_bar/website_bar.png);
+    background-repeat: no-repeat; */
+    background-position-x: -250%;
+    position: relative;
+    right: -30%;
+    }
+
+
+.websys{
+    height: 10%;
+    width: 100%;
+    text-align: right;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+
+
+.websystem{
+    height: auto;
+    width: 50rem;
+    background-image: url(../img/sp_service/title_bar/websystem_bar.png);
+    background-repeat: no-repeat;
+    /* background-position-x: 0%; */
+    position: relative;
+    left: -30%;
+    margin-bottom: 1rem;
+    padding: 0rem 0rem;
+}
+
+.websys img{
+    width: 12.2rem;
+    height: auto;
+    float: left;
+    position: relative;
+    left: 0rem;
+    top: 0rem;
+}
+
+.websys .second{
+    width: 152%;
+    height: 4.5rem;
+    border: none;
+    padding-top: 0.5rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    background-image: url(../img/sp_service/website_seisaku/2ndwave_black.png);
+    background-repeat: no-repeat;
+    background-color: #000;
+    background-position: center;
+    margin-left: -15rem;
+    margin-right: -15rem;
+}
+
+.websys .second img{
+    width: 12rem;
+    height: auto;
+    border: none;
+    background-color: #000;
+    /* margin: 0rem 37rem; */
+    background-position: center;
+
+}
+
+.websys h1{
+/* margin-right: 0rem;
+margin: 0 auto; */
+margin: 5rem 0rem;
+float: none;
+}
+
+.websys p{
+    position: relative;
+    left: 0rem;
+}
+
+.websys a.btn{
+    margin: 1.5rem 22rem;
+    width: 16rem;
+    height: 5rem;
+    padding-top: 14px;
+    border: solid 2px #003366;
+    display: block;
+    border-radius: 10px;
+    background-color: #fff;
+    position: absolute;
+    left: 25%;
+    transform: translateX(-50%);
+    }
+
+    .websys .ajilelink{
+        height: 17rem;
+        width: 150%;
+        background-color: #003366;
+        /* margin: 3rem -2rem;
+        padding: 0rem 0rem; */
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        /* margin-left: -15rem;
+        margin-right: -15rem; */
+    }
+
+    .websys .ajilelink > p{
+        color: #fff;
+        text-align: center;
+        position: relative;
+        top: 2rem;
+        left: 0rem;
+        display: block;
+        /* text-align:center; */
+        margin-left:auto;
+        margin-right:auto;
+        background-position-x: 0%;
+    }
+
+
+.iconsystem{
+    height: 11rem;
+    width: 100%;
+     /* margin: 0rem 0rem;
+     background-position: center;
+     float: none; */
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: stretch;
+     /* margin-bottom: 2rem; */
+}
+
+.iconsys{
+    margin-left: 0rem;
+    /* position: relative;
+    left: 0rem;
+    float: left; */
+}
+
+
+.iconsys img{
+    height: auto;
+    width:15rem;
+   margin-left: 0rem;
+   margin-right: 0rem;
+   padding-left: -4rem;
+   float: left;
+}
+
+ .websys .iconsysmo{
+     height: 6rem;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+ }
+
+
+   .websys .iconsysmo p{
+        height: auto;
+        width: 15rem;
+        float: left;
+    }
+
+.websys .iconsysmo img{
+    margin-left: 0rem;
+    margin-right: 0em;
+    padding-left: 0rem;
+    /* position: relative;
+    left: 2rem; */
+    height: auto;
+    width: 15rem;
+    float: left;
+}
+
+
+
+
+.ajile h2 {
+    height: 9rem;
+    width: 100%;
+    background-position: left;
+    background-repeat: no-repeat;
+    /* background-position-x: 100%; */
+    position: relative;
+    left: 0%;
+    right: 0%;
+    margin-bottom: 50px;
+    }
+
+.operation{
+    height: 72rem;
+    width: auto;
+    margin-top: 17rem;
+    margin-bottom: 0rem;
+}
+
+.operation h2{
+height: 9rem;
+width: 100%;
+}
+
+div#ope h2{
+    background-image: url(../img/sp_service/title_bar/operation_bar.png);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    position: relative;
+    left: 35%;
+}
+
+div#ope img{
+    /* margin: -4.5rem 11rem; */
+    height: 100%;
+    width: auto;
+    position: relative;
+    left: 0rem;
+    top: -0.3rem;
+}
+
+
+.cms{
+    height: 100%;
+    width: auto;
+}
+
+.cms h2{
+    background-image: url(../img/sp_service/title_bar/cms.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    position: relative;
+    left: -43%;
+}
+
+.cms h1{
+    position: relative;
+    left: 0rem;
+
+}
+
+.cms p{
+    position: relative;
+    left: 0rem;
+    margin-bottom: 3rem;
+}
+
+
+.cms table.cms-tableB{
+    height: 2rem;
+    width: 66rem;
+ background-position-x: center;
+ margin: 0rem -6rem;
+}
+
+    .cms-table{
+        width: 152%;
+        height: 4.5rem;
+        /* margin: 1rem auto; */
+        border: none;
+        text-align: center;
+        padding-top: 0.5rem;
+        margin-top: 3rem;
+        background-color: #000;
+        margin-bottom: 2rem;
+        background-image: url(../img/sp_service/website_seisaku/2ndwave_black.png);
+        background-repeat: no-repeat;
+        background-color: #000;
+        background-position: center;
+        margin-left: -15rem;
+        margin-right: -15rem;
+    }
+
+.
+img{
+    position: relative;
+    top: 0rem;
+    left: 0rem;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+
+.cms tr{
+    border: 0.2rem solid;
+    border-collapse: collapse;
+    max-width: 100%;
+    height: auto;
+    width: 100rem;
+    text-align: center;
+    margin: 0rem auto;
+}
+
+.cms td{
+    text-align: center;
+    padding: 0rem;
+    width: 30rem;
+    height: 6rem;
+}
+
+.cms table img{
+    position: relative;
+    top: 0rem;
+    left: 0rem;
+    /* height: 100%;
+    width: auto; */
+    padding: 2rem 1rem;
+    text-align: center;
+    margin: 0rem auto;
+}
+
+div#cms{
+    height: 78rem;
+    width: 100%;
+    position: relative;
+    top: 0em;
+    float: left;
+    margin: 14rem 0rem;
+}
+
+
+
+.other{
+    height: 100%;
+    width: auto;
+    /* padding-top: 0rem;
+    margin-top: 0rem; */
+}
+
+.other img{
+    width: 150%;
+    height: auto;
+    float: left;
+    margin-left: 10rem;
+    margin-top: -1rem;
+}
+
+.icon{
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-left: -10rem;
+    margin-top: 0rem;
+
+}
+
+.icong{
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-left: 0rem;
+    margin-top: -1rem;
+
+}
+
+.other h2{
+    align-content: flex-start;
+    text-align: right;
+    padding-right: 5rem;
+    padding-top: 0.4rem;
+    margin: 2em;
+    background-image: url(../img/brain/small_brain_r.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.other h2 p{
+    float:none
+}
+
+.other p{
+    float: none;
+    margin-bottom: 4rem;
+}
+
+.other .ptitle{
+    width: 26rem;
+    height: auto;
+    float: left;
+}
+
+.other .ptitle p{
+    width: 26rem;
+    height: auto;
+    float: left;
+}
+
+
+
+.other h1{
+    width: 100%;
+    /* padding-right: 15px;
+    padding-left: 15px; */
+    margin-top: 1rem;
+    margin-bottom: 11rem;
+    position: relative;
+    top: 0rem;
+    left: 0rem;
+}
+
+/* .other hr{
+        float: none;
+        border: 1px #696969 solid;
+        width: 100%;
+        height: 3rem;
+        margin-top: 5rem;
+} */
+
+ .other .o-midashi{
+    position: relative;
+    height: 8rem;
+    width: auto;
+    margin: 4rem 0rem;
+ }
+
+
+.other .o-midashi h2{
+    height: 9rem;
+    width: 43rem;
+    background-image: url(../img/sp_service/title_bar/other.png);
+    background-repeat: no-repeat;
+    /* position: absolute;
+    left: 50%;
+    transform: translateX(-60%); */
+    background-position: left;
+}
+
+
+div#other{
+    width: 100%;
+    height:197rem;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -9rem;
+    margin-bottom: 6rem;
+}
+
+/* ---------tablet_SERVICEページ end----- */
+.servicecont_pc {
+    display:none;
+}
+
 }
 /*スマホ縦から見た状態の時用　ブラウザ幅481px以上、767px以下　end*/
 /*スマホ横から見た状態の時用　ブラウザ幅768px以上、980px以下 start */
@@ -3426,6 +4929,782 @@ section#category10 {
 .footer_sp {
     display: none;
 }
+.sbrainall{
+    height: auto;
+    width: 100%;
+}
+
+.sbrain{
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 2%;
+}
+
+
+/* .brain_s{
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 2%;
+} */
+
+.sbrain img{
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    height: auto;
+    width: 100%;
+}
+
+
+.sbrain h2{
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    top: -35%;
+    letter-spacing: 0.1rem;
+}
+
+.sbrain h1{
+    font-size: 1.5rem;
+    padding-top: 0.8em;
+    text-align: center;
+    line-height: 3rem;
+}
+
+.braintro_s{
+    font-size: 1.2em;
+    letter-spacing: 0.2em;
+    margin: 0 auto;
+    height: auto;
+    width: 100%;    
+}
+
+
+.sbrain p{
+    font-size: 1rem;
+    padding-top: 0.8em;
+    text-align: center;
+}
+
+.sbrain hr{
+    width: 100%;
+    margin-top: 6rem;
+}
+
+
+.menue{
+    height: 100%;
+    width: auto;
+    /* margin-left: 0%;
+    margin-top: 0rem; */
+    /* margin: 0 auto;
+    background-position: center; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menue h1{
+    font-size: 1.8rem;
+    font: bolder;
+    margin-bottom: 0rem;
+    padding: 0rem 0rem;
+    height: 1.8rem;
+    width: 100%;
+}
+
+
+.menue li img{
+    width: 3rem;
+    height: 2rem;
+    margin: 1rem 0rem;
+
+}
+
+.menue ul{
+    height: 4auto;
+    width: 150%;
+    /* margin: 0 auto; */
+    padding: 3em;
+    margin-left: -10rem;
+    line-height: 2.2em;
+    /* max-width: 800rem; */
+}
+
+.menue li{
+    border-bottom: 0.1rem solid #666;
+    text-align: left;
+    margin: 0rem 0rem;
+    padding: 0rem 0rem;
+}
+
+.brain-lr{
+    background-image: url(../img/brain/sbrain-lr.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    position: relative;
+    margin:  0rem;
+    background-size: 18rem 2rem;
+
+}
+
+.brain-lr2{
+    background-image: url(../img/brain/sbrain-lr2.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: 23rem 2rem;
+}
+
+.smain{
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.smain_l{
+    height: auto;
+    width: 50%;
+    align-content: flex-start;
+    position: relative;
+    left: 31%;
+    right: 0%;
+    margin-top: 4rem;
+}
+
+.smain_r{
+    height: auto;
+    width: 50%;
+    align-content: flex-end;
+    position: relative;
+    left: 0%;
+    right: 31%;
+    margin-left: -15%;
+    margin-top: 4rem;
+}
+
+
+/* .smain h2{
+    color: #fff;
+    font-size: 1.5rem;
+    background-color: #003366;
+    height: 2.8%;
+    width: 150%;
+} */
+
+.smain h1{
+    font-size: 1.5rem;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    line-height: 184%;
+    font-weight: 600;
+}
+
+.smain p{
+    font-size: 0.5em;
+    padding-top: 0em;
+    line-height: 2rem;
+}
+
+.webseisaku{
+
+    height: auto;
+    width: 100%;
+    position: relative;
+    left: 0rem;
+}
+
+.bodycontents{
+padding-top: 10%;
+height: 100%;
+width: auto;
+}
+
+.bodycontents h1{
+    font-size: 1.5rem;
+    margin: 4rem 0rem;
+    line-height: 184%;
+    font-weight: 600;
+    text-align: left;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+
+.bodycontents p{
+    font-size: 1em;
+    padding-top: 0em;
+    line-height: 3rem;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+}
+
+.webseisaku h2{
+    align-items: flex-end;
+    text-align: left;
+    margin-top: 4rem;
+    background-image: url(../img/brain/small_brain_l_1.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 5rem;
+    padding-top: 0.4rem;
+}
+
+.webseisaku h2 img{
+    position: relative;
+    width: 60%;
+    height: auto;
+    left: 10rem;
+}
+
+ul.webseisaku{
+    height: 35rem;
+    width: auto;
+    position: relative;
+    left: 10%;
+    margin-top: 0rem;
+}
+
+
+.weebseisaku-table{
+    width: 145%;
+    height: 4.5rem;
+    border: none;
+    padding-top: 4.5rem;
+    margin: 2rem -14rem;
+    background-color: #000;
+    background-image: url(../img/website_seisaku/2ndwave_black.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.webtable{
+    width: 83rem;
+    height: 16rem;
+    background-position: center;
+    margin: 1.5rem 0rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.weebseisaku-table table td{
+    width: 24rem;
+    height: auto;
+}
+
+
+.webseisaku tr{
+    border: 0.2rem solid;
+    border-collapse: collapse;
+    max-width: 100%;
+}
+
+.smain td{
+    text-align: center;
+    padding: 1rem;
+    width: 100rem;
+    height: 4.5rem;
+}
+
+.sikaku{
+    width: auto;
+    margin: 20rem auto;
+    padding: 3rem 1rem;
+    border: 5px solid #003366;
+}
+
+.sikaku img{
+    height: 100%;
+    width: 10rem;
+    padding-top: 0rem;
+    margin: 0rem;
+}
+
+.sikaku h1{
+    font-size: 1.5rem;
+    text-indent: 1rem;
+    float: left;
+    margin: 0% 0%;
+    width: 40rem;
+    height: auto;
+}
+
+
+.sikaku p{
+    margin: 3rem 0rem;
+}
+
+
+div#seisaku{
+    height: 65px;
+    width: 48%;
+    background-position-x: 100%;
+    margin: 0rem 17rem;
+}
+
+div#seisaku h2 {
+    height: 100%;
+    width: 43rem;
+    background-image: url(../img/sp_service/title_bar/website_bar.png);
+    background-repeat: no-repeat;
+    /* background-position-x: -250%; */
+    position: relative;
+    left: -12%;
+    }
+
+
+    .h2r {
+    height: 100%;
+    width: 43rem;
+        /* background-image: url(../img/sp_service/title_bar/website_bar.png);
+    background-repeat: no-repeat; */
+    background-position-x: -250%;
+    position: relative;
+    right: -30%;
+    }
+
+
+.websys{
+    height: 10%;
+    width: 100%;
+    text-align: right;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+
+
+.websystem{
+    height: auto;
+    width: 50rem;
+    background-image: url(../img/sp_service/title_bar/websystem_bar.png);
+    background-repeat: no-repeat;
+    /* background-position-x: 0%; */
+    position: relative;
+    left: -30%;
+    margin-bottom: 1rem;
+    padding: 0rem 0rem;
+}
+
+.websys img{
+    width: 12.2rem;
+    height: auto;
+    float: left;
+    position: relative;
+    left: 0rem;
+    top: 0rem;
+}
+
+.websys .second{
+    width: 152%;
+    height: 4.5rem;
+    border: none;
+    padding-top: 0.5rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    background-image: url(../img/sp_service/website_seisaku/2ndwave_black.png);
+    background-repeat: no-repeat;
+    background-color: #000;
+    background-position: center;
+    margin-left: -15rem;
+    margin-right: -15rem;
+}
+
+.websys .second img{
+    width: 12rem;
+    height: auto;
+    border: none;
+    background-color: #000;
+    /* margin: 0rem 37rem; */
+    background-position: center;
+
+}
+
+.websys h1{
+/* margin-right: 0rem;
+margin: 0 auto; */
+margin: 5rem 0rem;
+float: none;
+}
+
+.websys p{
+    position: relative;
+    left: 0rem;
+}
+
+.websys a.btn{
+    margin: 1.5rem 22rem;
+    width: 16rem;
+    height: 5rem;
+    padding-top: 14px;
+    border: solid 2px #003366;
+    display: block;
+    border-radius: 10px;
+    background-color: #fff;
+    position: absolute;
+    left: 25%;
+    transform: translateX(-50%);
+    }
+
+    .websys .ajilelink{
+        height: 17rem;
+        width: 150%;
+        background-color: #003366;
+        /* margin: 3rem -2rem;
+        padding: 0rem 0rem; */
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        /* margin-left: -15rem;
+        margin-right: -15rem; */
+    }
+
+    .websys .ajilelink > p{
+        color: #fff;
+        text-align: center;
+        position: relative;
+        top: 2rem;
+        left: 0rem;
+        display: block;
+        /* text-align:center; */
+        margin-left:auto;
+        margin-right:auto;
+        background-position-x: 0%;
+    }
+
+
+.iconsystem{
+    height: 11rem;
+    width: 100%;
+     /* margin: 0rem 0rem;
+     background-position: center;
+     float: none; */
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: stretch;
+     /* margin-bottom: 2rem; */
+}
+
+.iconsys{
+    margin-left: 0rem;
+    /* position: relative;
+    left: 0rem;
+    float: left; */
+}
+
+
+.iconsys img{
+    height: auto;
+    width:15rem;
+   margin-left: 0rem;
+   margin-right: 0rem;
+   padding-left: -4rem;
+   float: left;
+}
+
+ .websys .iconsysmo{
+     height: 6rem;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+ }
+
+
+   .websys .iconsysmo p{
+        height: auto;
+        width: 15rem;
+        float: left;
+    }
+
+.websys .iconsysmo img{
+    margin-left: 0rem;
+    margin-right: 0em;
+    padding-left: 0rem;
+    /* position: relative;
+    left: 2rem; */
+    height: auto;
+    width: 15rem;
+    float: left;
+}
+
+
+
+
+.ajile h2 {
+    height: 9rem;
+    width: 100%;
+    background-position: left;
+    background-repeat: no-repeat;
+    /* background-position-x: 100%; */
+    position: relative;
+    left: 0%;
+    right: 0%;
+    margin-bottom: 50px;
+    }
+
+.operation{
+    height: 72rem;
+    width: auto;
+    margin-top: 17rem;
+    margin-bottom: 0rem;
+}
+
+.operation h2{
+height: 9rem;
+width: 100%;
+}
+
+div#ope h2{
+    background-image: url(../img/sp_service/title_bar/operation_bar.png);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    position: relative;
+    left: 35%;
+}
+
+div#ope img{
+    /* margin: -4.5rem 11rem; */
+    height: 100%;
+    width: auto;
+    position: relative;
+    left: 0rem;
+    top: -0.3rem;
+}
+
+
+.cms{
+    height: 100%;
+    width: auto;
+}
+
+.cms h2{
+    background-image: url(../img/sp_service/title_bar/cms.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    position: relative;
+    left: -43%;
+}
+
+.cms h1{
+    position: relative;
+    left: 0rem;
+
+}
+
+.cms p{
+    position: relative;
+    left: 0rem;
+    margin-bottom: 3rem;
+}
+
+
+.cms table.cms-tableB{
+    height: 2rem;
+    width: 66rem;
+ background-position-x: center;
+ margin: 0rem -6rem;
+}
+
+    .cms-table{
+        width: 152%;
+        height: 4.5rem;
+        /* margin: 1rem auto; */
+        border: none;
+        text-align: center;
+        padding-top: 0.5rem;
+        margin-top: 3rem;
+        background-color: #000;
+        margin-bottom: 2rem;
+        background-image: url(../img/sp_service/website_seisaku/2ndwave_black.png);
+        background-repeat: no-repeat;
+        background-color: #000;
+        background-position: center;
+        margin-left: -15rem;
+        margin-right: -15rem;
+    }
+
+.
+img{
+    position: relative;
+    top: 0rem;
+    left: 0rem;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+
+.cms tr{
+    border: 0.2rem solid;
+    border-collapse: collapse;
+    max-width: 100%;
+    height: auto;
+    width: 100rem;
+    text-align: center;
+    margin: 0rem auto;
+}
+
+.cms td{
+    text-align: center;
+    padding: 0rem;
+    width: 30rem;
+    height: 6rem;
+}
+
+.cms table img{
+    position: relative;
+    top: 0rem;
+    left: 0rem;
+    /* height: 100%;
+    width: auto; */
+    padding: 2rem 1rem;
+    text-align: center;
+    margin: 0rem auto;
+}
+
+div#cms{
+    height: 78rem;
+    width: 100%;
+    position: relative;
+    top: 0em;
+    float: left;
+    margin: 14rem 0rem;
+}
+
+
+
+.other{
+    height: 100%;
+    width: auto;
+    /* padding-top: 0rem;
+    margin-top: 0rem; */
+}
+
+.other img{
+    width: 150%;
+    height: auto;
+    float: left;
+    margin-left: 10rem;
+    margin-top: -1rem;
+}
+
+.icon{
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-left: -10rem;
+    margin-top: 0rem;
+
+}
+
+.icong{
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-left: 0rem;
+    margin-top: -1rem;
+
+}
+
+.other h2{
+    align-content: flex-start;
+    text-align: right;
+    padding-right: 5rem;
+    padding-top: 0.4rem;
+    margin: 2em;
+    background-image: url(../img/brain/small_brain_r.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.other h2 p{
+    float:none
+}
+
+.other p{
+    float: none;
+    margin-bottom: 4rem;
+}
+
+.other .ptitle{
+    width: 26rem;
+    height: auto;
+    float: left;
+}
+
+.other .ptitle p{
+    width: 26rem;
+    height: auto;
+    float: left;
+}
+
+
+
+.other h1{
+    width: 100%;
+    /* padding-right: 15px;
+    padding-left: 15px; */
+    margin-top: 1rem;
+    margin-bottom: 11rem;
+    position: relative;
+    top: 0rem;
+    left: 0rem;
+}
+
+/* .other hr{
+        float: none;
+        border: 1px #696969 solid;
+        width: 100%;
+        height: 3rem;
+        margin-top: 5rem;
+} */
+
+ .other .o-midashi{
+    position: relative;
+    height: 8rem;
+    width: auto;
+    margin: 4rem 0rem;
+ }
+
+
+.other .o-midashi h2{
+    height: 9rem;
+    width: 43rem;
+    background-image: url(../img/sp_service/title_bar/other.png);
+    background-repeat: no-repeat;
+    /* position: absolute;
+    left: 50%;
+    transform: translateX(-60%); */
+    background-position: left;
+}
+
+
+div#other{
+    width: 100%;
+    height:197rem;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -9rem;
+    margin-bottom: 6rem;
+}
+.servicecont_pc {
+    display:none;
+}
+
+/* ---------tablet_SERVICEページ end----- */
 }
 /*-------------footer end------------- */
 /*-------------サイトマップ end --------------- */
@@ -3433,16 +5712,25 @@ section#category10 {
 
 /*最大980px PC表示用*/
 @media screen and (max-width: 980px) {
+    .servicecont_pc {
+    display: none;
+}
 }
 /*最大980px PC表示用　end */
 
 /*最小1020px PC表示用*/
 @media (min-width: 1020px) {
+    .servicecont_sp {
+    display: none;
+}
 }
 /*最小1020px PC表示用 end */
 @media (min-width: 1200px){
 .container {
     max-width: 1600px;
+}
+.servicecont_sp {
+    display: none;
 }
 }
 /* スマートフォンやタブレット用のスタイルを記述するためのCSSです */

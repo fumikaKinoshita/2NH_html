@@ -1914,6 +1914,9 @@ section#category02 .category-caption .caption-content h2 {
 section#category02.category-caption span {
     font-size: 24px;
 }
+.historyB .image {
+    width: 50%;
+}
 /*会社沿革 end*/
 /*社長挨拶*/
 section#category03 {
@@ -2079,8 +2082,8 @@ section#category01 {
     width: 960px;
     background-image: url(../img/company_ceoback.png);
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center center;
+    background-size: 70%;
+    background-position: center;
 }
 .ceoMessage h2 {
     margin: 0 auto 50px;

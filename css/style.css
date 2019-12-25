@@ -1884,6 +1884,8 @@ section#category10 .category-caption .caption-content {
 }
 section .category-caption .caption-content h2 {
         font-size: 38px;
+        margin: 150px 0px 10px;
+        color: #fff;
 }
 /*会社概要 end*/
 /*会社沿革*/
@@ -3030,6 +3032,7 @@ section .category-caption {
     /* top: 0; */
     width: 100%;
     z-index: 11;
+    color: #fff
 }
 .category-caption span {
     font-size: 24px;

@@ -1878,7 +1878,6 @@ section#company10 .category-caption {
 section#category10 .category-caption .caption-content {
     text-align: center;
     display: table-cell;
-    vertical-align: middle;
     top: 130px;
     color: #111;
 }
@@ -3199,7 +3198,7 @@ ul.tech {
     background-image: url(../img/recruit_bk.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 80%;
+    background-size: 60%;
     font-size: 14px;
     padding-top: 200px;
 }

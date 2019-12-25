@@ -1036,7 +1036,7 @@ position: absolute;
     padding-top: 20px;
     letter-spacing: 1px;
 }
-.serviceB h3 a:hover{
+.serviceB h3　a:hover{
     position: relative;
     padding: .75em 0;
     border-top: 1px solid #9cf;
@@ -1884,6 +1884,8 @@ section#category10 .category-caption .caption-content {
 }
 section .category-caption .caption-content h2 {
         font-size: 38px;
+        margin: 150px 0px 10px;
+        color: #fff;
 }
 /*会社概要 end*/
 /*会社沿革*/
@@ -1911,6 +1913,9 @@ section#category02 .category-caption .caption-content h2 {
 }
 section#category02.category-caption span {
     font-size: 24px;
+}
+.historyB .image {
+    width: 50%;
 }
 /*会社沿革 end*/
 /*社長挨拶*/
@@ -2077,8 +2082,8 @@ section#category01 {
     width: 960px;
     background-image: url(../img/company_ceoback.png);
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center center;
+    background-size: 70%;
+    background-position: center;
 }
 .ceoMessage h2 {
     margin: 0 auto 50px;
@@ -3030,6 +3035,7 @@ section .category-caption {
     /* top: 0; */
     width: 100%;
     z-index: 11;
+    color: #fff
 }
 .category-caption span {
     font-size: 24px;

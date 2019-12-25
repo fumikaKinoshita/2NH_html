@@ -211,139 +211,97 @@
         </div>
     </header>
 <main class="site-content" role="main">
-
-        <!--
-        カテゴリータイトル
-        ==================================== -->
-
-		<section id="recruit_career" class="parallax">
-                    <div class="category-caption">
-                        <div class="caption-content">
-                                <h2 class="animated fadeInDown">RECRUIT</h2>
-                                <span class="animated fadeInDown">採用情報</span>
-                        </div>
-
-                    </div>
-		</section>
-
-        <!--
-        End カテゴリータイトルEnd
-        ==================================== -->
-
-			<!-- companyprofile section -->
-			<section id="recruitmsg" >
-                                <!-- 採用情報 -->    
-                                        <div class="container">
-                                            <div class="row">
-                                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 rec_cont">
-                                                <h2>キャリア採用</h2>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="container">
-                                            <div class="row">
-                                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 rec_cont">
-                                                <h2>応募内容確認</h2>
-                                                <div class="entryform">
-                                                    <form method="POST" action="{{ route('recruit.send03') }}">
-                                                 {{ csrf_field() }}
-                                                <div>
-                                                <label class="title">お名前</label>
-                                                {{ $inputs['onamae'] }}
-                                                <input
-                                                    name="onamae"
-                                                    value="{{ $inputs['onamae'] }}"
-                                                    type="hidden">
-                                                </div>
-                                                <div>
-                                                <label class="title">おなまえ</label>
-                                                {{ $inputs['furigana'] }}
-                                                <input
-                                                    name="furigana"
-                                                    value="{{ $inputs['furigana'] }}"
-                                                    type="hidden">
-                                                </div>
-                                                <div>
-                                            <label class="title">生年月日</label>
-                                                {{ $inputs['byear'] }}{{ $inputs['bmonth'] }}{{ $inputs['bday'] }}
-                                                <input
-                                                    name="byear"
-                                                    value="{{ $inputs['byear'] }}"
-                                                    type="hidden">
-                                                    <input
-                                                    name="bmonth"
-                                                    value="{{ $inputs['bmonth'] }}"
-                                                    type="hidden">
-                                                    <input
-                                                    name="bday"
-                                                    value="{{ $inputs['bday'] }}"
-                                                    type="hidden">
-                                                </div>
-                                                <div>
-                                            <label class="title">メールアドレス</label>
-                                                {{ $inputs['email'] }}
-                                                <input
-                                                    name="email"
-                                                    value="{{ $inputs['email'] }}"
-                                                    type="hidden">
-                                                </div>
-                                                <div>
-                                                <label class="title">電話番号</label>
-                                                {{ $inputs['telnumber'] }}
-                                                <input
-                                                    name="telnumber"
-                                                    value="{{ $inputs['telnumber'] }}"
-                                                    type="hidden">
-                                                </div>
-                                                <div>
-                                                    <label class="title">性別</label>
-                                                {{ $inputs['gender'] }}
-                                                <input
-                                                    name="gender"
-                                                    value="{{ $inputs['gender'] }}"
-                                                    type="hidden">
-                                                </div>
-                                                <div>
-                                                <label class="title">志望動機・経験内容・メッセージなど</label>
-                                                {!! nl2br(e($inputs['body'])) !!}
-                                                <input
-                                                    name="body"
-                                                    value="{{ $inputs['body'] }}"
-                                                    type="hidden">
-                                                </div>
-                                                <div>
-                                                <button type="submit" name="action" value="back">
-                                                    入力内容修正
-                                                </button>
-                                                <button type="submit" name="action" value="submit">
-                                                    送信する
-                                                </button>
-                                                </div>
-                                            </form>
-                                                </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                
-                                <!-- 採用情報 end -->
-
-
-
-			</section>
-			<!-- end companyprofile section -->
-
-        </main>
-        <div class="contactB">
-                <h2>CONTACT</h2>
-                <h4>お問い合わせ</h4>
-                <p>ホームページやECサイトの制作、各種デザインのご依頼・ご相談はこちらからお問い合わせください。</p>
-                
-                    <ul>
-                        <li class="telN"><a href="" class="btn">045-534-7932 &rsaquo;</a></li>
-                        <li class="contactF"><a href="" class="btn">CONTACT FORM &rsaquo;</a></li>
-                    </ul>
-                
+    <section id="recruit_career" class="parallax">
+        <div class="category-caption">
+            <div class="caption-content">
+                <h2 class="animated fadeInDown">RECRUIT</h2>
+                <span class="animated fadeInDown">採用情報</span>
             </div>
+        </div>
+    </section>
+    <!-- recruitmsg section -->
+    <section id="recruitmsg">
+        <!-- 採用情報 -->
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 rec_cont">
+                    <h2>キャリア採用</h2>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 rec_cont">
+                    <h2>応募内容確認</h2>
+                    <div class="entryform">
+                        <form method="POST" action="{{ route('recruit.send03') }}">
+                            {{ csrf_field() }}
+                            <div>
+                                <label class="title">お名前</label>
+                                {{ $inputs['onamae'] }}
+                                <input name="onamae" value="{{ $inputs['onamae'] }}" type="hidden">
+                            </div>
+                            <div>
+                                <label class="title">おなまえ</label>
+                                {{ $inputs['furigana'] }}
+                                <input name="furigana" value="{{ $inputs['furigana'] }}" type="hidden">
+                            </div>
+                            <div>
+                                <label class="title">生年月日</label>
+                                {{ $inputs['byear'] }}{{ $inputs['bmonth'] }}{{ $inputs['bday'] }}
+                                <input name="byear" value="{{ $inputs['byear'] }}" type="hidden">
+                                <input name="bmonth" value="{{ $inputs['bmonth'] }}" type="hidden">
+                                <input name="bday" value="{{ $inputs['bday'] }}" type="hidden">
+                            </div>
+                            <div>
+                                <label class="title">メールアドレス</label>
+                                {{ $inputs['email'] }}
+                                <input name="email" value="{{ $inputs['email'] }}" type="hidden">
+                            </div>
+                            <div>
+                                <label class="title">電話番号</label>
+                                {{ $inputs['telnumber'] }}
+                                <input name="telnumber" value="{{ $inputs['telnumber'] }}" type="hidden">
+                            </div>
+                            <div>
+                                <label class="title">性別</label>
+                                {{ $inputs['gender'] }}
+                                <input name="gender" value="{{ $inputs['gender'] }}" type="hidden">
+                            </div>
+                            <div>
+                                <label class="title">志望動機・経験内容・メッセージなど</label>
+                                {!! nl2br(e($inputs['body'])) !!}
+                                <input name="body" value="{{ $inputs['body'] }}" type="hidden">
+                            </div>
+                            <div>
+                                <button type="submit" name="action" value="back">
+                                    入力内容修正
+                                </button>
+                                <button type="submit" name="action" value="submit">
+                                    送信する
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 採用情報 end -->
+    </section>
+</main>
+<div class="contactB">
+    <h2>CONTACT</h2>
+    <h4>お問い合わせ</h4>
+    <p>ホームページやECサイトの制作、各種デザインのご依頼・ご相談はこちらからお問い合わせください。</p>
+    <ul>
+        <li class="telN">
+            <a href="tel:045-534-7932" class="btn">045-534-7932 &rsaquo;</a>
+        </li>
+        <li class="contactF">
+            <a href="../contact/" class="btn">CONTACT FORM &rsaquo;</a>
+        </li>
+    </ul>
+</div>
 <footer class="footer_pc">
     <div class="footerbtn">
         <div class="container">

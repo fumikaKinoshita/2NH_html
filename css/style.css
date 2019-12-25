@@ -1036,7 +1036,7 @@ position: absolute;
     padding-top: 20px;
     letter-spacing: 1px;
 }
-.serviceB h3 a:hover{
+.serviceB h3　a:hover{
     position: relative;
     padding: .75em 0;
     border-top: 1px solid #9cf;

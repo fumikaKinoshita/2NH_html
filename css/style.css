@@ -177,6 +177,7 @@ c{
 }
 .footer_pc ul li {
     margin-bottom: 1em;
+    width: 150px;
 }
 .footer_pc a:hover {
     color: #fff;

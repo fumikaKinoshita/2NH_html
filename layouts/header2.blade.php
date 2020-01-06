@@ -70,7 +70,7 @@
                     </div>
                     <div class="hamburgermenu">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#hamburger">
-                            <img src="../img/hm.jpg" alt="ハンバーガーメニュー" width="40" height="40">
+                            <img src="../img/hm.jpg" alt="ハンバーガーメニュー">
                         </button>
                     </div>
                 </div>

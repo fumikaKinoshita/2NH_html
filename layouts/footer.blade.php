@@ -99,19 +99,28 @@
         </div>
     </div>
     <div class="footerunder">
-    <div class="companyspec">
-            <p class="companyN">株式会社セカンド・ウェーブ</p>
-            <p class="address">〒221-0835<br>
-                神奈川県横浜市神奈川区鶴屋町三丁目29番地9<br>
-                タクエー横浜西口第6ビル2F</p>
-            <p class="telFax">TEL 045-534-7932 / FAX 045-534-7934</p>
+    <div class="container">
+            <div class="row">
+                <div class="col-xl-3">
+                    <br>
+                    <p class="companyN">株式会社セカンド・ウェーブ</p>
+                    <p class="address">〒221-0835<br>
+                        神奈川県横浜市神奈川区鶴屋町三丁目29番地9<br>タクエー横浜西口第6ビル2F</p>
+                    <p class="telFax">TEL 045-534-7932 / FAX 045-534-7934</p>
+                </div>
+                <div class="col-xl-5 offset-4">
+                    <div class="pra">
+                        <p class="SNSicon"><a href="https://www.instagram.com/2ndwave_info/"><img src="img/instagram.png" alt="instagram"></a></p>
+                        <p class="SNSicon"><a href="https://m.facebook.com/2ndwave.jp/"><img src="img/facebook.png" alt="Facebook"></a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-12">
+                    <p class="copyright">© 2019 2ndwave,.Inc. All rights reserved. </p>
+                </div>
+            </div>
         </div>
-        <div class="pra">
-            <p><a href="pp/pp">&rsaquo; プライバシーポリシー</a><a href="sitemap/sitemap">&rsaquo; サイトマップ</a></p>
-            <p class="SNSicon"><a href="https://www.instagram.com/2ndwave_info/"><img src="img/instagram.png" alt="instagram"></a></p>
-            <p class="SNSicon"><a href="https://m.facebook.com/2ndwave.jp/"><img src="img/facebook.png" alt="facebook"></a></p>
-        </div>
-        <p class="copyright">© 2019 2ndwave,.Inc. All rights reserved. </p>
     </div>
 </footer>
 

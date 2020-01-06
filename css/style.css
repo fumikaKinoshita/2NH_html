@@ -1938,12 +1938,6 @@ section#category03 .category-caption {
     width: 100%;
 }
 
-section#category03 .category-caption .caption-content {
-    text-align: center;
-    display: table-cell;
-    vertical-align: middle;
-    top: 130px;
-}
 /*社長挨拶end*/
 
 /*アクセス*/
@@ -1955,10 +1949,6 @@ section#category04 {
     height: 400px;
 }
 section#category04 .category-caption .caption-content {
-    text-align: center;
-    display: table-cell;
-    vertical-align: middle;
-    top: 130px;
     color: #111;
 }
 /*アクセスend*/

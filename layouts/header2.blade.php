@@ -31,18 +31,18 @@
                         </li>
                         <li class="globalNav_item">
                             <a href="../service/service01/">SERVICE<br><span>サービス</span></a>
-                            <ul class="globalSubNav_items" style="margin-left: auto; margin-right: auto; padding-left: 226px; padding-right: 226px; display: none;">
-                                <li class="globalSubNav_item imgBox">
-                                    <a href="../service/service01/"><img src="../img/service_0.jpg" alt=""><p><span>&rsaquo; サービス</span></p></a>
-                                </li>
-                                <li class="globalSubNav_item imgBox">
-                                    <a href="../service/service02/"><img src="../img/agile_on.jpg" alt=""><p><span>&rsaquo; アジャイル開発</span></p></a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="globalNav_item">
-                            <a href="../recruit/recruit01/">RECRUIT<br><span>採用情報</span></a>
                                 <ul class="globalSubNav_items" style="margin-left: auto; margin-right: auto; padding-left: 226px; padding-right: 226px; display: none;">
+                                    <li class="globalSubNav_item imgBox">
+                                        <a href="../service/service01/"><img src="../img/service_0.jpg" alt=""><p><span>&rsaquo; サービス</span></p></a>
+                                    </li>
+                                    <li class="globalSubNav_item imgBox">
+                                        <a href="../service/service02/"><img src="../img/agile_on.jpg" alt=""><p><span>&rsaquo; アジャイル開発</span></p></a>
+                                    </li>
+                                </ul>
+                        </li>
+                        <li class="globalNav_item dropdown">
+                            <a href="../recruit/recruit01/">RECRUIT<br><span>採用情報</span></a>
+                                <ul class="dropdown-menu" style="margin-left: auto; margin-right: auto; padding-left: 226px; padding-right: 226px; display: none;">
                                     <li class="globalSubNav_item imgBox">
                                         <a href="../recruit/recruit01/"><img src="../img/recruit_0.jpg" alt=""><p><span>&rsaquo; 採用情報</span></p></a>
                                     </li>
@@ -54,7 +54,7 @@
                                     </li>
                                 </ul>
                         </li>
-                        <li class="globalNav_item">
+                        <li class="globalNav_item works">
                             <a href="../works/works01/">WORKS<br><span>制作実績</span></a>
                                 <ul class="globalSubNav_items" style="margin-left: auto; margin-right: auto; padding-left: 226px; padding-right: 226px; display: none;">
                                     <li class="globalSubNav_item imgBox">
@@ -64,11 +64,11 @@
                         </li>
                         <li class="globalNav_item recruit linkTxt00">
                             <a href="../contact" target="_blank">CONTACT<br><span>お問い合わせ</span></a>
-                            <ul class="globalSubNav_items" style="margin-left: auto; margin-right: auto; padding-left: 226px; padding-right: 226px; display: none;">
-                                <li class="globalSubNav_item imgBox">
-                                    <a href="contact/"><img src="../img/contact_0.jpg" alt=""><p><span>&rsaquo; お問い合わせ</span></p></a>
-                                </li>
-                            </ul>
+                                <ul class="globalSubNav_items" style="margin-left: auto; margin-right: auto; padding-left: 226px; padding-right: 226px; display: none;">
+                                    <li class="globalSubNav_item imgBox">
+                                        <a href="contact/"><img src="../img/contact_0.jpg" alt=""><p><span>&rsaquo; お問い合わせ</span></p></a>
+                                    </li>
+                                </ul>
                         </li>
                 </nav>
             </div>
@@ -83,58 +83,47 @@
                         <a href="../" class="navbar-brand">株式会社セカンド・ウェーブ</a>
                     </h1>
                 </div>
-                <div class="spmenu">
-                    <div class="contactmenu">
-                        <a href="../contact">メール</a>
-                    </div>
-                    <div class="hamburgermenu">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#hamburger">
-                            <img src="../img/hm.jpg" alt="ハンバーガーメニュー">
+                <div class="contactmenu"><a href="../contact">メール</a></div>
+                <div class="hamburgermenu">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#hamburger">
+                        <img src="../img/hm.jpg" alt="ハンバーガーメニュー">
                         </button>
-                    </div>
                 </div>
-                    <nav class="navbar-collapse collapse" id="hamburger">
-                        <ul class="nav navbar-nav">
-                            <li class="globalNav_item home">
-                                <a href="">HOME<br>
-                                    <span>ホーム</span></a>
-                            </li>
-                            <li class="globalNav_item">
-                                <a href="../company/company01/">COMPANY<br><span>会社概要</span></a>
-                            </li>
-                            <li>
-                                <ul class="globalSubNav_items" style="">
-                                    <li class="globalSubNav_item">
-                                        <a href="../company/company02/"><p><span>&rsaquo; 会社沿革</span></p></a>
-                                    </li>
-                                    <li class="globalSubNav_item">
-                                        <a href="../company/company03/"><p><span>&rsaquo; 社長挨拶</span></p></a>
-                                    </li>
-                                    <li class="globalSubNav_item">
-                                        <a href="../company/company04/"><p><span>&rsaquo; アクセス</span></p></a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="globalNav_item">
-                                <a href="../service/service01/">SERVICE<br>
-                                    <span>サービス</span></a>
-                            </li>
-                            <li>
-                                <ul class="globalSubNav_items agile" style="">
-                                    <li class="globalSubNav_item">
-                                        <a href="../service/service02/"><p><span>&rsaquo; アジャイル開発</span></p></a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="globalNav_item">
-                                <a href="../recruit/recruit01/">RECRUIT<br><span>採用情報</span></a>
-                            </li>
-                            <li>
-                                <ul class="globalSubNav_items rec">
-                                    <li class="globalSubNav_item">
+                <nav class="navbar-collapse collapse" id="hamburger">
+                    <ul class="nav navbar-nav">
+                        <li class="globalNav_item home">
+                            <a href="../">HOME<br><span>ホーム</span></a>
+                        </li>
+                        <li class="globalNav_item dropdown"><a href="../company/company01/">COMPANY<br><span>会社概要</span></a>
+                            <ul class="dropdown-menu" aria-labelledby="companyMenu">
+                                <li class="">
+                                    <a href="../company/company02/"><p><span>&rsaquo; 会社沿革</span></p></a>
+                                </li>
+                                <li class="">
+                                    <a href="../company/company03/"><p><span>&rsaquo; 社長挨拶</span></p></a>
+                                </li>
+                                <li class="">
+                                    <a href="../company/company04/"><p><span>&rsaquo; アクセス</span></p></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="globalNav_item dropdown">
+                            <a href="../service/service01/">SERVICE<br>
+                                <span>サービス</span></a>
+                                    <ul class="dropdown-menu" style="">
+                                        <li class="">
+                                            <a href="../service/service02/"><p><span>&rsaquo; アジャイル開発</span></p></a>
+                                        </li>
+                                    </ul>
+                        </li>
+                        <li class="globalNav_item dropdown">
+                            <a href="../recruit/recruit01/">RECRUIT<br><span>採用情報</span></a>
+                                <ul class="dropdown-menu">
+                                    <li class="">
                                         <a href="../recruit/recruit02/"><p><span>&rsaquo; 新卒採用</span></p></a>
                                     </li>
-                                    <li class="globalSubNav_item">
+                                    <li class="">
                                         <a href="../recruit/recruit03/"><p><span>&rsaquo; キャリア採用</span></p></a>
                                     </li>
                                 </ul>

@@ -10,6 +10,7 @@ body {
 }
 a {
     color:#003366;
+    padding: 5px;
 }
 ul {
     list-style-type:none;
@@ -1461,6 +1462,13 @@ max-height: 355px;
 }
 .topicsB .readMore {
     text-align: right;
+    padding: .75em 0;
+}
+.topicsB .readMore :hover {
+    text-decoration: none;
+    padding: .75em 0.5;
+    border-top: 1px solid #6DC1FF;
+    border-bottom: 1px solid #6DC1FF;
 }
 .contactB {
     width: 960px;

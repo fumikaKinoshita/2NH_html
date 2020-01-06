@@ -1042,7 +1042,7 @@ position: absolute;
 }
 .contactmenu {
     background-color: #fff;
-    width:50%;
+    width:20%;
     height: 70px;
     float: left;
     border: 1px solid lightgray;
@@ -1061,7 +1061,7 @@ position: absolute;
 }
 .hamburgermenu {
     background-color: #003366;
-    width:50%;
+    width:20%;
     height: 70px;
     float: left;
 }

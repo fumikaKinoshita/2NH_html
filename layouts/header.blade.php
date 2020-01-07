@@ -15,7 +15,7 @@
                             <span>ホーム</span></a>
                         </li>
                         <li class="globalNav_item"><a href="company/company01/">COMPANY<br><span>会社概要</span></a>
-                            <ul class="globalSubNav_items" style="margin-left: auto; margin-right: auto; padding-left: 226px; padding-right: 226px; display: none;">
+                            <ul class="globalSubNav_items" style="margin-left: auto; margin-right: auto; padding-left: 50px; padding-right: 50px; display: none;">
                                 <li class="globalSubNav_item imgBox">
                                     <a href="company/company01/"><img src="img/company_0.jpg" alt=""><p><span>&rsaquo; 会社概要</span></p></a>
                                     </li>
@@ -31,11 +31,11 @@
                             </ul>
                         </li>
                         <li class="globalNav_item">
-                            <a href="">SERVICE<br><span>サービス</span></a>
-                            <ul class="globalSubNav_items" style="margin-left: auto; margin-right: auto; padding-left: 226px; padding-right: 226px; display: none;">
-                                <li class="globalSubNav_item imgBox">
+                            <a href="service/service02/">SERVICE<br><span>サービス</span></a>
+                            <ul class="globalSubNav_items" style="margin-left: auto; margin-right: auto; padding-left: 50px; padding-right: 50px; display: none;">
+                                <!-- <li class="globalSubNav_item imgBox">
                                         <a href=""><img src="img/service_0.jpg" alt=""><p><span>&rsaquo; サービス</span></p></a>
-                                </li>
+                                </li> -->
                                 <li class="globalSubNav_item imgBox">
                                     <a href="service/service02/"><img src="img/agile_on.jpg" alt=""><p><span>&rsaquo; アジャイル開発</span></p></a>
                                 </li>
@@ -43,7 +43,7 @@
                         </li>
                         <li class="globalNav_item" dropdown>
                             <a href="recruit/recruit01/">RECRUIT<br><span>採用情報</span></a>
-                            <ul class="globalSubNav_items" style="margin-left: auto; margin-right: auto; padding-left: 226px; padding-right: 226px; display: none;">
+                            <ul class="globalSubNav_items" style="margin-left: auto; margin-right: auto; padding-left: 50px; padding-right: 50px; display: none;">
                                 <li class="globalSubNav_item imgBox">
                                     <a href="recruit/recruit01/"><img src="img/recruit_0.jpg" alt=""><p><span>&rsaquo; 採用情報</span></p></a>
                                 </li>
@@ -57,7 +57,7 @@
                         </li>
                         <li class="globalNav_item">
                             <a href="works/works01/">WORKS<br><span>制作実績</span></a>
-                                <ul class="globalSubNav_items" style="margin-left: auto; margin-right: auto; padding-left: 226px; padding-right: 226px; display: none;">
+                                <ul class="globalSubNav_items" style="margin-left: auto; margin-right: auto; padding-left: 50px; padding-right: 50px; display: none;">
                                     <li class="globalSubNav_item imgBox">
                                             <a href="works/works01/"><img src="img/works_0.jpg" alt=""><p><span>&rsaquo; 制作実績</span></p></a>
                                     </li>
@@ -65,7 +65,7 @@
                         </li>
                         <li class="globalNav_item recruit linkTxt00">
                             <a href="contact/" target="_blank">CONTACT<br><span>お問い合わせ</span></a>
-                            <ul class="globalSubNav_items" style="margin-left: auto; margin-right: auto; padding-left: 226px; padding-right: 226px; display: none;">
+                            <ul class="globalSubNav_items" style="margin-left: auto; margin-right: auto; padding-left: 50px; padding-right: 50px; display: none;">
                                 <li class="globalSubNav_item imgBox">
                                     <a href="contact/"><img src="img/contact_0.jpg" alt=""><p><span>&rsaquo; お問い合わせ</span></p></a>
                                 </li>
@@ -117,7 +117,7 @@
                             </ul>
                         </li>
                         <li class="globalNav_item dropdown">
-                            <a href="">SERVICE<br>
+                            <a href="service/service02/">SERVICE<br>
                                 <span>サービス</span></a>
                                 <ul class="dropdown-menu" style="">
                                 <li class="">

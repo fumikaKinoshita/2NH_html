@@ -2494,9 +2494,9 @@ section#category10 {
 }
 .inline-block_test {
     padding: 0px 0px 30px;
-    width: 70%;
+    width: 100%;
     height: auto;
-    margin: 0px 20%;
+    margin: 0px 10%;
 }
 .inline-block_test h4{
     margin-bottom: -5px;
@@ -5734,7 +5734,7 @@ div#other{
 /*最小1020px PC表示用 end */
 @media (min-width: 1200px){
 .container {
-    max-width: 1600px;
+    max-width: 1200px;
 }
 .servicecont_sp {
     display: none;

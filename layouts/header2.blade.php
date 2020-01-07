@@ -30,10 +30,10 @@
                             </ul>
                         </li>
                         <li class="globalNav_item">
-                            <a href="../service/service01/">SERVICE<br><span>サービス</span></a>
+                            <a href="">SERVICE<br><span>サービス</span></a>
                                 <ul class="globalSubNav_items" style="margin-left: auto; margin-right: auto; padding-left: 226px; padding-right: 226px; display: none;">
                                     <li class="globalSubNav_item imgBox">
-                                        <a href="../service/service01/"><img src="../img/service_0.jpg" alt=""><p><span>&rsaquo; サービス</span></p></a>
+                                        <a href=""><img src="../img/service_0.jpg" alt=""><p><span>&rsaquo; サービス</span></p></a>
                                     </li>
                                     <li class="globalSubNav_item imgBox">
                                         <a href="../service/service02/"><img src="../img/agile_on.jpg" alt=""><p><span>&rsaquo; アジャイル開発</span></p></a>
@@ -109,7 +109,7 @@
                             </ul>
                         </li>
                         <li class="globalNav_item dropdown">
-                            <a href="../service/service01/">SERVICE<br>
+                            <a href="">SERVICE<br>
                                 <span>サービス</span></a>
                                     <ul class="dropdown-menu" style="">
                                         <li class="">

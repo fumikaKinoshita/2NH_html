@@ -17,16 +17,16 @@
                             </ul>
                     </div>
                 <div class="col-xl-1 offset-1">
-                    <h3><a href="service/service01">SERVICE</a></h3><br>
+                    <h3><a href="">SERVICE</a></h3><br>
                         <ul>
-                            <li><a href="../service/service01">&rsaquo;WEBコンサルティング</a></li>
-                            <li><a href="../service/service01">&rsaquo;WEBシステム開発</a></li>
-                            <li><a href="../service/service01">&rsaquo;WEBシステム運用・保守</a></li>
-                            <li><a href="../service/service01">&rsaquo;WEBデザイン制作</a></li>
-                            <li><a href="../service/service01">&rsaquo;WEBサイト制作</a></li>
-                            <li><a href="../service/service01">&rsaquo;iphone/ipad/Android</a></li>
+                            <li><a href="">&rsaquo;WEBコンサルティング</a></li>
+                            <li><a href="">&rsaquo;WEBシステム開発</a></li>
+                            <li><a href="">&rsaquo;WEBシステム運用・保守</a></li>
+                            <li><a href="">&rsaquo;WEBデザイン制作</a></li>
+                            <li><a href="">&rsaquo;WEBサイト制作</a></li>
+                            <li><a href="">&rsaquo;iphone/ipad/Android</a></li>
                             <li><a href="../service/service02">&rsaquo;アジャイル開発</a></li>
-                            <li><a href="../service/service01">&rsaquo;OTHER</a></li>
+                            <li><a href="">&rsaquo;OTHER</a></li>
                         </ul>
                 </div>
                 <div class="col-xl-1 offset-1">
@@ -79,7 +79,7 @@
                     <h3><a href="../company/company01">COMPANY</a></h3>
                 </div>
                 <div class="col-12 bbf7">
-                    <h3><a href="../service/service01">SERVICE</a></h3>
+                    <h3><a href="">SERVICE</a></h3>
                 </div>
                 <div class="col-12 bbf7">
                     <h3><a href="../recruit/recruit01">RECRUIT</a></h3>

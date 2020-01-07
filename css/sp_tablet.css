@@ -1130,7 +1130,7 @@ position: absolute;
 }
 .welcomeB div a.btn{
     margin: 40px auto;
-    width: 300px;
+    width: 100%;
     height: 50px;
     text-align: center;
     padding-top:10px;
@@ -1140,7 +1140,7 @@ position: absolute;
 }
 .welcomeB div a:hover.btn{
     margin: 40px auto;
-    width: 300px;
+    width: 100%;
     height: 50px;
     display: block;
     text-align: center;
@@ -2539,6 +2539,7 @@ section#contactcatV {
 /*スマホ 480pxより画面が小さい時用　end */
 /*スマホ縦から見た状態の時用 ブラウザ幅481px以上、767px以下　start */
 @media screen and (min-width: 480px) and (max-width:767px) {
+
 button{
     background-color: transparent;
     border: none;
@@ -2658,6 +2659,352 @@ header ul li a {
     font-size: 12px;
     float: left;
     margin-top: 15px;
+}
+.container {
+    max-width: 100%;
+}
+header {
+    background-color:#fff;
+    height:70px;
+    flex: 0 0 auto;
+}
+header h1 a {
+    background-image: url(../img/logo.jpg);
+    text-indent: -89999px;
+    background-repeat: no-repeat;
+    width: 176px;
+    height: 55px;
+    margin-top: 10px;
+}
+header ul {
+    float: left;
+    padding-left:0;
+}
+header ul li {
+    float: left;
+    padding: 0;
+    width:100%;
+}
+header ul li.dropdown {
+    float: none;
+    padding: 0;
+    width:100%;
+    height: 100px;
+    color: #fff;
+    text-align: center;
+}
+header ul li.dropdown a {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+header ul li.dropdown span {
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+}
+header ul li a {
+    float: left;
+    padding: 0;
+    width:100%;
+    display: block;
+    color: #fff;
+}
+.navbar-nav {
+    background-color: #003366;
+    opacity: 0.8;
+    width: 100%;
+}
+.navbar-right {
+    float: right;
+}
+.navbar-brand h1 a {
+    display: inline-block;
+    font-size: 24px;
+}
+.loginuser {
+    width: 200px;
+    color: #333;
+    font-size: 12px;
+    float: left;
+    margin-top: 15px;
+}
+.loginuser a {
+    width: 200px;
+    color: #154485;
+    font-size: 12px;
+    float: left;
+}
+.logindate {
+    width: 200px;
+    color: #333;
+    font-size: 12px;
+    float: left;
+    margin-top: 15px;
+}
+.navbar-header {
+    width: 70%;
+}
+.spmenu {
+    width: 30%;
+}
+.dropdown-menu {
+    position: relative;
+    z-index: 1000;
+    float: left;
+    min-width: 10rem;
+    padding: 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+}
+.dropdown-menu.show {
+    position: static!important;
+    float: none;
+}
+.dropdown, .dropup {
+    position: static;
+}
+.globalHeader {
+	position: static;
+	width: 100%;
+	z-index: 100;
+	background-color: #fff;
+	-webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
+	   -moz-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
+	        box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
+	}
+	.globalHeader.fixed {
+	position: fixed;
+	top: -130px;
+	min-width: 1000px;
+}
+.globalHeader_pc {
+    display: none;
+}
+.globalHeader_sp {
+    display: block;
+    width: 100%;
+}
+.globalHeader_inner {
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.globalHeader_logo {
+	overflow: hidden;
+	font-size: 13px;
+}
+.globalHeader_logo a {
+	display: inline-block;
+  vertical-align: top;
+	margin-right: 10px;
+  margin-top: 5px;
+	width: auto;
+}
+.globalHeader_logo a:hover,
+.globalNav_logo  a:hover {
+	background-color: transparent;
+}
+.globalHeader_logo img {
+	width: 220px;
+}
+.globalNav_logo {
+	display: none;
+	float: left;
+}
+	.fixed .globalNav_logo {
+		display: block;
+		margin-right: 2px;
+	}
+	.fixed .globalNav_logo img {
+		margin-top: 16px;
+		width: 31px;
+    vertical-align: middle;
+	}
+  .fixed .globalNav_logo120th {
+		display: block;
+  	float: left;
+		margin-top: 11px;
+    margin-right: 6px;
+}
+.globalNav_items {
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-size: 1px 30px;
+	background-position: 949px 8px;
+}
+.fixed .globalNav_items {
+	height: 45px;
+	margin-top: 0;
+	background-position: 875px 8px;
+}
+.globalNav_item.home, .globalNav_item.works, .globalNav_item.contact {
+	float: none;
+    width:100%;
+    height: 100px;
+    margin:20px 0px;
+}
+.fixed .globalNav_item {
+	height: 45px;
+}
+.globalNav_item.active {
+    background-color: #7f99b2;
+}
+.fixed .globalNav_item > a {
+		background-position: bottom 5px center;
+	}
+.fixed .globalNav_item > a, .fixed .globalNav_item.subMenuOpen > a {
+    height: 45px;
+    border-radius: 0;
+}
+    .globalNav_item.current > a {
+        color: #fff !important;
+        height: 45px;
+        background-color: #003366;
+        background-position: bottom 5px center;
+    }
+    .globalNav_item > a:only-child {
+        background-image: none;
+        width:100%;
+        color: #fff;
+    }
+    .globalNav_item > a { background-color: transparent;
+        width:100%;
+    }
+    .globalNav_item.recruit > a:before {
+        content: '';
+        display: inline-block;
+        position: relative;
+        height: 18px;
+        width:100%;
+    }
+    .globalNav_item.linkTxt00 > a:after {
+        top: -1px;
+    }
+    .globalNav_item.linkTxt00 > a:hover:after {
+        background-size: 13px 9px;
+        width: 13px;
+        height: 9px;
+    }
+    .globalSubNav_items {
+        overflow: hidden;
+        min-width: 100%;
+        width: 100%;
+        background-color: #003366;
+        display: block;
+        float: left;
+        color: #FFF;
+        z-index: 150;
+    }
+    .globalSubNav_items.agile {
+        overflow: hidden;
+        min-width: 50%;
+        width: 50%;
+        background-color: #003366;
+        display: block;
+        float: left;
+        color: #FFF;
+        position: absolute;
+        left: 50%;
+        right: 0;
+        margin: 0;
+        padding: 0;
+        z-index: 150;
+        top: 250px;
+    }
+    .globalSubNav_items.rec {
+        overflow: hidden;
+        min-width: 50%;
+        width: 50%;
+        background-color: #003366;
+        display: block;
+        float: left;
+        color: #FFF;
+        position: absolute;
+        left: 50%;
+        right: 0;
+        margin: 0;
+        padding: 0;
+        z-index: 150;
+        top: 300px;
+    }
+    .globalSubNav_item:first-child {
+        margin-left: 0;
+    }
+    .globalSubNav_item a {
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        width: 100%;
+        height: 100%;
+        color: #FFF;
+    }
+    .globalHeader_utilityNav {
+        position: absolute;
+        top: 7px;
+        right: 0;
+    }
+    .globalHeader_utilityNav_item {
+        margin-left: 8px;
+        float: left;
+    }
+    .globalHeader_utilityNav_item.linkBtn {
+        margin-top: 0;
+    }
+    .globalHeader_utilityNav_item.linkBtn a {
+        font-size: 12px;
+        width: auto;
+        height: auto;
+        display: block;
+        padding: 7.5px 28px;
+    }
+    .globalHeader_utilityNav_item.linkBtn a:after {
+        background-size: 5px 9px;
+        width: 5px;
+        height: 10px;
+        right: 11px;
+    }
+.contactmenu {
+    width: 15%;
+    height: 70px;
+    float: left;
+    border: 1px solid lightgray;
+}
+.contactmenu a {
+    height: 100%;
+    display: block;
+    background-image: url(../img/mailIcon.jpg);
+    background-repeat: no-repeat;
+    text-indent: -99999px;
+    background-position: center;
+}
+.hamburgermenu {
+    background-color: #003366;
+    width: 15%;
+    height: 70px;
+}
+.hamburgermenu a {
+    color: #fff;
+    background-color: #003366;
+    width: 100%;
+    height: 100%;
+    float: left;
+    background-image: url(../img/hm.jpg);
+    background-repeat: no-repeat;
+    text-indent: -99999px;
+    background-position: center center;
+}
+.hamburgermenu img {
+    position: relative;
+    width: 100%;
+    margin: 25% 60%;
 }
 /*テーブル関連のスタイル*/
 table {
@@ -3805,10 +4152,10 @@ header ul li a {
     margin-top: 15px;
 }
 .navbar-header {
-    width: 80%;
+    width: 70%;
 }
 .spmenu {
-    width: 20%;
+    width: 30%;
 }
 .dropdown-menu {
     position: relative;
@@ -4034,14 +4381,12 @@ header ul li a {
         right: 11px;
     }
 .contactmenu {
-    background-color: #fff;
-    width: 50%;
+    width: 15%;
     height: 70px;
     float: left;
     border: 1px solid lightgray;
 }
 .contactmenu a {
-    background-color: #fff;
     height: 100%;
     display: block;
     background-image: url(../img/mailIcon.jpg);
@@ -4051,9 +4396,8 @@ header ul li a {
 }
 .hamburgermenu {
     background-color: #003366;
-    width: 50%;
+    width: 15%;
     height: 70px;
-    float: left;
 }
 .hamburgermenu a {
     color: #fff;
@@ -4068,8 +4412,8 @@ header ul li a {
 }
 .hamburgermenu img {
     position: relative;
-    width: 80%;
-    margin: 35%;
+    width: 100%;
+    margin: 25% 60%;
 }
 .mainV3 {
     width: 100%;
@@ -4147,6 +4491,7 @@ header ul li a {
 .aboutusC {
     width: 100%;
     height: auto;
+    max-height: 300px;
     margin: 0px auto;
     display: inline-block;
 }
@@ -4769,16 +5114,6 @@ section#category10 {
     margin-left: -15%;
     margin-top: 4rem;
 }
-
-
-/* .smain h2{
-    color: #fff;
-    font-size: 1.5rem;
-    background-color: #003366;
-    height: 2.8%;
-    width: 150%;
-} */
-
 .smain h1{
     font-size: 1.5rem;
     margin-top: 6%;
@@ -5392,7 +5727,7 @@ div#other{
 }
 /*-------------footer end------------- */
 /*-------------サイトマップ end --------------- */
-/*スマホ横から見た状態の時用 　ブラウザ幅768px以上、980px以下 end*/
+/*スマホ横から見た状態の時用 　ブラウザ幅768pxmax-height: 250px;、980px以下 end*/
 
 /*最大980px PC表示用*/
 @media screen and (max-width: 980px) {

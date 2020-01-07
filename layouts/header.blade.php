@@ -41,7 +41,7 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class="globalNav_item">
+                        <li class="globalNav_item" dropdown>
                             <a href="recruit/recruit01/">RECRUIT<br><span>採用情報</span></a>
                             <ul class="globalSubNav_items" style="margin-left: auto; margin-right: auto; padding-left: 226px; padding-right: 226px; display: none;">
                                 <li class="globalSubNav_item imgBox">
@@ -90,23 +90,22 @@
                     <a href="/" class="navbar-brand">株式会社セカンド・ウェーブ</a>
                     </h1>
                 </div>
-                <div class="spmenu">
-                    <div class="contactmenu"><a href="contact/">メール</a></div>
+                <div class="contactmenu"><a href="contact/">メール</a></div>
                     <div class="hamburgermenu">
-                    <a class="navbar-toggle collapsed" data-toggle="collapse" data-target="#hamburger">
-                        ハンバーガーメニュー
-                    </a>
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#hamburger">
+                            <img src="img/hm.jpg" alt="ハンバーガーメニュー" >
+                        </button>
                     </div>
-                </div>
-                <nav class="navbar-collapse collapse" id="hamburger">
+                    <nav class="navbar-collapse collapse" id="hamburger">
                     <ul class="nav navbar-nav">
                         <li class="globalNav_item home">
-                            <a href="">HOME<br>
+                            <a href="index.php">HOME<br>
                             <span>ホーム</span></a>
                         </li>
-                        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="navigation" aria-expanded="true">COMPANY<br><span>会社概要</span></a>
-                            <ul class="dropdown-menu">
-                                <li class="">
+                        <li class="globalNav_item dropdown"><a href="#" id="companyMenu" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">COMPANY<br><span>会社概要</span></a>
+                            <ul class="dropdown-menu" aria-labelledby="companyMenu">
+                                <li>
                                     <a href="company/company02/"><p><span>&rsaquo; 会社沿革</span></p></a>
                                 </li>
                                 <li class="">
@@ -117,25 +116,22 @@
                                 </li>
                             </ul>
                         </li>
-                        <li>
-
-                        </li>
-                        <li class="dropdown">
+                        <li class="globalNav_item dropdown">
                             <a href="">SERVICE<br>
                                 <span>サービス</span></a>
-                                <ul class="globalSubNav_items agile" style="">
-                                <li class="globalSubNav_item">
+                                <ul class="dropdown-menu" style="">
+                                <li class="">
                                     <a href="service/service02/"><p><span>&rsaquo; アジャイル開発</span></p></a>
                                 </li>
                             </ul>
                         </li>
                         <li class="globalNav_item dropdown">
                             <a href="recruit/recruit01/">RECRUIT<br><span>採用情報</span></a>
-                            <ul class="globalSubNav_items rec">
-                                <li class="globalSubNav_item">
+                            <ul class="dropdown-menu">
+                                <li class="">
                                     <a href="recruit/recruit02/"><p><span>&rsaquo; 新卒採用</span></p></a>
                                 </li>
-                                <li class="globalSubNav_item">
+                                <li class="">
                                     <a href="recruit/recruit03/"><p><span>&rsaquo; キャリア採用</span></p></a>
                                 </li>
                             </ul>

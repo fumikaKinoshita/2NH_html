@@ -40,9 +40,9 @@
                                     </li>
                                 </ul>
                         </li>
-                        <li class="globalNav_item dropdown">
+                        <li class="globalNav_item" dropdown>
                             <a href="../recruit/recruit01/">RECRUIT<br><span>採用情報</span></a>
-                                <ul class="dropdown-menu" style="margin-left: auto; margin-right: auto; padding-left: 226px; padding-right: 226px; display: none;">
+                            <ul class="globalSubNav_items" style="margin-left: auto; margin-right: auto; padding-left: 226px; padding-right: 226px; display: none;">
                                     <li class="globalSubNav_item imgBox">
                                         <a href="../recruit/recruit01/"><img src="../img/recruit_0.jpg" alt=""><p><span>&rsaquo; 採用情報</span></p></a>
                                     </li>

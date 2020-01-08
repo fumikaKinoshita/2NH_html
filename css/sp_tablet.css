@@ -2791,9 +2791,9 @@ header ul li a {
 }
 .globalHeader_logo a {
 	display: inline-block;
-  vertical-align: top;
+    vertical-align: top;
 	margin-right: 10px;
-  margin-top: 5px;
+    margin-top: 5px;
 	width: auto;
 }
 .globalHeader_logo a:hover,
@@ -4200,9 +4200,9 @@ header ul li a {
 }
 .globalHeader_logo a {
 	display: inline-block;
-  vertical-align: top;
+    vertical-align: top;
 	margin-right: 10px;
-  margin-top: 5px;
+    margin-top: 5px;
 	width: auto;
 }
 .globalHeader_logo a:hover,
@@ -4441,7 +4441,6 @@ header ul li a {
     font-size: 11px;
 }
 .serviceB .row {
-    width: 110%;
     margin: 0px 0px 0px -6%;
 }
 .serviceB table{
@@ -4500,11 +4499,7 @@ header ul li a {
     font-size: 16px;
 }
 .Menu01 {
-    float: left;
-    width:50%;
     height: 150px;
-    background-size: contain;
-    display: block;
 }
 .Menu01 p {
     font-weight: normal;
@@ -4522,10 +4517,7 @@ header ul li a {
     height: 150px;
 }
 .Menu02 {
-    float: left;
-    width: 50%;
     height: 150px;
-    display: block;
 }
 .Menu02 p {
     font-weight: normal;
@@ -5734,7 +5726,7 @@ div#other{
 /*最小1020px PC表示用 end */
 @media (min-width: 1200px){
 .container {
-    max-width: 1200px;
+    max-width: 1600px;
 }
 .servicecont_sp {
     display: none;

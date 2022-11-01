@@ -63,10 +63,10 @@
                                 </ul>
                         </li>
                         <li class="globalNav_item recruit linkTxt00">
-                            <a href="../contact/" target="_blank">CONTACT<br><span>お問い合わせ</span></a>
+                            <a href="../contact" target="_blank">CONTACT<br><span>お問い合わせ</span></a>
                                 <ul class="globalSubNav_items" style="margin-left: auto; margin-right: auto; padding-left: 50px; padding-right: 50px; display: none;">
                                     <li class="globalSubNav_item imgBox">
-                                        <a href="../contact/"><img src="../img/contact_0.jpg" alt=""><p><span>&rsaquo; お問い合わせ</span></p></a>
+                                        <a href="contact/"><img src="../img/contact_0.jpg" alt=""><p><span>&rsaquo; お問い合わせ</span></p></a>
                                     </li>
                                 </ul>
                         </li>
@@ -109,7 +109,7 @@
                             </ul>
                         </li>
                         <li class="globalNav_item dropdown">
-                            <a href="../service/service02/">SERVICE<br>
+                            <a href="service/service02/">SERVICE<br>
                                 <span>サービス</span></a>
                                     <ul class="dropdown-menu" style="">
                                         <li class="">

@@ -739,7 +739,7 @@
         background-color: #003466;
         border: none;
         color: #fff;
-        border-radius: 0;
+        border-radius: 0;   
     }
 
     .nav-tabs .nav-item.show .nav-link,
@@ -1303,7 +1303,7 @@
         height: 480px;
         min-height: 480px;
         background-image: url(../img/naminomi_iphone.jpg);
-        background-size: contain;
+        background-size: cover;
         background-position: top;
     }
 
@@ -1584,7 +1584,7 @@
 
     .topicsB .contents {
         padding: 40px 10px 30px 0px;
-        width: 100%;
+        width: 100%!important;
     }
 
     .topicsB .contents ul {
@@ -1808,7 +1808,7 @@
     }
 
     .g_map iframe {
-        width: 120%;
+        width: 100%;
         margin: 0px 0px 0px -30px;
     }
 
@@ -1816,6 +1816,7 @@
         text-align: left;
         margin: 0px 0px 0px -30px;
         font-size: 10px;
+        width: 100%;
     }
 
     /*-------------アクセス　end --------------- */
@@ -2945,10 +2946,21 @@
     .telFax {
         color: #fff !important;
     }
+    /*---------- お問い合わせ end----------*/
+    /*---------- SNS ----------*/
+    .snsB {
+        width: 100%;
+        height: auto;
+        margin-bottom: 100px;
+    }
+    .insta li {
+        height: 6rem;
+    }
+    /*---------- SNS end----------*/
 }
 
 
-/*---------- お問い合わせ end----------*/
+
 
 
 /*スマホ 480pxより画面が小さい時用　end */
@@ -3608,6 +3620,7 @@
         border: none;
         color: #fff;
         border-radius: 0;
+        height: 45px;
     }
 
     .nav-tabs .nav-item.show .nav-link,
@@ -3625,7 +3638,7 @@
     .nav-tabs {
         border-bottom: none;
         width: 100%;
-        margin: 0 auto 90px;
+        margin: 90px auto 90px;
     }
 
     .tabbottomcont {
@@ -3733,7 +3746,6 @@
         background-repeat: no-repeat;
         background-size: cover;
         color: #fff;
-        height: 200px;
         margin-bottom: 90px;
     }
 
@@ -3845,7 +3857,43 @@
     .offset-1 {
         margin: 0px;
     }
+    /* ---------tablet_COMPANYページstart----- */
+    
+    /* ---------社長挨拶--------- */
+    .ceoMessage h2 {
+        width: 100%;
+        font-size: 20px;
+    }
+    .ceoMessage p {
+        width: 100%;
+        font-size: 12px;
+    }
+    /* ---------アクセス--------- */
+    .accessB {
+        margin: 0 auto 100px;
+        width: 100%;
+    }
 
+    .accessB h2.yokohama_7 {
+        width: 100%;
+    }
+
+    .add_postN {
+        width: 100%;
+    }
+
+    .accessBattn p {
+        width: 100%;
+    }
+
+    .g_map iframe {
+        width: 100%;
+    }
+
+    .accessBattn p {
+        width: 100%;
+    }
+    /* ---------tablet_COMPANYページend----- */
     /* ---------tablet_SERVICEページstart----- */
     .sbrainall {
         height: auto;
@@ -5140,10 +5188,6 @@
         font-size: 11px;
     }
 
-    .serviceB .row {
-        margin: 0px 0px 0px -6%;
-    }
-
     .serviceB table {
         padding: 100px;
         margin: 150px auto 0px;
@@ -5320,7 +5364,7 @@
 
     .topicsB .contents {
         padding: 40px 10px 30px 0px;
-        width: 100%;
+        width: 100%!important;;
     }
 
     .contactB {
@@ -5385,6 +5429,9 @@
         float: left;
     }
 
+    .snsB {
+        width: 100%;
+    }
     /*-------------トップページ end--------------- */
     /*-------------会社概要--------------- */
     .nav-tabs .nav-link {
@@ -5444,23 +5491,23 @@
     /*---------- アクセス ----------*/
     .accessB {
         margin: 0 auto 100px;
-        width: 650px;
+        width: 100%;
     }
 
     .accessB h2.yokohama_7 {
-        width: 650px;
+        width: 100%;
     }
 
     .add_postN {
-        width: 650px;
+        width: 100%;
     }
 
     .accessBattn p {
-        width: 650px;
+        width: 100%;
     }
 
     .g_map iframe {
-        width: 650px;
+        width: 100%;
     }
 
     /*---------- アクセス end ----------*/
@@ -5494,10 +5541,6 @@
     /*-------------採用情報　--------------- */
     .mynabi {
         margin: 100px auto 0px;
-    }
-
-    section#recruitmain {
-        width: 200px;
     }
 
     #recruitmsg table {
@@ -5569,6 +5612,7 @@
     .recruitContents {
         background-position: top center;
         background-size: 100%;
+        padding-top: 0px;
     }
 
     .entryform {

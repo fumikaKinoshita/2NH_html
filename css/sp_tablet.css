@@ -1498,7 +1498,6 @@
     }
 
     .serviceC {
-        margin: 0px 0px 0px -10px;
         width: 100%;
     }
 
@@ -1665,7 +1664,10 @@
         background-color: #fff;
         color: #003366;
     }
-
+    .topicsB .contents {
+        padding: 40px 10px 30px 0px;
+        width: 100%;
+    }
     /*-------------トップページend --------------- */
     /*-------------会社概要 --------------- */
     section#category01 {
@@ -1808,8 +1810,8 @@
     }
 
     .g_map iframe {
-        width: 100%;
-        margin: 0px 0px 0px -30px;
+        max-width: 100%;
+        margin: 0px;
     }
 
     .accessBattn p {
@@ -3521,8 +3523,8 @@
 
     .hamburgermenu img {
         position: relative;
-        width: 100%;
-        margin: 25% 60%;
+        width: 58%;
+        margin: 40% 60%;
     }
 
     /*テーブル関連のスタイル*/
@@ -3633,6 +3635,7 @@
         border-left: none;
         font-weight: bold;
         border-radius: 0;
+        height: 45px;
     }
 
     .nav-tabs {
@@ -3857,6 +3860,9 @@
     .offset-1 {
         margin: 0px;
     }
+    .welcomeB h2 {
+        width: 100%;
+    }
     /* ---------tablet_COMPANYページstart----- */
     
     /* ---------社長挨拶--------- */
@@ -3887,7 +3893,7 @@
     }
 
     .g_map iframe {
-        width: 100%;
+        max-width: 100%;
     }
 
     .accessBattn p {
@@ -5432,6 +5438,9 @@
     .snsB {
         width: 100%;
     }
+    .insta {
+        width: 90%;
+    }
     /*-------------トップページ end--------------- */
     /*-------------会社概要--------------- */
     .nav-tabs .nav-link {
@@ -5491,23 +5500,23 @@
     /*---------- アクセス ----------*/
     .accessB {
         margin: 0 auto 100px;
-        width: 100%;
+        width: 90%;
     }
 
     .accessB h2.yokohama_7 {
-        width: 100%;
+        width: 90%;
     }
 
     .add_postN {
-        width: 100%;
+        width: 90%;
     }
 
     .accessBattn p {
-        width: 100%;
+        width: 90%;
     }
 
     .g_map iframe {
-        width: 100%;
+        max-width: 90%;
     }
 
     /*---------- アクセス end ----------*/

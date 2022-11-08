@@ -60,6 +60,9 @@
                                     <li class="globalSubNav_item imgBox">
                                             <a href="../works/works01/"><img src="../img/works_0.jpg" alt=""><p><span>&rsaquo; 制作実績</span></p></a>
                                     </li>
+                                    <li class="globalSubNav_item imgBox">
+                                        <a href="../works/works02/"><img src="../img/works_1.jpg" alt=""><p><span>&rsaquo; ランディングページサンプル</span></p></a>
+                                    </li>
                                 </ul>
                         </li>
                         <li class="globalNav_item recruit linkTxt00">

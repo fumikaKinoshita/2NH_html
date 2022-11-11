@@ -1370,7 +1370,7 @@
         border-top: solid 8px #036;
         border-bottom: solid 8px #036;
         float: left;
-        margin: -500px auto 8px;
+        margin: -250px auto 8px;
     }
 
     .serviceB p {
@@ -1380,11 +1380,13 @@
     }
 
     .serviceB .container {
-        padding-left: -15px;
+        padding: 0px;
+        width: 90%;
     }
 
     .serviceB .row {
         width: 100%;
+        margin: 0px;
     }
 
     .serviceB p br {
@@ -1498,7 +1500,7 @@
     }
 
     .serviceC {
-        width: 100%;
+        margin: 0 auto;
     }
 
     .aboutusB {
@@ -1524,6 +1526,7 @@
 
     .aur {
         width: 100%;
+        height: 150px;
     }
 
     .aboutusB h4 {
@@ -1583,7 +1586,7 @@
 
     .topicsB .contents {
         padding: 40px 10px 30px 0px;
-        width: 100%!important;
+        width: 100%;
     }
 
     .topicsB .contents ul {
@@ -1664,10 +1667,6 @@
         background-color: #fff;
         color: #003366;
     }
-    .topicsB .contents {
-        padding: 40px 10px 30px 0px;
-        width: 100%;
-    }
     /*-------------トップページend --------------- */
     /*-------------会社概要 --------------- */
     section#category01 {
@@ -1732,7 +1731,7 @@
     /*-------------社長挨拶 --------------- */
     .ceoMessage {
         margin: 0 auto 100px;
-        width: 480px;
+        width: 100%;
         background-image: url(../img/company_ceoback.png);
         background-repeat: no-repeat;
         background-size: contain;
@@ -1751,11 +1750,6 @@
 
     .ceoMessage p {
         width: 100%;
-        font-size: 12px;
-    }
-
-    .ceoMessage h5 {
-        float: right;
         font-size: 12px;
     }
 
@@ -1793,12 +1787,12 @@
     }
 
     .accessB {
-        margin: 0 auto 100px;
-        width: 480px;
+        margin: 0 auto 0px;
+        width: 100%;
     }
 
     .accessB h2.yokohama_7 {
-        width: 480px;
+        width: 100%;
         margin: 0px 0px 0px -30px;
     }
 
@@ -2955,6 +2949,9 @@
         height: auto;
         margin-bottom: 100px;
     }
+    .insta {
+        width: 90%;
+    }
     .insta li {
         height: 6rem;
     }
@@ -3862,6 +3859,15 @@
     }
     .welcomeB h2 {
         width: 100%;
+    }
+    .serviceB .row {
+        margin: 0px;
+    }
+    .topicsB .contents {
+        width: 100%;
+    }
+    .insta {
+        width: 90%;
     }
     /* ---------tablet_COMPANYページstart----- */
     
@@ -5370,7 +5376,7 @@
 
     .topicsB .contents {
         padding: 40px 10px 30px 0px;
-        width: 100%!important;;
+        width: 100%;
     }
 
     .contactB {

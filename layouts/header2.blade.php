@@ -58,7 +58,7 @@
                             <a href="../works/works01/">WORKS<br><span>制作実績</span></a>
                                 <ul class="globalSubNav_items" style="margin-left: auto; margin-right: auto; padding-left: 50px; padding-right: 50px; display: none;">
                                     <li class="globalSubNav_item imgBox">
-                                            <a href="../works/works01/"><img src="../img/works_0.jpg" alt=""><p><span>&rsaquo; 制作実績</span></p></a>
+                                        <a href="../works/works01/"><img src="../img/works_0.jpg" alt=""><p><span>&rsaquo; 制作実績</span></p></a>
                                     </li>
                                     <li class="globalSubNav_item imgBox">
                                         <a href="../works/works02/"><img src="../img/works_1.jpg" alt=""><p><span>&rsaquo; ランディングページサンプル</span></p></a>
@@ -66,10 +66,10 @@
                                 </ul>
                         </li>
                         <li class="globalNav_item recruit linkTxt00">
-                            <a href="../contact" target="_blank">CONTACT<br><span>お問い合わせ</span></a>
+                            <a href="../contact/" target="_blank">CONTACT<br><span>お問い合わせ</span></a>
                                 <ul class="globalSubNav_items" style="margin-left: auto; margin-right: auto; padding-left: 50px; padding-right: 50px; display: none;">
                                     <li class="globalSubNav_item imgBox">
-                                        <a href="contact/"><img src="../img/contact_0.jpg" alt=""><p><span>&rsaquo; お問い合わせ</span></p></a>
+                                        <a href="../contact/"><img src="../img/contact_0.jpg" alt=""><p><span>&rsaquo; お問い合わせ</span></p></a>
                                     </li>
                                 </ul>
                         </li>
@@ -83,164 +83,82 @@
             <div class="row">
                 <div class="navbar-header">
                     <h1>
-                        <a href="../" class="navbar-brand">株式会社セカンド・ウェーブ</a>
+                    <a href="/" class="navbar-brand">株式会社セカンド・ウェーブ</a>
                     </h1>
                 </div>
-                <div class="contactmenu"><a href="../contact">メール</a></div>
-                <div class="hamburgermenu">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                        data-target="#hamburger">
-                        <img src="../img/hm.jpg" alt="ハンバーガーメニュー">
-                        </button>
-                </div>
-                <nav class="navbar-collapse collapse" id="hamburger">
-                    <ul class="nav navbar-nav">
-                        <li class="globalNav_item home">
-                            <a href="../">HOME<br><span>ホーム</span></a>
-                        </li>
-                        <li class="globalNav_item dropdown"><a href="../company/company01/">COMPANY<br><span>会社概要</span></a>
-                            <ul class="dropdown-menu" aria-labelledby="companyMenu">
-                                <li class="">
-                                    <a href="../company/company02/"><p><span>&rsaquo; 会社沿革</span></p></a>
-                                </li>
-                                <li class="">
-                                    <a href="../company/company03/"><p><span>&rsaquo; 社長挨拶</span></p></a>
-                                </li>
-                                <li class="">
-                                    <a href="../company/company04/"><p><span>&rsaquo; アクセス</span></p></a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="globalNav_item dropdown">
-                            <a href="service/service02/">SERVICE<br>
-                                <span>サービス</span></a>
-                                    <ul class="dropdown-menu" style="">
-                                        <li class="">
-                                            <a href="../service/service02/"><p><span>&rsaquo; アジャイル開発</span></p></a>
-                                        </li>
-                                    </ul>
-                        </li>
-                        <li class="globalNav_item dropdown">
-                            <a href="../recruit/recruit01/">RECRUIT<br><span>採用情報</span></a>
-                                <ul class="dropdown-menu">
-                                    <li class="">
-                                        <a href="../recruit/recruit02/"><p><span>&rsaquo; 新卒採用</span></p></a>
-                                    </li>
-                                    <li class="">
-                                        <a href="../recruit/recruit03/"><p><span>&rsaquo; キャリア採用</span></p></a>
-                                    </li>
-                                </ul>
+                <div class="contactmenu"><a href="../contact/">メール</a></div>
+                <div class="globalHeader_sp">
+                    <input type="checkbox" id="menu-btn-check">
+                    <label for="menu-btn-check" class="menu-btn">
+                        <span></span>
+                    </label>
+                    <div class="menu-content">
+                        <ul>
+                        <li class="nav-list__item">
+                                <input type="checkbox" id="switch0" class="nav-list__input" />
+                                <div class="nav-list__main-wrap">
+                                    <a class="nav-list__main-link" href="../">HOME</a>
+                                    <label for="switch0" class="nav-list__switch0" />
+                                </div>
                             </li>
-                            <li class="globalNav_item works">
-                                <a href="../works/works01/">WORKS<br><span>制作実績</span></a>
+                            <li class="nav-list__item">
+                                <input type="checkbox" id="switch1" class="nav-list__input" />
+                                <div class="nav-list__main-wrap">
+                                    <a class="nav-list__main-link" href="../company/company01/">COMPANY</a>
+                                    <label for="switch1" class="nav-list__switch1" />
+                                </div>
+                                <div class="sub-nav">
+                                    <a class="sub-nav__item" href="../company/company01/">会社概要</a>
+                                    <a class="sub-nav__item" href="../company/company02/">会社沿革</a>
+                                    <a class="sub-nav__item" href="../company/company03/">社長挨拶</a>
+                                    <a class="sub-nav__item" href="../company/company04/">アクセス</a>
+                                </div>
                             </li>
-                            <li class="globalNav_item contact linkTxt00">
-                                <a href="/contact" target="_blank">CONTACT<br><span>お問い合わせ</span></a>
+                            <li class="nav-list__item">
+                                <input type="checkbox" id="switch2" class="nav-list__input">
+                                <div class="nav-list__main-wrap">
+                                    <a class="nav-list__main-link" href="../service/service02/">SERVICE</a>
+                                    <label for="switch2" class="nav-list__switch2" />
+                                </div>
+                                <div class="sub-nav">
+                                    <a class="sub-nav__item" href="../service/service02/">サービス</a>
+                                    <a class="sub-nav__item" href="../service/service02/">アジャイル開発</a>
+                                </div>
+                            </li>
+                            <li class="nav-list__item">
+                                <input type="checkbox" id="switch3" class="nav-list__input">
+                                <div class="nav-list__main-wrap">
+                                    <a class="nav-list__main-link" href="../recruit/recruit01/">RECRUIT</a>
+                                    <label for="switch3" class="nav-list__switch3" />
+                                </div>
+                                <div class="sub-nav">
+                                    <a class="sub-nav__item" href="../recruit/recruit01/">採用情報</a>
+                                    <a class="sub-nav__item" href="../recruit/recruit02/">新卒採用</a>
+                                    <a class="sub-nav__item" href="../recruit/recruit03/">キャリア採用</a>
+                                </div>
+                            </li>
+                            <li class="nav-list__item">
+                                <input type="checkbox" id="switch4" class="nav-list__input">
+                                <div class="nav-list__main-wrap">
+                                    <a class="nav-list__main-link" href="../works/works01/">WORKS</a>
+                                    <label for="switch4" class="nav-list__switch4" />
+                                </div>
+                                <div class="sub-nav">
+                                    <a class="sub-nav__item" href="../works/works01/">制作実績</a>
+                                    <a class="sub-nav__item" href="../works/works02/">ランディングページサンプル</a>
+                                </div>
+                                </li>
+                                <li class="nav-list__item">
+                                <input type="checkbox" id="switch0" class="nav-list__input" />
+                                <div class="nav-list__main-wrap">
+                                    <a class="nav-list__main-link" href="../contact/">CONTACT</a>
+                                    <label for="switch0" class="nav-list__switch0" />
+                                </div>
                             </li>
                         </ul>
-                    </nav>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </header>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        {{-- <div class="navbar-header">
-            @if (App::islocale('ja'))
-            @else
-                <h1 class="navbar-brand">
-                    {{ link_to('/', __('home.item.company_name')) }}
-                </h1>
-            @endif
-        </div>--}}
-
-        {{--<nav class="collapse navbar-collapse" role="navigation">
-            <ul class="topNav navbar-nav2 navbar-left">
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                    {{ __('home.heading.company_profile') }}</a>
-                        <ul class="dropdown-menu">
-                            <li>{{ link_to('/company01', __('home.heading.company_outline')) }}</li>
-                            <li>{{ link_to('/company02', __('home.heading.history')) }}</li>
-                            <li>{{ link_to('/company03', __('home.heading.access')) }}</li>
-                            <li>{{ link_to('/company04', __('home.heading.management_philosoph')) }}</li>
-                        </ul>
-                </li>
-                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">{{ __('home.heading.our_business') }}</a>
-                    <ul class="dropdown-menu" role="menu">
-                        <li>{{ link_to('#', __('home.heading.open')) }}</li>
-                    </ul>
-                </li>
-                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">{{ __('home.heading.carbon') }}</a>
-                    <ul class="dropdown-menu" role="menu">
-                        <li>{{ link_to('/carbon01', __('home.heading.carbon')) }}</li>
-                        <li>{{ link_to('/carbon05', __('home.heading.specialty_carbon_products')) }}</li>
-                        <li><a href='carbon09'>{{ __('home.heading.about_carbon_fiber') }}<ul>{{ __('home.heading.carbon_compounds') }}<br>{{ __('home.heading.cc_composite') }}</ul></a></li>
-                    </ul>
-                </li>
-                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">{{ __('home.heading.products') }}</a>
-                    <ul class="dropdown-menu" role="menu">
-                        <li>{{ link_to('/product01', __('home.heading.carbon_graphite')) }}</li>
-                        <li>{{ link_to('/product02', __('home.heading.carbon_fiber')) }}</li>
-                        <li>{{ link_to('/product03', __('home.heading.kitchen_ware')) }}</li>
-                        <li>{{ link_to('/product04', __('home.heading.print_3d')) }}</li>
-                    </ul>
-                </li>
-                <li>{{ link_to('/contact/index', __('home.heading.inquiries')) }}</li>
-                <li>{{ link_to('/sitemap', __('home.heading.sitemap')) }}</li>
-            </ul>--}}
-            {{--　<ul class="topNav navbar-nav2 navbar-right">
-                <li class="dropdown" id="nav-lang">
-                    <a href="#" class="dropdown-toggle ion-ios-world-outline" data-toggle="dropdown"><span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                            @foreach (Config::get('languages') as $lang => $language)
-                            @if ($language != 'Chinese')
-                                <li>
-                                    <a href="{{ route('lang.switch', $lang) }}">{{$language}}</a>
-                                </li>
-                            @else
-                                <li>
-                                    <a href="#" data-toggle="popover" data-content="Under Construction...">{{$language}}</a>
-                                </li>
-                            @endif
-                            @endforeach
-                        </ul>
-                </li>
-            </ul> --}}
-            {{-- <ul class="topNav navbar-nav2 navbar-right">
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle ion-ios-world-outline" data-toggle="dropdown" role="button"> <span class="caret"></span></a>
-                    <ul class="dropdown-menu" role="menu">
-                        <li><a href="#">Japanese</a></li>
-                        <li><a href="#">English</a></li>
-                        <li><a href="#">Chinese</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>--}}

@@ -1204,11 +1204,11 @@ a.btn.btn-default-s:hover {
 .serviceB h3 {
   color: #003366;
   font-size: 15px;
-  margin: 0px 0px 20px 0px;
+  margin: 20px auto;
   text-align: center;
   font-weight: bold;
   width: 190px;
-  height: 33px;
+  height: 30px;
   padding-top: 20px;
   letter-spacing: 1px;
 }
@@ -1257,89 +1257,6 @@ a.btn.btn-default-s:hover {
   padding: 20px 20px;
 }
 
-.serviceB .row {
-  width: 100%;
-  margin: 0px 15px 0px 15px;
-}
-
-.serviceM01 {
-  width: 160px;
-  height: 160px;
-  margin: 0 auto 5px;
-}
-
-.serviceM02 {
-  width: 160px;
-  height: 160px;
-  margin: 0 auto 5px;
-}
-
-.serviceM03 {
-  width: 160px;
-  height: 160px;
-  margin: 0 auto 5px;
-}
-
-.serviceM01 a {
-  width: 160px;
-  height: 160px;
-  display: block;
-  text-indent: -9999px;
-  background-image: url(../img/1_off.jpg);
-  background-repeat: no-repeat;
-  transition: 0.5s;
-}
-
-.serviceM02 a {
-  width: 160px;
-  height: 160px;
-  display: block;
-  text-indent: -9999px;
-  background-image: url(../img/2_off.jpg);
-  background-repeat: no-repeat;
-  transition: 0.5s;
-}
-
-.serviceM03 a {
-  width: 160px;
-  height: 160px;
-  display: block;
-  text-indent: -9999px;
-  background-image: url(../img/3_off.jpg);
-  background-repeat: no-repeat;
-  transition: 0.5s;
-}
-
-.serviceM01 a:hover {
-  width: 160px;
-  height: 160px;
-  display: block;
-  text-indent: -9999px;
-  background-image: url(../img/1_on.jpg);
-  background-repeat: no-repeat;
-  transition: 0.5s;
-}
-
-.serviceM02 a:hover {
-  width: 160px;
-  height: 160px;
-  display: block;
-  text-indent: -9999px;
-  background-image: url(../img/2_on.jpg);
-  background-repeat: no-repeat;
-  transition: 0.5s;
-}
-
-.serviceM03 a:hover {
-  width: 160px;
-  height: 160px;
-  display: block;
-  text-indent: -9999px;
-  background-image: url(../img/3_on.jpg);
-  background-repeat: no-repeat;
-  transition: 0.5s;
-}
-
 .serviceB div a.btn {
   margin: 50px auto 100px;
   width: 220px;
@@ -1384,6 +1301,75 @@ a.btn.btn-default-s:hover {
   opacity: 0.5;
   margin-bottom: 10px;
 }
+
+.serviceB {
+  width: 100%;
+}
+
+.serviceB .row {
+  width: 100%;
+  margin: 0px;
+}
+
+.serviceB .service-content {
+  width: 960px;
+  margin: 0 auto;
+  height: 500px;
+}
+
+.serviceB .service-content-list {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+}
+
+.serviceB .service-content-cover {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.serviceB .service1 a,
+.serviceB .service2 a,
+.serviceB .service3 a {
+  width: 160px;
+  height: 160px;
+  display: block;
+  text-indent: -9999px;
+  background-image: url(../img/1_off.jpg);
+  background-repeat: no-repeat;
+  transition: 0.5s;
+  margin: 0 auto;
+}
+
+.serviceB .service2 a {
+  background-image: url(../img/2_off.jpg);
+}
+
+.serviceB .service3 a {
+  background-image: url(../img/3_off.jpg);
+}
+
+.serviceB .service1 a:hover,
+.serviceB .service2 a:hover,
+.serviceB .service3 a:hover {
+  width: 160px;
+  height: 160px;
+  display: block;
+  text-indent: -9999px;
+  background-image: url(../img/1_on.jpg);
+  background-repeat: no-repeat;
+  transition: 0.5s;
+}
+
+.serviceB .service2 a:hover {
+  background-image: url(../img/2_on.jpg);
+}
+
+.serviceB .service3 a:hover {
+  background-image: url(../img/3_on.jpg);
+}
+
 .serviceC {
   width: 100%;
 }
